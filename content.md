@@ -1252,60 +1252,532 @@ Marshmallows pass if you eat them plain or in cocoa and store the sticky bag cor
 
 ## Gear Checklist
 
-Use this as the final packing list, then do a shakedown with the actual loaded pack.
+This is no longer just a packing list. This is the gear chapter I wish every first-time backpacker got before walking into an outdoor store with hope, fear, and a credit card.
+
+Gear has two jobs. First, it keeps you alive when weather, fatigue, injury, or bad timing makes the trail less friendly. Second, it makes the daily work efficient enough that you still enjoy the trip. The trap is that almost every item sounds useful at home. On the trail, every useful item has rent to pay in weight, space, setup time, maintenance, smell, and mental clutter.
+
+For Section J in early September, optimize for this:
+
+- A reliable dry sleep system.
+- A shelter you can pitch fast in rain and wind.
+- Enough warmth for 28-44 F nights depending on camp and weather.
+- A food system that fits in required storage.
+- Water treatment with backup.
+- Rain/cold layers that keep hands and decision-making functional.
+- Navigation and emergency communication that still work when the phone is wet, cold, or low on battery.
+
+> [!GEAR]
+> The best beginner gear is not the lightest possible kit. It is gear you understand, can afford, can carry, can repair, and have already tested when the consequences were low.
+
+<div class="photo-grid is-two">
+  <figure>
+    <img src="assets/images/section-j-waptus.jpg" alt="Waptus Lake basin with forested terrain and camp considerations">
+    <figcaption>Gear should make this kind of wet, forested camp routine calm: shelter first, dry layers protected, water handled, food secured.</figcaption>
+  </figure>
+  <figure>
+    <img src="assets/images/section-j-kendall.jpg" alt="Rocky alpine traverse near Kendall Katwalk">
+    <figcaption>Every ounce rides over rocky traverses and long descents. Weight is not moral; it is mechanical.</figcaption>
+  </figure>
+</div>
+
+### The Gear Decision Ladder
+
+When deciding whether to bring something, climb this ladder:
+
+1. **Required:** Without it, you may be unsafe or illegal. Shelter, sleep insulation, water treatment, food storage, rain gear, navigation, first aid, headlamp.
+2. **Strongly recommended:** It prevents common misery or gives redundancy. Trekking poles, dry bags/liner, repair tape, backup water tablets, warm gloves, sit pad.
+3. **Conditional:** It depends on your body, group, forecast, and style. Camp shoes, pillow, umbrella, camera, solar panel, extra shirt, rain pants.
+4. **Luxury:** Fine only if it does not steal safety margin. Book, journal, hot drink extras, tiny rum portion, extra snacks, compact camp game.
+5. **Leave it:** Heavy, fragile, redundant, illegal, or messy. Big knife, axe/saw, glass bottle, cotton clothes, canned food, full-size towel, chair unless you consciously accept the weight.
+
+### Weight Language
+
+| Term | What it means | Why it matters |
+| --- | --- | --- |
+| Base weight | Pack weight without food, water, and fuel | Shows whether your gear system is reasonable before consumables. |
+| Skin-out weight | Everything you carry or wear | Useful reality check, but harder to compare. |
+| Consumables | Food, water, fuel | Heavy at the start, lighter as the trip goes. |
+| Worn weight | Shoes, clothes, poles in hand | Still affects fatigue, especially shoes. |
+| Shared weight | Tent, stove, filter, repair kit, first aid | Must be assigned clearly so nobody assumes someone else has it. |
+
+For a first 7-day Section J hike, do not chase an ultralight identity. Chase a sane loaded pack. A rough beginner target is:
+
+| System | Reasonable target | Watch-out |
+| --- | --- | --- |
+| Base weight | 18-28 lb depending on budget and comfort | Above 30 lb before food/water becomes punishing fast. |
+| Food | 10.5-17.5 lb for seven days using REI's 1.5-2.5 lb/day range | Bulky food may fail before calorie math fails. |
+| Water | 4.4 lb per 2 liters | Carry enough, but do not haul fear-water through wet country. |
+| Starting loaded pack | Often 32-45 lb for a beginner on this route | Test this on hills before the trip. |
+
+### Buy, Borrow, Or Rent
+
+Buy the items that must fit your body or that you will use often. Borrow or rent items that are expensive, bulky, or useful to test before committing.
+
+| Gear | Buy | Borrow/rent first | Why |
+| --- | --- | --- | --- |
+| Shoes | Yes | No, unless already proven | Fit is too personal. Bad shoes can end the trip. |
+| Socks/underwear/base layers | Yes | No | Hygiene and fit. |
+| Backpack | Usually | Yes if possible | Buy after you know your gear volume and bear storage. |
+| Tent | Maybe | Very reasonable | Expensive; you need to learn preferred style. |
+| Sleeping bag/quilt | Usually | Rent if unsure | Warmth matters; fit and sleep style matter. |
+| Sleeping pad | Usually | Rent/test if side sleeper | Comfort and warmth vary wildly. |
+| Bear canister | Maybe | Often rentable | Expensive and bulky; check required/accepted storage. |
+| Stove/pot | Yes or shared | Borrow for shakedown | Cheap enough to own; must test with your meals. |
+| Satellite messenger | Rent or borrow if not buying | Yes | Subscription and use pattern matter. |
+
+### The Big Four
+
+Backpackers often talk about the "big three": shelter, sleep system, and pack. For this route, make it the **big four** by adding food storage, because bear-resistant storage changes both weight and pack volume.
+
+| System | Your Section J default | Beginner mistake |
+| --- | --- | --- |
+| Pack | 60-70 L if carrying a bear can or bulky first kit; 50-60 L only if gear is compact | Buying a pack before knowing what has to fit. |
+| Shelter | 3-season tent, practiced pitch, enough stakes and guylines | Choosing tiny/ultralight before learning storm setup. |
+| Sleep | 20-30 F bag/quilt plus insulated pad around R 3+; warmer if you sleep cold | Trusting bag rating while carrying a summer pad. |
+| Food storage | Bear canister or approved bear-resistant method that actually fits all smellables | Discovering at the trailhead that food does not fit. |
+
+### Backpack: Fit Beats Features
+
+For this itinerary, REI's general capacity guidance points toward multiday packs in the 50-80 L range, and extended 5+ night trips often use 70 L or larger. That does **not** mean everyone needs an expedition pack. It means your pack size depends on gear bulk, food volume, bear storage, and how disciplined your packing is.
+
+Recommended first-trek approach:
+
+| Pack choice | When it makes sense | Tradeoff |
+| --- | --- | --- |
+| 50-55 L | Compact gear, approved bag instead of canister, disciplined food | Hard for first-timers with bulky sleep/tent/food. |
+| 58-65 L | Best default for many backpackers | Enough space without inviting absurd extras. |
+| 65-70 L | Bear canister, bulkier synthetic bag, extra cold/rain margin | Easier packing, but you may fill empty space with bad ideas. |
+| 70+ L | Bulky rental gear, group gear, winter-style kit, carrying for someone else | Comfortable load carriage but easy to overpack. |
+
+Fit checklist:
+
+- Hip belt wraps the top of your hip bones, not your waist.
+- Shoulder straps curve smoothly without carrying most of the weight.
+- Load lifters angle upward from shoulders toward pack.
+- Sternum strap stabilizes, not crushes breathing.
+- You can reach water/snacks/map without unpacking.
+- The pack still carries well with **real trip weight**, not pillows in the store.
+
+Pack liner beats pack cover. A cover helps shed rain, but water can still run down your back and through seams. Use a trash compactor bag or dedicated pack liner inside the pack for the sleep system and clothing that must stay dry.
+
+### Shelter: Tent Size, Weight, And Sanity
+
+For 6-12 September in the Alpine Lakes Wilderness, choose a **3-season backpacking tent** unless the close forecast calls for conditions that should make you cancel or reroute. A 4-season mountaineering tent is stronger but heavier, less ventilated, and not the normal answer for this trip.
+
+Tent capacity is not standardized. A "2-person" tent often means two sleeping pads shoulder-to-shoulder, not two people plus giant packs and a card table. Compare floor dimensions, peak height, vestibule area, door count, and packed weight.
+
+| Shelter style | Typical weight range | Best for | Tradeoff |
+| --- | --- | --- | --- |
+| 1P freestanding/semi-freestanding tent | 2-3.5 lb | Solo simplicity and easy site pitching | Tight; gear often lives in vestibule. |
+| 2P lightweight tent shared by two | 2.5-4 lb total | Best group efficiency | Cozy; split body/fly/poles fairly. |
+| 2P roomy/durable tent | 4-5.5 lb total | Comfort, storm confidence, beginners | Heavy but forgiving. |
+| Trekking-pole tent | 1.2-2.5 lb | Experienced hikers already using poles | Needs good staking and practice. |
+| Tarp/bivy/minimal shelter | Under 1.5-2 lb | Skilled, bug/weather-tolerant hikers | Not a first Section J default. |
+
+For two people, a 2P tent is efficient if you are comfortable being close. A 3P tent can be luxurious in rain, but the extra weight must be shared intentionally. For one person, a 1P tent saves weight, but a light 2P can be worth it if you sleep poorly in tight spaces. Sleep matters more than tent spreadsheet glory.
+
+Tent features that matter here:
+
+- **Two doors for two people:** fewer midnight acrobatics.
+- **Vestibule:** wet shoes and pack can live outside the sleeping area.
+- **Double wall:** better condensation management in damp lake basins.
+- **Freestanding or semi-freestanding:** easier on rocky or awkward sites, but still stake it.
+- **Good stakes:** bring enough for corners, vestibules, and key guylines.
+- **Guylines:** pre-tie and practice tensioning before the trip.
+- **Footprint or polycryo/Tyvek:** optional ground protection; useful if your tent floor is delicate.
+
+Tent drill:
+
+1. Pitch it at home without instructions.
+2. Pitch it in wind or with gloves.
+3. Pitch it fly-first or fast in rain if your model allows.
+4. Get both people inside with pads, bags, packs, and wet shoes placed realistically.
+5. Practice morning pack-up with a wet fly.
+
+### Sleep System: Bag, Pad, Clothes, And Ground
+
+Your sleeping bag does not work alone. REI's sleep-system guidance is blunt: bag warmth depends heavily on the pad R-value and the clothes you wear in the bag. For this route, plan around possible high-camp lows near freezing and cold rain.
+
+Section J default:
+
+- **Bag/quilt:** 20-30 F rating. Choose 20 F if you sleep cold, use a quilt, or camp high.
+- **Pad:** R-value around 3 or higher for most people; R 4+ if you sleep cold or want more margin.
+- **Sleep clothes:** dry base layer, dry socks, warm hat.
+- **Storage:** waterproof bag or pack liner. This is sacred gear.
+
+| Bag/quilt choice | Strength | Weakness | Section J take |
+| --- | --- | --- | --- |
+| Down mummy bag | Best warmth-to-weight and compressibility | Expensive; hates getting wet | Great if protected in waterproof storage. |
+| Synthetic mummy bag | Cheaper; handles damp better | Bulkier and heavier | Good budget/rain-anxiety choice if pack volume allows. |
+| Down quilt | Light, flexible, efficient for warm sleepers | Draft management takes skill | Good only if you understand straps and pad interface. |
+| Sleeping bag liner | Adds cleanliness and a little warmth | Not a substitute for a warmer bag | Optional; can be nice for hygiene. |
+
+Temperature ratings are not personal promises. ISO/EN ratings help comparison, but your warmth depends on metabolism, food, fatigue, clothing, pad, tent site, wind, and humidity. If you are unsure, err warmer and vent the bag when needed.
+
+### Foam Pad Plus Inflatable Pad
+
+This is a classic "easier life vs weight" decision.
+
+| Pad system | Weight/space | Comfort | Reliability | Recommendation |
+| --- | --- | --- | --- | --- |
+| Closed-cell foam only | Light but bulky outside pack | Low for side sleepers | Excellent; cannot pop | Usable for tough sleepers, not my first-timer default. |
+| Inflatable insulated pad | Light and compact | Best comfort | Can puncture; needs inflation | Best default if R-value is adequate and you carry patch kit. |
+| Foam sit pad plus inflatable | Small extra weight | Helps breaks, protects pad, emergency backup | Very good | Strong recommendation. |
+| Full foam pad plus inflatable | Bulky extra weight | Warm, durable, luxurious | Excellent backup | Worth it if you sleep cold or fear pad failure; otherwise heavy/bulky. |
+
+R-values are additive, so a foam pad under an inflatable adds insulation and protects against punctures. The small sit-pad version is the elegant compromise: it gives you a dry seat, protects knees when cooking, can go under hips/feet at night, and gives a tiny backup if the air pad misbehaves.
+
+Pad rules:
+
+- Do not inflate by mouth if your pad includes a pump sack; moisture inside can be annoying over time.
+- Clear sharp debris under the tent floor.
+- Carry the repair patch kit that matches the pad.
+- Know how to find a leak at home.
+- If it may freeze, keep the pad valve and repair glue from becoming uselessly cold.
+
+### Kitchen And Food: MRE, Freeze-Dried, Granola, Nuts
+
+This trip wants a **boil-water kitchen**. You are not cooking dinner like a tiny restaurant. You are converting water, fuel, and tired hands into calories.
+
+| Food type | Calories/weight | Water/fuel need | Trash | Morale | Use on Section J |
+| --- | --- | --- | --- | --- | --- |
+| MRE-style meal | Heavy for backpacking | Often no stove needed; heaters add trash/complexity | High | Familiar, salty, durable | One backup/comfort meal at most. |
+| Freeze-dried meal | Light, compact | Needs boiling water | Moderate pouch trash | High after hard days | Good main dinner if budget allows. |
+| Grocery dehydrated meal | Light/cheap if planned well | Needs hot water, sometimes more attention | Low/moderate | Depends on recipe | Excellent if tested. |
+| Granola/oats | Very good | Cold or hot water optional | Low | Good breakfast | Great if you can eat it repeatedly. |
+| Nuts/trail mix | Excellent calorie density | None | Low | Can become monotonous | Core walking food. |
+| Bars/candy/gummies | Good to excellent | None | Wrapper trash | Saves bonks | Keep accessible all day. |
+| Tortillas/cheese/salami/nut butter | Good | None | Low/moderate | Real-food satisfaction | Great no-cook lunch. |
+
+If by "MRA" you meant **MRE**, the short answer is: useful but heavy. Military-style meals are durable and convenient, but they are bulky, create more trash, and are usually worse calorie-per-ounce than dehydrated backpacking food plus high-fat snacks. Bring one if it makes you feel better. Do not build a 7-day food carry around them unless you have tested the weight and volume.
+
+Food packing method:
+
+1. Build seven daily snack bags.
+2. Build seven breakfast/dinner kits.
+3. Keep lunches no-cook.
+4. Add one compact emergency food layer that needs no stove.
+5. Remove excess cardboard.
+6. Keep labels or cooking instructions where needed.
+7. Verify all food, trash, and smellables fit your bear storage.
+
+### Bear Storage Fit Test
+
+Food storage is gear, not a detail. Before flying, put every smellable item in the exact storage system you will carry: food, trash, toothpaste, sunscreen, lip balm, bug repellent, anti-chafe balm, drink mixes, electrolyte tabs, wrappers, and any scented medication packaging.
+
+Fit test rules:
+
+1. Remove excess cardboard and air from packaging.
+2. Repack daily food into labeled bags.
+3. Put the first day's lunch and snacks outside the canister only if they will be eaten before camp.
+4. Pack tomorrow's breakfast and coffee where you can reach them without exploding the whole system.
+5. Confirm the canister or approved storage method closes without heroic compression.
+6. Practice placing it away from camp on stable ground where it cannot roll into water.
+
+If the food does not fit at home, it will not fit at the trailhead when everyone is tired and pretending physics is negotiable.
+
+### Stove, Pot, Fuel, And Eating Gear
+
+| Item | Default | Easier-life upgrade | Weight warning |
+| --- | --- | --- | --- |
+| Stove | Canister stove with positive shutoff | Integrated stove system for fast boils | Integrated systems can be bulky. |
+| Fuel | Test your actual meals before deciding | Extra small canister margin | Too little fuel is worse than a few extra ounces. |
+| Pot | 750 ml-1.3 L depending on group | 1.5-2 L for two-person shared meals | Bigger pots pack awkwardly. |
+| Spoon | Long-handled spoon | Backup spoon if group shares gear | Losing the only spoon is comedy until dinner. |
+| Mug | Optional if pot works | Dedicated mug for cocoa/tea | Nice but redundant. |
+| Lighter | Mini Bic plus backup | Waterproof matches as extra | Piezo igniter alone is not enough. |
+
+For two people, one stove can work. Two tiny stoves can be better for a larger group or if hot drinks matter. Never cook inside the tent. Never rely on a campfire for dinner.
+
+### Water Containers And Liquid Pouches
+
+Think of water storage as three separate jobs: drinking while walking, collecting dirty water, and carrying extra capacity into camp.
+
+| Container | Best use | Pros | Cons |
+| --- | --- | --- | --- |
+| Hard bottle, 1 L | Daily clean drinking | Durable, easy to see remaining water, works with many filters | Bulky when empty. |
+| Tall disposable-style bottle | Clean bottle or filter-compatible bottle | Light, cheap, fits side pockets well | Less durable over long use. |
+| Hydration bladder | Sip while walking | Encourages drinking | Hard to see remaining water; harder to clean; leaks are annoying. |
+| Soft flask/collapsible bottle | Extra clean capacity | Packs small when empty | Less durable than hard bottle. |
+| Dirty water pouch/bag | Filtering source | Easy squeeze/gravity setup | Must be clearly dirty-only; can puncture. |
+| Large camp bladder, 2-4 L | Camp water haul | Saves repeated lake/stream trips | Heavy when full; do not overcarry while hiking. |
+
+Recommended Section J setup per person:
+
+- 2 L normal clean capacity while moving.
+- Ability to carry 3 L when needed.
+- One dirty bag/pouch for the filter.
+- Backup chlorine dioxide tablets.
+- Optional 2 L shared camp bag if camps are away from water.
+
+Dirty/clean discipline matters more than brand. Mark dirty containers. Do not let dirty threads touch clean bottle mouths. If using a squeeze filter, backflush before the trip and carry the adapter/syringe needed to restore flow.
+
+### Bathroom Kit: Bidet, TP, Wipes, And The Pack-Out Bag
+
+You cannot treat toilet paper as something that politely vanishes. WTA's Leave No Trace guidance notes that TP can take years to decompose and that the preferred practice is to pack out soiled TP. Animals can dig it up even from proper catholes. Delightful? No. True? Yes. The forest does not need your confetti.
+
+Bathroom kit:
+
+- Trowel.
+- Backcountry bidet cap or dedicated squeeze bottle.
+- Small amount of TP as backup.
+- Unscented wipes only if you will pack them out.
+- Hand sanitizer.
+- Opaque outer zip bag plus inner waste bags.
+- Optional bit of baking soda or dry tea bag in the outer trash bag for odor control.
+
+Bidet method:
+
+1. Walk 200 feet from water, trail, and camp.
+2. Dig cathole 6-8 inches deep where soil allows.
+3. Do business into the hole.
+4. Use bidet water to clean.
+5. Use a small "drying square" of TP if needed, then pack that square out.
+6. Bury waste, disguise the hole, sanitize hands.
+7. Keep bathroom water bottle/bidet clearly separate from clean drinking containers.
+
+Wipes are never buried. "Biodegradable" wipes still leave a mess on human time scales. Pack them out.
+
+### Clothing And Footwear Equipment
+
+Your clothing is not a fashion system. It is a moisture and temperature control system.
+
+| Item | Default | Notes |
+| --- | --- | --- |
+| Shoes | Broken-in trail runners or light boots | Test on loaded descents. Toe room matters. |
+| Socks | 2-3 hiking pairs plus dry sleep socks | Wool/synthetic. Rotate and dry. |
+| Underwear | 3 pairs can work | Wear, dry, reserve. |
+| Hiking shirt | Wool/synthetic sun hoodie or long sleeve | Sun/bug/brush protection. |
+| Hiking bottoms | Quick-dry pants or shorts plus wind/rain layer | Pants help brush and bugs. |
+| Fleece/active layer | Light midlayer | For moving cold or damp breaks. |
+| Puffy | Synthetic or down jacket | Camp warmth. Keep dry. |
+| Rain shell | Non-negotiable | Must fit over layers. |
+| Rain pants/skirt | Strongly recommended for cold rain | "Optional" until the forecast gets ugly. |
+| Warm hat/gloves | Non-negotiable | Hands fail early in cold rain. |
+| Buff/neck gaiter | Recommended | Sun, warmth, sweat, sleep. |
+| Gaiters | Conditional | Useful for grit, mud, wet brush. |
+
+Camp shoes are a tradeoff. Light sandals or water shoes can feel wonderful after long days and help with nighttime bathroom trips. They also add weight and bulk. If your hiking shoes are comfortable loosened in camp, skip them. If your feet swell badly or you need creek/lake edge footwear, bring the lightest pair that actually works.
+
+### Hygiene And Personal Care
+
+| Item | Bring? | Notes |
+| --- | --- | --- |
+| Toothbrush/toothpaste | Yes | Toothpaste is a smellable; store with food. |
+| Sunscreen/lip balm | Yes | Lip balm is also a smellable. |
+| Hand sanitizer | Yes | Use before food and after bathroom. |
+| Small soap | Optional | Keep soap 200 feet from water; often sanitizer is enough. |
+| Camp towel/bandana | Small only | Full-size towel is dead weight. |
+| Anti-chafe balm | Recommended | Test before trip. Also a smellable. |
+| Contacts/glasses supplies | If needed | Bring backup glasses. |
+| Prescription meds | Yes | Carry extra day and keep dry. |
+| Menstrual supplies | If applicable | Pack out used products; consider odor-proof bags. |
+| Deodorant | Usually no | Scented, unnecessary, and stored as smellable if carried. |
+
+### Electronics And Power
+
+The goal is not to bring a tiny electronics shop. The goal is to make sure navigation, light, and emergency communication survive the week.
+
+| Item | Default | Tradeoff |
+| --- | --- | --- |
+| Phone | Yes, offline maps | Protect from water/cold; do not burn battery on boredom. |
+| Satellite messenger/PLB | Strongly recommended | Weight/subscription cost; big safety value. |
+| Power bank | 20,000 mAh per heavy phone/nav user or shared 20,000-30,000 mAh | Heavy but reliable. |
+| Cables | Short, tested, correct plugs | Bring one backup if cable failure would break systems. |
+| Headlamp | Yes | Keep separate from phone battery. |
+| Watch | Optional but useful | Time checks without waking phone. |
+| Solar panel | Optional | Only a supplement; forest, smoke, cloud, and September sun limit it. |
+| Camera | Optional | Phone is enough unless photography is a major goal. |
+
+### Trekking Poles
+
+Bring trekking poles unless you strongly dislike them after testing. Section J has enough climbing, descending, and uneven tread to justify them.
+
+They help with:
+
+- Knees on long descents.
+- Balance on wet rocks and roots.
+- Rhythm on climbs.
+- Testing mud/water depth.
+- Emergency splint improvisation.
+- Some trekking-pole shelters, if that is your shelter type.
+
+Tradeoff: they occupy hands, can be annoying in brush, and require habit. Practice before the trip.
+
+### First Aid And Foot Care Gear
+
+Do not carry a giant pharmacy. Carry a small kit you know how to use.
+
+| Problem | Gear |
+| --- | --- |
+| Hot spots/blisters | Leukotape or blister tape, small scissors, alcohol wipes, gauze, blister pads. |
+| Sprain/strain | Elastic bandage, trekking poles, pain meds you personally tolerate. |
+| Cuts | Gauze, tape, bandages, irrigation syringe, gloves. |
+| Allergy/itch | Antihistamine you have used before. |
+| Stomach trouble | Electrolytes, anti-diarrheal if appropriate for you. |
+| Cold stress | Emergency blanket, dry layers, hot drink capacity. |
+| Splinters/ticks | Tweezers. |
+
+Add personal meds, spare contacts/glasses, and any condition-specific plan. Do not put all group first aid in one pack if the group may separate.
+
+### Repair Kit
+
+Repair is where a few ounces can rescue expensive systems.
+
+| Failure | Repair item |
+| --- | --- |
+| Tent tear | Tenacious Tape or similar patch. |
+| Pad puncture | Pad-specific patch kit. |
+| Broken buckle/strap | Zip ties, cord, safety pins. |
+| Shoe issue | Duct tape, needle/thread, spare lace or cord. |
+| Stove ignition failure | Backup lighter/matches. |
+| Pole/tent guyline issue | Extra cord, a couple spare stakes. |
+| Torn rain gear | Repair tape. |
+| Loose screw/glasses issue | Tiny multitool if needed. |
+
+Do one repair at home. It makes the kit real.
+
+### Comfort Items: Worth It Or Nope?
+
+This is the part where everyone gets emotionally attached. Good. Joy matters. Just make it pay rent.
+
+| Item | Weight tradeoff | Verdict |
+| --- | --- | --- |
+| Sit pad | 1-3 oz | Strong yes. Dry seat, knee pad, pad supplement. |
+| Inflatable pillow | 2-4 oz | Yes if it improves sleep. Sleep is performance. |
+| Camp shoes | 6-16 oz | Maybe. Great for swollen feet; heavy if unused. |
+| Book/e-reader | 4-8 oz | Maybe. One small luxury is allowed. |
+| Journal/pen | 1-4 oz | Yes if meaningful. |
+| Tiny towel | 1-2 oz | Maybe. Bandana often enough. |
+| Lightweight chair | 1-2 lb | Usually no for Section J. Sit pad wins. |
+| Umbrella | 6-10 oz | Maybe for sun/rain if you already use one. Awkward in brush/wind. |
+| Extra shirt | 4-8 oz | Usually no unless you need sleep/dry separation. |
+| Extra socks | 2-3 oz | Often yes. Feet are the trip. |
+| Camp mug | 2-4 oz | Maybe if hot drinks are morale fuel. |
+| Tripod | 2-12 oz | Only if photography is a real priority. |
+
+### Stuff People Forget
+
+- Spoon.
+- Lighter plus backup.
+- Fuel canister, bought after flying if needed.
+- Headlamp charged/fresh battery.
+- Charging cable that actually fits the power bank.
+- Offline map downloads tested in airplane mode.
+- Trowel.
+- TP pack-out bags or bidet.
+- Lip balm with SPF.
+- Sunglasses.
+- Warm gloves.
+- Earplugs for windy/rustly nights.
+- Tent stakes after practicing at home.
+- Bear storage capacity test.
+- Trash bag.
+- Permits/parking pass.
+- Car key plan.
+- ID, card/cash, insurance card.
+- Prescription meds plus extra day.
+- Backup glasses/contacts if you need vision correction.
+
+### Do Not Bring This Unless You Have A Clear Reason
+
+- Axe, saw, or hatchet.
+- Big survival knife.
+- Cotton hoodie or cotton sleep clothes.
+- Canned food.
+- Glass bottle.
+- Full-size towel.
+- Full-size deodorant or scented toiletries.
+- Speaker.
+- Heavy camp chair.
+- Multiple redundant outfits.
+- Campfire cooking gear.
+- Unread instruction manuals instead of practiced skills.
+
+### Final Gear Checklist
 
 | System | Bring |
 | --- | --- |
-| Pack | 50-65 L fitted backpack, pack liner, small dry bags, trash compactor bag. |
-| Shelter | 3-season tent, footprint if used, stakes, guylines, repair sleeve/patch. |
-| Sleep | 20-30 F bag/quilt, insulated pad, pillow or stuff sack pillow, sleep socks. |
-| Kitchen | Canister stove, fuel, pot, spoon, mug, lighter, backup matches/lighter, small towel. |
-| Water | Squeeze filter, dirty bag/bottle, clean bottles/bladder, chlorine dioxide backup, 2-3 L normal capacity. |
-| Food storage | Bear canister or approved bear-resistant bag, odor bags if useful, trash bag. |
-| Navigation | FarOut, Gaia/CalTopo offline, paper map, compass, printed itinerary. |
-| Communication | Satellite messenger or PLB, phone, battery bank, cables, emergency contact plan. |
-| Clothing | Hiking outfit, sleep base layers, rain shell, rain pants/wind pants, fleece, puffy, hat, gloves, socks, underwear. |
+| Pack | 58-70 L fitted backpack, pack liner, small dry bags only where useful, trash compactor bag. |
+| Shelter | 3-season tent, stakes, guylines, footprint/polycryo if used, tent repair patch. |
+| Sleep | 20-30 F bag/quilt, insulated pad around R 3+, patch kit, sleep socks, optional pillow. |
+| Kitchen | Canister stove, fuel, pot, spoon, lighter, backup lighter/matches, small towel/bandana. |
+| Food | Seven planned days plus no-cook emergency layer, daily snack bags, electrolytes, hot drinks. |
+| Water | Squeeze filter, dirty bag, clean bottles/reservoir, 2 L normal capacity, 3 L possible, chlorine dioxide backup. |
+| Food storage | Bear canister or approved method, odor bags if useful, trash bag, all smellables fit. |
+| Navigation | FarOut, Gaia/CalTopo offline, PCTA GPX/data, paper map, compass, printed itinerary. |
+| Communication | Satellite messenger or PLB, phone, power bank, cables, emergency contact plan. |
+| Clothing | Hiking outfit, dry sleep base layers, rain shell, rain pants/wind pants, fleece, puffy, hat, gloves, socks, underwear. |
+| Footwear | Tested shoes, 2-3 hiking socks, dry sleep socks, optional gaiters/camp shoes. |
 | First aid | Blister kit, elastic bandage, meds, gauze, tape, tweezers, gloves, emergency blanket. |
-| Repair | Tenacious Tape, duct tape, zip ties, needle/thread, pad patch, small multitool. |
-| Hygiene | Trowel, toilet paper/wipes packed out, sanitizer, toothbrush, toothpaste, sunscreen, lip balm. |
-| Safety | Headlamp, spare battery, whistle, sunglasses, sun hat, emergency fire starter for survival only. |
-| Comfort | Sit pad, book, tiny journal, cocoa, marshmallows, one camp luxury that does not steal safety margin. |
+| Repair | Tenacious Tape, duct tape, zip ties, needle/thread, pad patch, spare cord, tiny multitool. |
+| Hygiene | Trowel, bidet or TP pack-out system, sanitizer, toothbrush, toothpaste, sunscreen, lip balm. |
+| Safety | Headlamp, spare battery/charge, whistle, sunglasses, sun hat, emergency fire starter for survival only. |
+| Comfort | Sit pad, pillow, journal, cocoa, marshmallows, one camp luxury that does not steal safety margin. |
 
-### Gear Philosophy
+### Shared Gear Split
 
-Every item should answer one of three questions:
+Shared gear saves weight only when responsibility is explicit. Do not say "we have a stove." Say who carries the stove, who carries fuel, who carries the pot, who carries the backup lighter, and what happens if one person has to exit early.
 
-1. Does it keep me alive or prevent a serious problem?
-2. Does it help me move efficiently for seven days?
-3. Does it improve morale enough to justify its weight and complexity?
+| Shared item | Best split | Do not do this |
+| --- | --- | --- |
+| Tent | One carries body/fly, one carries poles/stakes, or split by equal weight | One person carries every shelter part if the group may separate. |
+| Stove system | Stove/pot together; backup lighter with another person | Fuel in one pack, stove in another, and nobody remembers who has what. |
+| Water treatment | Main filter with one person, backup tablets with another | One filter, no backup, and no one knows how to backflush it. |
+| First aid | Shared core kit plus personal meds in personal packs | All meds and blister care in one pack. |
+| Repair | Shared kit plus pad-specific patches with the pad owner | Bringing repair bits nobody has used. |
+| Satellite messenger | One primary carrier; everyone knows SOS and preset message workflow | Device buried in a pack where only one person knows the buttons. |
+| Paper map/compass | At least two people can access navigation | Only the fastest hiker carries all navigation. |
 
-If an item only works in ideal conditions, do not count it as safety gear. Solar panels, camp shoes, and fancy camp meals may be pleasant. Dry insulation, working water treatment, tested shoes, a reliable shelter, and satellite communication are safety systems.
+Each person should still have personal survival basics: rain shell, warm layer, headlamp, water capacity, food for the day, whistle, emergency contact card, and the ability to stay warm if the group is separated briefly.
 
-### Pack Organization
+### Pack Organization: Where Things Go
+
+Good packing is not about making the pack look tidy. It is about keeping the dense load close to your body, protecting dry gear, and making urgent items reachable without unpacking in rain.
 
 | Pack zone | Put here | Reason |
 | --- | --- | --- |
 | Bottom/protected | Sleep insulation, sleep clothes in waterproof liner | Must stay dry and not needed while walking. |
-| Middle/back | Food canister/bag, dense food, stove/fuel | Heavy items close to body. |
-| Top | Puffy, first aid, water treatment, lunch | Needed during breaks or weather changes. |
-| Outer pocket | Rain shell, map, trowel, filter if not freezing, snacks | Fast access without unpacking. |
+| Middle/back | Food canister/bag, dense food, stove/fuel, tent body if dry | Heavy items close to spine and hips. |
+| Middle/outside | Tent poles, less-dense clothing, camp shoes if carried | Fills shape without pushing weight away from the back. |
+| Top | Puffy, first aid, water treatment, lunch, gloves/hat | Needed during breaks or weather changes. |
+| Outer pocket | Rain shell, map, trowel, filter if not freezing, snacks, pack cover if used | Fast access without unpacking. |
 | Hip belt/shoulder pocket | Phone, lip balm, sunscreen, snack, small camera | Reduces stop friction. |
+| Trash pocket | Wrapper bag, used TP/wipe bag, broken gear bits | Trash never migrates loose into the pack. |
 
-### Repair Kit: Small But Real
+Five things should be reachable while standing in cold rain: rain shell, warm gloves, map/phone, snack, and headlamp. If reaching those requires unpacking the shelter, repack.
 
-Bring enough to solve common failures:
+### Trailhead And Travel Gear
 
-- Tenacious Tape or similar fabric repair.
-- Duct tape wrapped around a bottle or pole.
-- Zip ties.
-- Needle and strong thread.
-- Sleeping pad patch kit.
-- Spare lighter.
-- Tiny multitool or knife.
-- Extra guyline.
-- Safety pins.
+Some gear is not for the trail miles, but it can still make or break the trip.
 
-Practice one repair at home: patch a pinhole, replace a guyline, or tape a fabric tear. A repair kit you have never used is slower than you think.
+| Item | Why it matters |
+| --- | --- |
+| Fuel purchase plan | You generally cannot fly with canister fuel. Buy it locally before the trailhead. |
+| Luggage/shipping plan | Trekking poles, stakes, and small knives can be airline problems in carry-on bags. Check rules and pack accordingly. |
+| Clean clothes at exit | A dry shirt, soft pants, and shoes left in the car or hotel are absurdly good morale. |
+| Car key system | One primary key secured, one backup plan. Do not let the only key ride in a loose hip-belt pocket. |
+| Cash/card/ID | Useful for shuttle surprises, food stops, and emergencies. |
+| Printed reservation/permit copies | Phones die; paper quietly continues being paper. |
+| Post-trip trash bags | Wet gear, food trash, and bathroom trash need containment before transport. |
+| Fuel disposal plan | Do not abandon half-used fuel canisters at random. Use local disposal/recycling rules. |
+
+### The Shakedown: Make The Gear Tell The Truth
+
+The store version of gear is imaginary. The shakedown version is real. Do this before the trip:
+
+1. Pack everything, including seven days of food or a realistic weight/volume substitute.
+2. Carry 2 liters of water.
+3. Weigh the pack.
+4. Walk at least 6-8 miles with sustained climbing or stairs.
+5. Take a break and cook or at least boil water.
+6. Filter water from a real source.
+7. Pitch the shelter when tired.
+8. Sleep in the system overnight if possible.
+9. Repack in the morning as if it rained.
+10. Remove or replace anything that annoyed you badly enough to become a safety problem.
+
+Pass standard: nothing critical is theoretical, the pack carries without sharp pain, the shelter goes up without instructions, the water system works, dinner is edible, and the dry sleep system stays dry.
 
 ## Skills To Practice Before Flying
 
@@ -1426,11 +1898,23 @@ Gear, food, maps, and wildlife:
 - [FarOut help](https://faroutguides.com/help/)
 - [Garmin inReach SOS behavior](https://www8.garmin.com/manuals/webhelp/GUID-802DEF62-EBB2-463C-8C51-C58FB29F89E3/EN-US/GUID-1A05801A-FC6D-401A-9E38-AA13923E9E96.html)
 - [NOAA SARSAT 406 MHz beacons](https://www.sarsat.noaa.gov/emergency-406-beacons/)
+- [NPS Ten Essentials](https://www.nps.gov/articles/10essentials.htm)
+- [USFS bear-resistant food canister guidance](https://www.fs.usda.gov/visit/know-before-you-go/bears/bear-resistant-food-canister)
+- [REI backpacking tent guide](https://www.rei.com/learn/expert-advice/backpacking-tent.html)
+- [REI backpack guide](https://www.rei.com/learn/expert-advice/backpack.html)
+- [REI backpacking sleeping bag guide](https://www.rei.com/learn/expert-advice/sleeping-bag-backpacking.html)
+- [REI sleeping pad guide](https://www.rei.com/learn/expert-advice/sleeping-pads.html)
+- [REI hiking footwear guide](https://www.rei.com/learn/expert-advice/hiking-boots.html)
 - [REI backpacking food planning](https://www.rei.com/learn/expert-advice/planning-menu.html)
 - [REI backpacking checklist](https://www.rei.com/learn/expert-advice/backpacking-checklist.html)
 - [REI solar chargers and portable power](https://www.rei.com/learn/expert-advice/solar-chargers-portable-power.html)
+- [REI backpacking stove fuel guide](https://www.rei.com/learn/expert-advice/how-to-choose-backpacking-fuel.html)
+- [REI water treatment guide](https://www.rei.com/learn/expert-advice/water-treatment-backcountry.html)
+- [REI hydration basics](https://www.rei.com/learn/expert-advice/hydrate.html)
 - [NPS cooking in camp](https://home.nps.gov/subjects/camping/cooking-in-camp.htm)
 - [DLA Meal, Ready-To-Eat](https://www.dla.mil/Troop-Support/Subsistence/Operational-rations/MRE/)
+- [WTA backcountry bidet](https://www.wta.org/go-outside/trail-smarts/how-to/clean-up-your-lnt-act-with-a-backcountry-bidet)
+- [WTA backcountry hygiene](https://www.wta.org/go-outside/trail-smarts/how-to/keep-it-clean-in-the-backcountry)
 - [WDFW black bear](https://wdfw.wa.gov/species-habitats/species/ursus-americanus)
 - [WDFW cougar](https://wdfw.wa.gov/species-habitats/species/puma-concolor)
 - [WDFW snakes](https://wdfw.wa.gov/species-habitats/living/snakes)

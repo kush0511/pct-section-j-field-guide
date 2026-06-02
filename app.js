@@ -2,6 +2,7 @@ const content = document.querySelector("#content");
 const DEFAULT_MARKDOWN_SOURCE = content.dataset.markdownSource || "README.md";
 const SOURCE_PARAMS = ["source", "file", "md"];
 const ZERO_WIDTH_PREFIX = /^[\u200B\u200C\u200D\u200E\u200F\uFEFF]+/;
+const ALTITUDE_UNIT_STORAGE_KEY = "pct-section-j-altitude-unit";
 
 const markdown = createMarkdownRenderer();
 
@@ -155,6 +156,7 @@ function enhanceDocument(root, metadata, source) {
   enhanceCallouts(root);
   wrapTables(root);
   buildGuideNavigation(root);
+  enhanceAltitudeToggle(root);
 }
 
 function getDocumentTitle(root, metadata, source) {
@@ -280,6 +282,85 @@ function buildGuideNavigation(root) {
   } else {
     root.insertBefore(nav, root.firstElementChild?.nextSibling || root.firstChild);
   }
+}
+
+function enhanceAltitudeToggle(root) {
+  const values = [...root.querySelectorAll(".altitude-value[data-m][data-ft]")];
+  if (values.length === 0 || root.querySelector(".unit-toggle")) return;
+
+  const control = document.createElement("div");
+  const label = document.createElement("span");
+  const metresButton = document.createElement("button");
+  const feetButton = document.createElement("button");
+
+  control.className = "unit-toggle";
+  control.setAttribute("aria-label", "Altitude unit selector");
+
+  label.className = "unit-toggle-label";
+  label.textContent = "Altitude";
+
+  metresButton.type = "button";
+  metresButton.dataset.unit = "m";
+  metresButton.textContent = "m";
+
+  feetButton.type = "button";
+  feetButton.dataset.unit = "ft";
+  feetButton.textContent = "ft";
+
+  control.append(label, metresButton, feetButton);
+
+  [metresButton, feetButton].forEach((button) => {
+    button.addEventListener("click", () => setAltitudeUnit(root, button.dataset.unit));
+  });
+
+  const nav = root.querySelector(".guide-nav");
+  const hero = root.querySelector(".guide-hero");
+  const anchor = nav || hero;
+
+  if (anchor?.nextSibling) {
+    anchor.parentNode.insertBefore(control, anchor.nextSibling);
+  } else {
+    root.insertBefore(control, root.firstChild);
+  }
+
+  setAltitudeUnit(root, getStoredAltitudeUnit());
+}
+
+function getStoredAltitudeUnit() {
+  try {
+    const stored = window.localStorage?.getItem(ALTITUDE_UNIT_STORAGE_KEY);
+    return stored === "ft" ? "ft" : "m";
+  } catch {
+    return "m";
+  }
+}
+
+function setAltitudeUnit(root, unit) {
+  const selectedUnit = unit === "ft" ? "ft" : "m";
+  document.documentElement.dataset.altitudeUnit = selectedUnit;
+
+  root.querySelectorAll(".altitude-value[data-m][data-ft]").forEach((value) => {
+    value.textContent = formatAltitude(value.dataset[selectedUnit], selectedUnit);
+  });
+
+  root.querySelectorAll(".unit-toggle button[data-unit]").forEach((button) => {
+    const isSelected = button.dataset.unit === selectedUnit;
+    button.classList.toggle("is-selected", isSelected);
+    button.setAttribute("aria-pressed", String(isSelected));
+  });
+
+  try {
+    window.localStorage?.setItem(ALTITUDE_UNIT_STORAGE_KEY, selectedUnit);
+  } catch {
+    // Ignore storage failures; the toggle still works for the current page view.
+  }
+}
+
+function formatAltitude(rawValue, unit) {
+  const value = Number(rawValue);
+  if (!Number.isFinite(value)) return rawValue;
+
+  return `${new Intl.NumberFormat("en-US", { maximumFractionDigits: 0 }).format(Math.round(value))} ${unit}`;
 }
 
 function wrapTables(root) {

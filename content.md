@@ -11,7 +11,7 @@ theme: alpine
     <div class="hero-facts">
       <span><strong>Route</strong>Stevens Pass to Snoqualmie Pass</span>
       <span><strong>Dates</strong>Sunday 6 Sep to Saturday 12 Sep 2026</span>
-      <span><strong>Distance</strong>About 75 PCT miles, up to 90 with side trips</span>
+      <span><strong>Distance</strong>About 120 PCT km, up to 145 km with side trips</span>
       <span><strong>Mindset</strong>Stove, bear storage, offline maps, dry sleep layer</span>
     </div>
   </div>
@@ -24,7 +24,7 @@ You are not going for a casual lake walk. You are going for a week on the Cascad
 The linked Trekking Mama itinerary is the right inspiration: start at Stevens Pass, walk south, sleep at beautiful lakes and high benches, and finish at Snoqualmie Pass. But there is a difference between an inspiring trip report and a field plan. A trip report tells you what worked once. A field plan tells you what to do when the ridge is socked in, one person is limping, the lake is too cold to swim, and the side trip no longer fits the day.
 
 > [!DECISION]
-> The safe version is a **seven-day southbound Section J hike from Sunday 6 September to Saturday 12 September 2026**, using the Trekking Mama camps as the scenic baseline, but treating Thunder Mountain Lakes, Peggy's Pond, Circle Lake, Spade, Venus, and even Spectacle time as conditional rewards. The PCT itself is the mission. Side trips are earned by weather, pace, feet, and daylight.
+> The safer working version is a **seven-day southbound Section J hike from Sunday 6 September to Saturday 12 September 2026**, using the Trekking Mama camps as the scenic baseline, but treating Thunder Mountain Lakes, Peggy's Pond, Circle Lake, Spade, Venus, and even Spectacle time as conditional rewards. The PCT itself is the mission. Side trips are earned by weather, pace, feet, and daylight.
 
 <div class="quick-grid">
   <div><strong>Primary rule</strong>If the group is behind schedule, cold, injured, or smoke-limited, cut side trips before cutting sleep, water, calories, or safety checks.</div>
@@ -32,7 +32,7 @@ The linked Trekking Mama itinerary is the right inspiration: start at Stevens Pa
   <div><strong>Emergency rule</strong>Carry a satellite messenger or PLB, leave a written trip plan, and define the exact time your emergency contact should call for help.</div>
 </div>
 
-This guide is current as of **26 May 2026**. Recheck closures, fire restrictions, food-storage rules, water comments, smoke, and the National Weather Service forecast during **30 August to 5 September 2026**, then again before stepping onto the trail.
+This guide is current as of **2 June 2026**. Recheck closures, fire restrictions, food-storage rules, water comments, smoke, product specs, and the National Weather Service forecast during **30 August to 5 September 2026**, then again before stepping onto the trail.
 
 ## How To Use This Guide
 
@@ -52,9 +52,26 @@ Think in four layers:
 > [!FIELD]
 > A good backpacker is not someone who suffers quietly. A good backpacker notices small problems early, fixes them while they are cheap, and keeps the group out of situations where courage becomes the main tool.
 
+## Group Operating Rules
+
+First-time long-distance trekkers need explicit team rules because fatigue makes polite ambiguity dangerous. Decide these before the trailhead.
+
+| Rule | Standard |
+| --- | --- |
+| Leader and sweep | The front hiker manages pace; the sweep makes sure nobody gets quietly dropped. Rotate roles if needed. |
+| Regroup points | Regroup at every junction, pass, creek crossing, and confusing campsite approach. No one walks through a decision point alone. |
+| Spacing | Keep visual or voice contact in poor visibility, exposed terrain, creek crossings, and late-day fatigue. |
+| Stop phrase | Anyone can say "stop, check" for feet, weather, water, navigation, or morale. The group stops without debate. |
+| No silent suffering | Hot spots, chills, nausea, dizziness, sharp pain, or unusually dark mood must be named early. |
+| Split rule | The group does not split unless the route, time, gear, communication, and rendezvous are explicit. |
+| Quit rule | If one person needs to exit, shared gear is redistributed before anyone separates. Nobody leaves with the only shelter, stove, filter, map, first-aid kit, or satellite messenger. |
+| Daily captain | One person each day owns time checks, but not command authority. Safety concerns outrank the daily plan. |
+
+The best group is not the fastest group. It is the group where small problems surface early enough to solve cheaply.
+
 ## The Route Story
 
-Southbound Section J begins at Stevens Pass on US 2 and ends at Snoqualmie Pass on I-90. WTA lists the full section at **74.7 miles**, about **16,000 feet of gain**, and a highest point near **5,988 feet**. USFS route descriptions may describe a shorter mileage for the PCT segment through the Alpine Lakes Wilderness itself, and app mileages can differ by data source. Use one mileage authority for your plan and treat every side trip as additive. The Trekking Mama route adds side trips and turns the experience into roughly **90 miles**. That difference matters. With seven calendar days, every extra lake has to justify itself.
+Southbound Section J begins at Stevens Pass on US 2 and ends at Snoqualmie Pass on I-90. WTA lists the full section at **120.2 km**, about **<span class="altitude-value" data-m="4875" data-ft="16000">4,875 m</span> of gain**, and a highest point near **<span class="altitude-value" data-m="1825" data-ft="5988">1,825 m</span>**. USFS route descriptions may describe a shorter distance for the PCT segment through the Alpine Lakes Wilderness itself, and app distances can differ by data source. Use one distance authority for your plan and treat every side trip as additive. The Trekking Mama route adds side trips and turns the experience into roughly **145 km**. That difference matters. With seven calendar days, every extra lake has to justify itself.
 
 Think of the route in four acts.
 
@@ -97,18 +114,35 @@ flowchart LR
 
 This is the exact working plan for **6-12 September 2026**, adapted from the Trekking Mama southbound itinerary. The side trips make it a full itinerary, not a soft one. Start early. Keep breaks efficient. Stop before decision quality collapses.
 
-| Date | Route and camp | Mileage and elevation | Instructor's notes |
+| Date | Route and camp | Distance and elevation | Instructor's notes |
 | --- | --- | --- | --- |
-| Sun 6 Sep | Stevens Pass to Thunder Mountain Lakes | About 12 mi, +2,500 / -1,500 ft | First test of pack fit and pace. If weather is poor or arrival is late, shorten the day and do not force Thunder. |
-| Mon 7 Sep | Thunder Mountain Lakes to Cathedral Pass meadow | About 17.5 mi, +2,800 / -2,200 ft | Big day through Glacier, Deception, and Cathedral terrain. Camp is exposed; arrive with dry layers protected. |
-| Tue 8 Sep | Cathedral Pass to Peggy's Pond / Circle Lake to Waptus Lake | About 16.5-17 mi, +1,000 / -3,000 ft | Side trips are steep and rocky. If knees are sore, skip Circle. The long descent to Waptus is not a rest day. |
-| Wed 9 Sep | Waptus Lake to Spade Lake | About 3-3.5 mi, +2,000 ft | Short on paper, hard in reality. This is a deliberate recovery and swim/read afternoon only if weather is stable. |
-| Thu 10 Sep | Spade to Venus to Waptus to Escondido Ridge | About 13-14 mi, +4,000 / -3,500 ft | Hardest decision day. Venus is optional. Escondido is exposed; do not camp high into a deteriorating forecast. |
-| Fri 11 Sep | Escondido Ridge to Spectacle Lake | About 7-8 mi, +1,000 / -1,500 ft | Shorter day by design. Dry gear, eat well, check the exit forecast, and prepare for a long final push. |
-| Sat 12 Sep | Spectacle Lake to Snoqualmie Pass | About 17-18 mi, mostly descent | Long, rocky, exposed exit. Cross high country early, move carefully near Kendall Katwalk, and keep food/water available. |
+| Sun 6 Sep | Stevens Pass to Thunder Mountain Lakes | About 19 km, +<span class="altitude-value" data-m="760" data-ft="2500">760 m</span> / -<span class="altitude-value" data-m="460" data-ft="1500">460 m</span> | First test of pack fit and pace. If weather is poor or arrival is late, shorten the day and do not force Thunder. |
+| Mon 7 Sep | Thunder Mountain Lakes to Cathedral Pass meadow | About 28 km, +<span class="altitude-value" data-m="850" data-ft="2800">850 m</span> / -<span class="altitude-value" data-m="670" data-ft="2200">670 m</span> | Big day through Glacier, Deception, and Cathedral terrain. Camp is exposed; arrive with dry layers protected. |
+| Tue 8 Sep | Cathedral Pass to Peggy's Pond / Circle Lake to Waptus Lake | About 26.5-27.5 km, +<span class="altitude-value" data-m="305" data-ft="1000">305 m</span> / -<span class="altitude-value" data-m="915" data-ft="3000">915 m</span> | Side trips are steep and rocky. If knees are sore, skip Circle. The long descent to Waptus is not a rest day. |
+| Wed 9 Sep | Waptus Lake to Spade Lake | About 5-6 km, +<span class="altitude-value" data-m="610" data-ft="2000">610 m</span> | Short on paper, hard in reality. This is a deliberate recovery and swim/read afternoon only if weather is stable. |
+| Thu 10 Sep | Spade to Venus to Waptus to Escondido Ridge | About 21-22.5 km, +<span class="altitude-value" data-m="1220" data-ft="4000">1,220 m</span> / -<span class="altitude-value" data-m="1065" data-ft="3500">1,065 m</span> | Hardest decision day. Venus is optional. Escondido is exposed; do not camp high into a deteriorating forecast. |
+| Fri 11 Sep | Escondido Ridge to Spectacle Lake | About 11-13 km, +<span class="altitude-value" data-m="305" data-ft="1000">305 m</span> / -<span class="altitude-value" data-m="460" data-ft="1500">460 m</span> | Shorter day by design. Dry gear, eat well, check the exit forecast, and prepare for a long final push. |
+| Sat 12 Sep | Spectacle Lake to Snoqualmie Pass | About 27-29 km, mostly descent | Long, rocky, exposed exit. Cross high country early, move carefully near Kendall Katwalk, and keep food/water available. |
 
 > [!CHECK]
 > The itinerary has one hidden trap: **Wednesday looks easy and Thursday looks heroic**. Do not let the short Waptus-to-Spade day convince you the route has become gentle. The energy saved on Wednesday is meant to protect Thursday and Saturday.
+
+### First-Timer Reality Gate
+
+This itinerary is beautiful, but it is not automatically reasonable just because it fits on seven calendar days. With a 14.5-20.5 kg starting pack, first-time long-distance trekkers should earn the side trips before committing to them.
+
+Before the trip, each hiker should be able to pass this gate:
+
+| Gate | Pass standard | If you miss it |
+| --- | --- | --- |
+| Loaded distance | Two back-to-back hikes of 18-22 km with the actual shoes and at least 12-15 kg pack weight | Cut side trips first; do not pretend trail adrenaline fixes conditioning. |
+| Climbing | One loaded hike with 700-1,000 m of gain or equivalent stair/hill work | Keep the PCT corridor as the mission and treat Spade/Venus as optional. |
+| Feet | No worsening blisters, toenail pain, or hot spots after the second day | Change shoe/sock/lacing system before departure. |
+| Camp speed | Shelter, water, dinner, food storage, and dry sleep setup completed calmly in 60 minutes | Practice until camp does not consume the whole evening. |
+| Morning speed | Packed and walking within 90 minutes of waking | Start earlier, simplify breakfast, or reduce camp complexity. |
+| Recovery | You wake up able to walk again without limping | Redesign the route or shorten high-output days. |
+
+If the gate fails, the answer is not shame. The answer is a better plan: skip Peggy's/Circle, skip Venus, skip Spade if needed, camp lower, or turn Section J into a PCT-focused traverse rather than a lake-collecting mission.
 
 ### Daily Field Notes
 
@@ -128,7 +162,7 @@ Day-one camp priorities:
 
 #### Day 2: Monday 7 September - Thunder Mountain Lakes To Cathedral Pass Meadow
 
-This is the first big-mile day. You are moving through lake country and then toward higher, more exposed terrain. The danger is not a single dramatic hazard. It is the slow accumulation of pack rub, damp socks, late breaks, and optimistic pacing. Cathedral-area camping is beautiful, but exposed camps punish poor tent staking and careless dry-bag habits.
+This is the first big-distance day. You are moving through lake country and then toward higher, more exposed terrain. The danger is not a single dramatic hazard. It is the slow accumulation of pack rub, damp socks, late breaks, and optimistic pacing. Cathedral-area camping is beautiful, but exposed camps punish poor tent staking and careless dry-bag habits.
 
 Before leaving camp, ask each person to answer three questions out loud: Where is the next reliable water? What is the next major climb or pass? What is the latest time we are willing to keep pushing before choosing a simpler camp? This forces the group to carry a shared map in its head.
 
@@ -141,13 +175,13 @@ Day-two instructor cues:
 
 #### Day 3: Tuesday 8 September - Cathedral To Waptus, With Peggy's Pond And Circle Only If Earned
 
-This day looks like a descent into relief, but the side trips can turn it into a trap. Peggy's Pond and Circle Lake are rewards, not obligations. The long descent to Waptus asks for controlled knees, active poles, and patience. Downhill miles with a loaded pack are where blisters, toenail pain, and ankle slips show up.
+This day looks like a descent into relief, but the side trips can turn it into a trap. Peggy's Pond and Circle Lake are rewards, not obligations. The long descent to Waptus asks for controlled knees, active poles, and patience. Long downhill kilometres with a loaded pack are where blisters, toenail pain, and ankle slips show up.
 
 The Waptus basin is lower and friendlier, but do not let that reset your discipline. Treat water, store food, keep camp clean, and protect your dry sleep layer. If you arrive with daylight and energy, use the evening to repair gear, air feet, organize food, and study the Spade decision. Do not use Waptus as an excuse to stay up late.
 
 #### Day 4: Wednesday 9 September - Waptus To Spade Lake
 
-This is the shortest mileage day and one of the most important days of the trip. The climb to Spade is steep enough to turn a "rest day" into a sweaty, exposed effort. The correct use of this day is recovery: get to camp with margin, dry gear, eat a real meal, inspect feet, and decide honestly whether Venus and Escondido still make sense tomorrow.
+This is the shortest-distance day and one of the most important days of the trip. The climb to Spade is steep enough to turn a "rest day" into a sweaty, exposed effort. The correct use of this day is recovery: get to camp with margin, dry gear, eat a real meal, inspect feet, and decide honestly whether Venus and Escondido still make sense tomorrow.
 
 If you swim, do it like a cold-water drill, not like a beach day. Enter slowly. Stay close to shore. Have dry clothes staged. No distance swimming. No jumping from logs or rocks. Get warm before the shivering becomes a problem.
 
@@ -191,17 +225,75 @@ Use these gates without debate. They keep the group from negotiating with fatigu
 | Escondido camp | Ridge wind is building or visibility is poor | Camp lower if possible. Exposed beauty is not worth a bad night. |
 | Spectacle morning | Final-day weather is ugly | Start before dawn, eat early, keep layers accessible, and stay together through exposed sections. |
 
+### Bailout And Exit Playbook
+
+Bailouts are not magic doors. They are alternate hikes with their own distance, descent, road access, and transport problems. Mark these on paper and digital maps before departure, then verify current trail status in WTA/FarOut/PCTA comments.
+
+| Situation | Likely exit concept | What it costs | Road/service reality | Emergency handoff |
+| --- | --- | --- | --- | --- |
+| Early injury before Cathedral/Waptus | Backtrack north toward Stevens Pass or use a mapped north-side trail exit if closer | Distance may still be long; do not assume downhill is easy | US 2 access is better than interior exits, but service is still patchy | Call 911/SOS; describe nearest trail, pass, creek, or lake. |
+| Trouble around Deception/Cathedral | Deception-area exits toward US 2 if clearly safer than continuing | Long descent and navigation attention; verify exact route before trip | Road pickup must be preplanned; do not count on rideshare | County may depend on exact drainage; give coordinates. |
+| Waptus basin injury or schedule failure | Exit east/southeast via Waptus/Cle Elum/Salmon La Sac approach | Long walk out, often 20+ km depending location | Road access is remote; arrange pickup/shuttle deliberately | Likely Kittitas County side if exiting toward Cle Elum. |
+| Spade/Venus plan is failing | Return to Waptus and stay on PCT corridor | Costs the side trip, saves the trip | Better camps and water than exposed high terrain | No rescue needed if group can walk and communicate. |
+| Escondido/Spectacle weather problem | Camp lower if possible or continue PCT only; do not force ridges in poor visibility | May mean a longer final day or changed camp | Service unreliable until nearer Snoqualmie | Use satellite messenger if safety margin is shrinking. |
+| Final-day injury near Snoqualmie side | Continue only if safe; otherwise stop, shelter, and communicate | Shorter distance does not mean low consequence | Snoqualmie/King County access improves near pass | King County/Snoqualmie-area responders likely if near I-90 side. |
+
+Write this into the emergency contact plan: "If we press SOS, our device coordinates are primary. If we are overdue without SOS, call 911 and ask for the sheriff/search-and-rescue jurisdiction covering our last known segment. We may be in King, Kittitas, Chelan, or Snohomish County depending location."
+
+### Daylight Budget
+
+Early September gives useful daylight, but long days still punish late starts. Use conservative first-trek pacing: loaded travel often averages **2.0-3.0 km/h including breaks** on hard terrain, slower on steep side trails, wet rock, or blister days.
+
+| Day | Latest normal start | Mandatory check | Cutoff decision |
+| --- | --- | --- | --- |
+| Sun 6 Sep | 08:00 if logistics allow | First hour: pack/shoe adjustment and pace check | If weather or pace is poor by mid-afternoon, shorten before Thunder. |
+| Mon 7 Sep | 06:30-07:00 | Midday: confirm feet, food eaten, and Cathedral timing | If behind by 14:00, choose the simpler legal camp option. |
+| Tue 8 Sep | 06:30-07:00 | Peggy/Circle decision before committing off-corridor | If knees or time are bad, skip side trips and descend to Waptus. |
+| Wed 9 Sep | 08:00 is acceptable only if weather is stable | Top of climb: assess heat, water, and camp timing | If storms build, skip swim and secure camp. |
+| Thu 10 Sep | 06:00-06:30 | Waptus return timing and Escondido weather | If Venus costs too much, skip it. If ridge weather worsens, camp lower. |
+| Fri 11 Sep | 07:00 | Spectacle arrival with enough time for full reset | If delayed, protect food/water/sleep before photography. |
+| Sat 12 Sep | 05:30-06:30 | High traverse before weather/traffic fatigue builds | If moving slowly, eat early, group up, and use headlamps before dusk. |
+
+Headlamps are for contingencies, not permission to plan sloppy days. If the group is repeatedly walking into camp after dark, the itinerary is too ambitious.
+
 ## Elevation And Terrain
 
 The route never reaches Himalayan altitude, but it repeatedly moves between forest, lake basins, passes, ridges, and rocky traverses. That means the problem is not oxygen. The problem is repeated effort, exposure, and weather.
 
-```mermaid
-xychart-beta
-  title "Approximate camp elevation rhythm"
-  x-axis ["Stevens","Thunder","Cathedral","Waptus","Spade","Escondido","Spectacle","Snoqualmie"]
-  y-axis "Feet" 2500 --> 6200
-  line [4060,5400,5500,3000,5400,5600,4200,3000]
-```
+<div class="elevation-profile" aria-label="Approximate camp elevation rhythm">
+  <div class="elevation-point" style="--profile-height: 47%">
+    <strong>Stevens</strong>
+    <span class="altitude-value" data-m="1237" data-ft="4060">1,237 m</span>
+  </div>
+  <div class="elevation-point" style="--profile-height: 78%">
+    <strong>Thunder</strong>
+    <span class="altitude-value" data-m="1646" data-ft="5400">1,646 m</span>
+  </div>
+  <div class="elevation-point" style="--profile-height: 80%">
+    <strong>Cathedral</strong>
+    <span class="altitude-value" data-m="1676" data-ft="5500">1,676 m</span>
+  </div>
+  <div class="elevation-point" style="--profile-height: 22%">
+    <strong>Waptus</strong>
+    <span class="altitude-value" data-m="914" data-ft="3000">914 m</span>
+  </div>
+  <div class="elevation-point" style="--profile-height: 78%">
+    <strong>Spade</strong>
+    <span class="altitude-value" data-m="1646" data-ft="5400">1,646 m</span>
+  </div>
+  <div class="elevation-point" style="--profile-height: 82%">
+    <strong>Escondido</strong>
+    <span class="altitude-value" data-m="1707" data-ft="5600">1,707 m</span>
+  </div>
+  <div class="elevation-point" style="--profile-height: 50%">
+    <strong>Spectacle</strong>
+    <span class="altitude-value" data-m="1280" data-ft="4200">1,280 m</span>
+  </div>
+  <div class="elevation-point" style="--profile-height: 22%">
+    <strong>Snoqualmie</strong>
+    <span class="altitude-value" data-m="914" data-ft="3000">914 m</span>
+  </div>
+</div>
 
 | Section | What it feels like | What to do |
 | --- | --- | --- |
@@ -244,26 +336,26 @@ flowchart TD
 
 ### Altitude And Breathing
 
-The high point is under 6,000 feet, so altitude illness is not the central problem for most people. Still, people arriving from sea level or from long travel days can feel unusually winded on climbs. Do not confuse that with weakness. Shorten your stride, breathe steadily, and keep eating. The bigger risk is pushing so hard on early climbs that you stop drinking, stop noticing feet, and arrive in camp too depleted to do camp tasks well.
+The high point is under <span class="altitude-value" data-m="1830" data-ft="6000">1,830 m</span>, so altitude illness is not the central problem for most people. Still, people arriving from sea level or from long travel days can feel unusually winded on climbs. Do not confuse that with weakness. Shorten your stride, breathe steadily, and keep eating. The bigger risk is pushing so hard on early climbs that you stop drinking, stop noticing feet, and arrive in camp too depleted to do camp tasks well.
 
 ## Weather For 6-12 September
 
 You cannot know the 2026 forecast yet. You can know the pattern. Early September is one of the best windows for this part of the Cascades, but "best" still includes cold rain, smoke, fog, wind, and the possibility of early snow or graupel at high points.
 
-NOAA climate normals for Stevens Pass show September precipitation around **3.90 inches** for the month, with precipitation on roughly **8.4 days** of at least 0.01 inch. A higher/interior reference such as Olallie Meadows shows that nearby Cascade terrain can be wetter, around **5.48 inches** over roughly **9.6 wet days** in September normals. Snoqualmie Pass September averages from current climate summaries sit roughly around the low **60s F** by day and low **40s F** by night at pass level. High camps and windy ridges can feel much colder.
+NOAA climate normals for Stevens Pass show September precipitation around **99 mm** for the month, with precipitation on roughly **8.4 days** of at least 0.25 mm. A higher/interior reference such as Olallie Meadows shows that nearby Cascade terrain can be wetter, around **139 mm** over roughly **9.6 wet days** in September normals. Snoqualmie Pass September averages from current climate summaries sit roughly around the mid-teens C by day and around 5 C by night at pass level. High camps and windy ridges can feel much colder.
 
 | Date | Camp zone | Planning temperature | Weather lesson |
 | --- | --- | --- | --- |
-| Sun 6 Sep | Thunder Mountain Lakes, high alpine basin | Fair: 45-65 F moving, 32-42 F night. Storm: 35-50 F and wet. | First night proves whether your sleep system and dry-bag discipline are real. |
-| Mon 7 Sep | Cathedral Pass meadow | Fair: 42-62 F moving, 28-40 F night. | Exposed camp. Wind can make a mild forecast feel sharp. |
-| Tue 8 Sep | Waptus Lake, lower basin | Fair: 50-70 F moving, 38-50 F night. | Lower and more protected, but condensation and damp gear still matter. |
-| Wed 9 Sep | Spade Lake | Fair: 45-65 F moving, 30-42 F night. | Cold swim plus wind can steal heat fast. Dry off and dress immediately. |
-| Thu 10 Sep | Escondido Ridge | Fair: 40-60 F moving, 28-40 F night. | This is the camp to abandon if wind, lightning, or dense cloud builds. |
-| Fri 11 Sep | Spectacle Lake | Fair: 45-65 F moving, 32-44 F night. | Beautiful basin, but it can become a cold, wet holding pen in a storm. |
-| Sat 12 Sep | Exit to Snoqualmie | Fair: 45-65 F moving. Storm: 35-50 F, rain, low visibility. | Final-day rain is plausible. Keep gloves, shell, snacks, and headlamp reachable. |
+| Sun 6 Sep | Thunder Mountain Lakes, high alpine basin | Fair: 7-18 C moving, 0-6 C night. Storm: 2-10 C and wet. | First night proves whether your sleep system and dry-bag discipline are real. |
+| Mon 7 Sep | Cathedral Pass meadow | Fair: 6-17 C moving, -2 to 4 C night. | Exposed camp. Wind can make a mild forecast feel sharp. |
+| Tue 8 Sep | Waptus Lake, lower basin | Fair: 10-21 C moving, 3-10 C night. | Lower and more protected, but condensation and damp gear still matter. |
+| Wed 9 Sep | Spade Lake | Fair: 7-18 C moving, -1 to 6 C night. | Cold swim plus wind can steal heat fast. Dry off and dress immediately. |
+| Thu 10 Sep | Escondido Ridge | Fair: 4-16 C moving, -2 to 4 C night. | This is the camp to abandon if wind, lightning, or dense cloud builds. |
+| Fri 11 Sep | Spectacle Lake | Fair: 7-18 C moving, 0-7 C night. | Beautiful basin, but it can become a cold, wet holding pen in a storm. |
+| Sat 12 Sep | Exit to Snoqualmie | Fair: 7-18 C moving. Storm: 2-10 C, rain, low visibility. | Final-day rain is plausible. Keep gloves, shell, snacks, and headlamp reachable. |
 
 > [!WARNING]
-> The dangerous Cascades temperature is not just "below freezing." It is **35-50 F with rain and wind**. That is hypothermia weather because people keep moving in wet clothes until their hands stop working and their judgment narrows.
+> The dangerous Cascades temperature is not just "below freezing." It is **2-10 C with rain and wind**. That is hypothermia weather because people keep moving in wet clothes until their hands stop working and their judgment narrows.
 
 ### The Weather Checks That Matter
 
@@ -284,7 +376,7 @@ A mountain forecast is not a promise. It is a set of probabilities over complica
 | --- | --- | --- |
 | Chance of showers | You may spend hours in wet brush or cold rain | Pack shell where reachable, defend dry sleep layer, tape feet early. |
 | Mostly cloudy | Less solar drying, colder breaks, harder solar charging | Do not rely on sun to dry socks or charge devices. |
-| Wind 15-25 mph | Exposed camps feel much colder; tent pitch matters | Camp lower or behind terrain, stake carefully, cook in sheltered air. |
+| Wind 25-40 km/h | Exposed camps feel much colder; tent pitch matters | Camp lower or behind terrain, stake carefully, cook in sheltered air. |
 | Thunderstorms | Passes, ridges, and lake basins become bad places to linger | Start early, avoid high exposure in the afternoon, descend if building. |
 | Smoke or haze | Slower pace, sore throat, poor visibility, reduced enjoyment | Check AQI, carry mask if sensitive, cut effort and side trips. |
 | Snow level near route elevation | Trail may disappear and rocks become slick | Cancel, reroute, or carry skills/gear beyond normal backpacking. |
@@ -317,7 +409,7 @@ Smoke can be merely unpleasant or trip-ending. It reduces views, slows pace, irr
 
 ## Permits, Rules, And Fire
 
-You do **not** need a PCTA long-distance permit for this hike. PCTA long-distance permits are for trips of **500 or more continuous miles**. For Section J, use the local Alpine Lakes Wilderness permit system.
+You do **not** need a PCTA long-distance permit for this hike. PCTA long-distance permits are for trips of **800 km or more** of continuous travel. For Section J, use the local Alpine Lakes Wilderness permit system.
 
 | Topic | Rule for this trip |
 | --- | --- |
@@ -346,7 +438,7 @@ Rules change faster than printed plans. On **Saturday 5 September 2026**, do thi
 
 The short answer: **plan for no campfires on the trail**.
 
-Alpine Lakes Wilderness restrictions prohibit campfires above **4,000 feet** on the Mt. Baker-Snoqualmie side, above **5,000 feet** on the Okanogan-Wenatchee side, and within half a mile of many named lakes relevant to Section J, including Susan Jane, Mig, Hope, Josephine, Deep, Glacier, Ivanhoe, and Spectacle. September seasonal fire restrictions can be stricter and may ban campfires forest-wide outside developed rings.
+Alpine Lakes Wilderness restrictions prohibit campfires above **<span class="altitude-value" data-m="1220" data-ft="4000">1,220 m</span>** on the Mt. Baker-Snoqualmie side, above **<span class="altitude-value" data-m="1525" data-ft="5000">1,525 m</span>** on the Okanogan-Wenatchee side, and within 800 m of many named lakes relevant to Section J, including Susan Jane, Mig, Hope, Josephine, Deep, Glacier, Ivanhoe, and Spectacle. September seasonal fire restrictions can be stricter and may ban campfires forest-wide outside developed rings.
 
 | Night | Camp | Campfire answer |
 | --- | --- | --- |
@@ -390,7 +482,7 @@ Navigation is a layered system, not an app choice. Your phone is excellent until
 
 Carry all of this:
 
-- **FarOut PCT** for offline PCT waypoints, camps, water comments, mileage, and current hiker notes.
+- **FarOut PCT** for offline PCT waypoints, camps, water comments, distance, and current hiker notes.
 - **Gaia GPS or CalTopo** with offline topo maps, slope shading if useful, and the current PCTA GPX/centerline.
 - **Paper map** such as National Geographic Trails Illustrated PCT Washington North Map 1002, plus printed itinerary and bailouts.
 - **Compass** with adjustable declination or a clear note of the local magnetic declination.
@@ -402,7 +494,7 @@ Do not ask "Which app should I use?" Ask "What failure can I survive?"
 
 | Tool | What it is best at | How it fails | Your countermeasure |
 | --- | --- | --- | --- |
-| FarOut | PCT mileage, comments, camps, water, user notes | Phone battery, stale comments, tunnel vision on icons | Download offline, read comments critically, cross-check with map. |
+| FarOut | PCT distance, comments, camps, water, user notes | Phone battery, stale comments, tunnel vision on icons | Download offline, read comments critically, cross-check with map. |
 | Gaia or CalTopo | Topo context, alternate trails, GPX tracks, slope/terrain awareness | Bad downloads, confusing layers, battery drain | Download the exact area and test airplane mode. |
 | Paper map | Big-picture terrain, bailouts, no battery | Useless if not oriented or packed away | Keep accessible and practice with it before the trip. |
 | Compass | Direction and map orientation | Declination confusion, no practice | Set or write declination and drill before flying. |
@@ -521,9 +613,9 @@ Section J has frequent water, but you still treat every natural source. Clear mo
 
 Default carry:
 
-- Move with **2 liters** most of the time.
-- Have capacity for **3 liters** when climbing, dry camping, or crossing a longer dry stretch.
-- Use **4 liters** only when comments or camp choice demand it. Water is heavy.
+- Move with **2 L** most of the time.
+- Have capacity for **3 L** when climbing, dry camping, or crossing a longer dry stretch.
+- Use **4 L** only when comments or camp choice demand it. Water is heavy.
 
 Known water rhythm is generally favorable: lakes and streams near the northern basins, Deception, Cathedral, Deep, Waptus, Spade/Venus, Cooper and Lemah zones, Spectacle, Ridge/Gravel, and creeks before Snoqualmie. Still, late-season seeps and small tarns must be checked in FarOut/WTA near departure.
 
@@ -571,7 +663,7 @@ Backup:
 - Carry chlorine dioxide tablets.
 - If the filter breaks, chemically treat according to label time.
 - If water is cloudy, prefilter through a bandana, then treat.
-- Boil if needed. CDC guidance is a rolling boil for 1 minute below 6,500 feet; Section J's high point is below that.
+- Boil if needed. CDC guidance is a rolling boil for 1 minute below <span class="altitude-value" data-m="1980" data-ft="6500">1,980 m</span>; Section J's high point is below that.
 
 Know the limits. Most common squeeze filters are excellent for protozoa and bacteria, but they are not virus purifiers unless specifically designed and certified for that, and they do not remove chemical pollution or toxins from harmful algal blooms. Your best defense is source selection plus treatment, not blind faith in clear water.
 
@@ -593,7 +685,7 @@ Trail rhythm:
 
 - Start each morning with water already treated.
 - Drink some at camp before leaving.
-- Carry 2 liters by default, more for climbs, dry camps, hot days, or uncertainty.
+- Carry 2 L by default, more for climbs, dry camps, hot days, or uncertainty.
 - Use electrolyte mix on hard, sweaty days, especially days 2, 5, and 7.
 - Watch urine color, headache, dizziness, unusual fatigue, nausea, and cramps as signals to stop and assess.
 - Do not ration water into dehydration if the next source is uncertain. Slow down and solve the source problem.
@@ -644,15 +736,15 @@ Do not swim after alcohol, in thunder, in wind, near floating logs, at dusk, or 
 
 You are hiking seven calendar days, but you should pack like you may need an eighth food day. That does not mean eight luxurious dinners. It means seven planned days plus one compact emergency layer that does not need cooking.
 
-REI's backpacking planning range is **1.5-2.5 pounds of food per person per day**, or roughly **2,500-4,500 calories**. For this itinerary, most people should plan around **3,200-3,800 calories per trail day**, then adjust for body size and appetite.
+REI's backpacking planning range converts to roughly **0.68-1.13 kg of food per person per day**, or roughly **2,500-4,500 kcal**. For this itinerary, most people should plan around **3,200-3,800 kcal per trail day**, then adjust for body size and appetite.
 
 | Appetite and output | Daily target | Seven trail days | With emergency margin |
 | --- | ---: | ---: | ---: |
-| Smaller appetite / efficient mover | 2,800-3,200 cal | 19,600-22,400 cal | Add 1,200-2,000 no-cook cal |
-| Average strenuous backpacker | 3,200-3,800 cal | 22,400-26,600 cal | Add 2,000-3,000 no-cook cal |
-| Large body / high output / cold sleeper | 3,800-4,500 cal | 26,600-31,500 cal | Add 3,000+ no-cook cal |
+| Smaller appetite / efficient mover | 2,800-3,200 kcal | 19,600-22,400 kcal | Add 1,200-2,000 no-cook kcal |
+| Average strenuous backpacker | 3,200-3,800 kcal | 22,400-26,600 kcal | Add 2,000-3,000 no-cook kcal |
+| Large body / high output / cold sleeper | 3,800-4,500 kcal | 26,600-31,500 kcal | Add 3,000+ no-cook kcal |
 
-Aim for **110-140 calories per ounce**. High-density foods are usually fat-forward or dehydrated:
+Aim for **3.9-4.9 kcal/g** for high-density snacks and pantry foods. High-density foods are usually fat-forward or dehydrated:
 
 - Nut butter packets, nuts, trail mix, chocolate, olive oil packets.
 - Tortillas, hard cheese, salami, jerky, tuna/chicken packets.
@@ -716,6 +808,23 @@ If using a bear canister, practice loading the exact food before the trip. Seven
 | Dinner | Freeze-dried meal, ramen plus protein, couscous, instant potatoes, dehydrated chili. |
 | Emergency | One no-cook meal per person plus extra bars, nuts, and drink mix. |
 
+### Sample Metric Food Day
+
+This is a practical template, not a diet prescription. Build one day, eat it on a training hike, then multiply only if it actually works for your appetite.
+
+| Meal block | Example | Weight | Energy |
+| --- | --- | ---: | ---: |
+| Breakfast | Oats or granola, milk powder, nut butter, coffee | 140-180 g | 650-850 kcal |
+| Morning snacks | Bar, gummies, nuts, electrolyte mix | 180-230 g | 750-1,000 kcal |
+| Lunch | Tortillas with salami/cheese or nut butter/honey | 220-300 g | 850-1,150 kcal |
+| Afternoon snacks | Trail mix, chocolate, jerky, drink mix | 180-250 g | 800-1,100 kcal |
+| Dinner | Freeze-dried meal or ramen/potatoes/couscous plus protein and oil | 150-230 g | 700-1,050 kcal |
+| Camp drink | Cocoa, tea, miso, cider | 20-40 g | 50-180 kcal |
+
+Daily total: roughly **0.9-1.2 kg** and **3,800-5,300 kcal** if you pack generously; roughly **0.7-0.9 kg** and **3,000-3,800 kcal** if you pack tighter. For seven days plus emergency margin, expect about **5.0-7.5 kg of food per person** depending appetite, food density, and how much comfort food you allow.
+
+Bear-can fit method: pack day 7 at the bottom, day 1 at the top, remove cardboard, flatten pouches after eating, and keep one active snack bag outside only for the current walking day.
+
 ### MREs, Freeze-Dried Meals, And Burner Cooking
 
 MRE-style meals are convenient because they can be eaten without cooking and often include a flameless heater, but they are heavy and bulky for a seven-day backpack. Freeze-dried meals are lighter and easier to pack, but they require water and fuel. Grocery-store meals are cheaper and can be excellent if you test them first.
@@ -725,6 +834,30 @@ For this route, use a **canister stove** and mostly boil-water meals. Avoid simm
 Fuel planning depends on stove, wind, pot, and hot drink habits. For two people doing boil-only dinners and hot drinks, test your actual setup before the trip. Wind can double frustration, so use natural wind shelter without cooking inside the tent.
 
 MRE reality check: a standard military MRE is roughly a meal's worth of calories and is durable, but a full case is heavy and bulky. MREs are useful as a no-cook backup or one comfort meal. They are a poor primary strategy for seven days unless you accept the weight and trash volume.
+
+### Fuel Planning Method
+
+The Decathlon MT500 stove lists 200 g/hour fuel consumption, but your real number depends on pot, water temperature, wind, altitude, and patience. Estimate fuel by testing grams per litre boiled, not by vibes.
+
+Test at home or on a shakedown:
+
+1. Weigh a fuel canister before boiling.
+2. Boil exactly 1 L of water with your pot and lid.
+3. Turn off immediately after boil.
+4. Weigh the canister again.
+5. Repeat once in breezy conditions using natural wind shelter.
+6. Use the worse number, multiply by expected litres, then add 30% margin.
+
+Beginner starting estimate for two people on this itinerary:
+
+| Use | Litres boiled | Fuel planning note |
+| --- | ---: | --- |
+| Dinner for two, 7 nights | 7-10 L | Freeze-dried meals usually need less water than ramen/pot meals. |
+| Hot drinks / breakfast | 4-8 L | This is where fuel disappears quietly. |
+| Weather margin | 2-3 L | Cold rain makes hot drinks and backup boils more likely. |
+| Total | 13-21 L | Test your stove. Many groups should start with a 230 g net canister plus a 100 g backup for two people. |
+
+Buy canister fuel locally after flying. Do not rely on a single tiny canister unless your test proves it and you are willing to skip hot drinks.
 
 ### Stove Procedure
 
@@ -803,7 +936,7 @@ For boil-in-bag meals, the cleanest dish is the spoon. Lick it clean, wipe if ne
 - Add a small amount of hot water.
 - Scrape with spoon.
 - Drink the food-water if it is reasonable soup.
-- If not, strain solids into trash and scatter graywater broadly at least 200 feet from water and camp where allowed by local guidance.
+- If not, strain solids into trash and scatter graywater broadly at least 60 m from water and camp where allowed by local guidance.
 - Never wash dishes in lakes or streams.
 
 ## Clothing And Sleep System
@@ -863,8 +996,8 @@ Your feet need prevention, not heroism.
 
 Sleep setup:
 
-- 20-30 F quilt or bag.
-- Insulated pad around R-value 3 or better.
+- 0 C comfort sleeping bag or quilt, or a warmer -5 C system if you sleep cold.
+- Insulated pad around R-value 4 or better; R 5+ if you sleep cold or camp high.
 - Sleep socks that never hike.
 - Puffy accessible for camp.
 - Tent pitched and guyed before you cook if weather is unstable.
@@ -1139,7 +1272,7 @@ Arrive with enough daylight to:
 Human waste:
 
 - Use toilets where present.
-- Otherwise dig catholes 6-8 inches deep and 200 feet from water where soil allows.
+- Otherwise dig catholes 15-20 cm deep and 60 m from water where soil allows.
 - Pack out toilet paper and wipes.
 - Use hand sanitizer before touching food.
 
@@ -1260,7 +1393,7 @@ For Section J in early September, optimize for this:
 
 - A reliable dry sleep system.
 - A shelter you can pitch fast in rain and wind.
-- Enough warmth for 28-44 F nights depending on camp and weather.
+- Enough warmth for -2 to 7 C nights depending on camp and weather.
 - A food system that fits in required storage.
 - Water treatment with backup.
 - Rain/cold layers that keep hands and decision-making functional.
@@ -1276,7 +1409,7 @@ For Section J in early September, optimize for this:
   </figure>
   <figure>
     <img src="assets/images/section-j-kendall.jpg" alt="Rocky alpine traverse near Kendall Katwalk">
-    <figcaption>Every ounce rides over rocky traverses and long descents. Weight is not moral; it is mechanical.</figcaption>
+    <figcaption>Every gram rides over rocky traverses and long descents. Weight is not moral; it is mechanical.</figcaption>
   </figure>
 </div>
 
@@ -1304,10 +1437,10 @@ For a first 7-day Section J hike, do not chase an ultralight identity. Chase a s
 
 | System | Reasonable target | Watch-out |
 | --- | --- | --- |
-| Base weight | 18-28 lb depending on budget and comfort | Above 30 lb before food/water becomes punishing fast. |
-| Food | 10.5-17.5 lb for seven days using REI's 1.5-2.5 lb/day range | Bulky food may fail before calorie math fails. |
-| Water | 4.4 lb per 2 liters | Carry enough, but do not haul fear-water through wet country. |
-| Starting loaded pack | Often 32-45 lb for a beginner on this route | Test this on hills before the trip. |
+| Base weight | 8-13 kg depending on budget and comfort | Above 14 kg before food/water becomes punishing fast. |
+| Food | 4.8-8.0 kg for seven days using REI's 0.68-1.13 kg/day range | Bulky food may fail before calorie math fails. |
+| Water | 2.0 kg per 2 L | Carry enough, but do not haul fear-water through wet country. |
+| Starting loaded pack | Often 14.5-20.5 kg for a beginner on this route | Test this on hills before the trip. |
 
 ### Buy, Borrow, Or Rent
 
@@ -1325,6 +1458,65 @@ Buy the items that must fit your body or that you will use often. Borrow or rent
 | Stove/pot | Yes or shared | Borrow for shakedown | Cheap enough to own; must test with your meals. |
 | Satellite messenger | Rent or borrow if not buying | Yes | Subscription and use pattern matter. |
 
+### Naturehike And Decathlon Buying Shortlist
+
+You said you plan to buy mostly from Naturehike or Decathlon. Good: both brands can build a very workable first Section J kit if you avoid the cheapest "camping" versions and choose trekking/backpacking models by weight, warmth, and repairability.
+
+Use the table as a shopping shortlist, not gospel. Product names, regional item IDs, and variants change. Before buying, open the exact regional page, confirm the SKU/item ID, and weigh the packed item when it arrives. Manufacturer weights may exclude footprint, pump sack, storage sack, stakes, repair kit, or shipping packaging.
+
+| System | Product / SKU or item ID | Listed weight | Route take |
+| --- | --- | ---: | --- |
+| 2P tent, freestanding-ish | Naturehike Cloud Up 2 20D / Cloud Up 2P | 1.76-1.8 kg packed | Best Naturehike default if you want simple setup and acceptable weight. Vestibule space is modest. |
+| 2P tent, roomier | Naturehike Mongar 2 / NH17T007-M; grey 20D SKU/barcode seen as 6927595708071 | about 2.1-2.6 kg depending variant/listing | More livable for two people than Cloud Up, but heavier. Verify 15D/20D/210T fabric and packed weight before buying. |
+| 2P tent, durable Decathlon | Decathlon Forclaz MT500 2P dome / item 8997506 | 2.85 kg; groundsheet ref 8933562 extra | Heavy but forgiving, splitable, and repairable. Good beginner storm-confidence choice if two people share it. |
+| 2P tarp tent, ultralight Decathlon | Decathlon Forclaz MT900 2P tarp tent / item 4195142, model 8612300 | 1.3 kg, poles not included | Light, but only for hikers who will carry trekking poles and practice a tensioned pitch before the trip. |
+| Pack | Decathlon Forclaz MT500 Air 60+10 L | 1.75 kg incl. 100 g rain cover | Strong default if carrying bulky first-trek gear. Decathlon recommends not exceeding 15 kg load. |
+| Pack | Naturehike Rock 2.0 60 L | 1.30-1.37 kg by size; recommended load 12-15 kg | Light and attractive, but test comfort with your actual 15-20 kg starting load before committing. |
+| Sleeping bag, down | Decathlon Forclaz MT900 Down 0 C / ID 8882708 | L 930 g; comfort 0 C, limit -5 C | Best Decathlon sleep choice for weight/volume if you protect down from moisture. Decathlon recommends a pad around R 4.8+. |
+| Sleeping bag, synthetic | Decathlon Forclaz MT500 Synthetic 0 C / ID 8799901 | L 1.40 kg; comfort 0 C, limit -5 C | Bulkier and heavier, but cheaper and more damp-tolerant. Good if pack volume can handle it. |
+| Sleeping bag, Naturehike | Naturehike CW700 / SKUs include 6927595788387 M, 6927595788134 L | M 1.08 kg, L 1.32 kg; comfort -1.7 C, limit -7.9 C | Better Section J choice than CW400 if cold camps are possible. Verify size and fill before buying. |
+| Sleeping bag, warmer-weather caution | Naturehike CW400 / SKU examples include 6927595794548 | often listed around 0.91-0.93 kg; comfort around 5 C | Too marginal as your only bag for high September camps unless you are a warm sleeper with a warm pad and forecast margin. |
+| Sleeping pad, insulated | Decathlon MT900 Air Insulator L / R-p-324574 variants | 615 g total, R 5.4, 183 x 54 x 9 cm | Strong default. Warm enough for the bag ratings above and still light. |
+| Sleeping pad, summer-only caution | Decathlon MT900 Air L / R-p-355645 | 520 g total, R 1.5 | Comfortable but too cold as sole pad for this itinerary if nights approach freezing. |
+| Sleeping pad, Naturehike insulated | Naturehike TuYe R5.8 pad / barcode 6976507665346 for one listed square variant | around 1.0 kg listed shipping/variant weight; R 5.8 | Warm, wide options, heavier than Decathlon insulated. Verify actual product weight because variants differ. |
+| Stove | Decathlon Forclaz MT500 gas stove / Ref. 8559534 | 85 g stove + 15 g bag | Good simple canister stove. Uses EN417 threaded canisters; buy fuel after flying. |
+| Water filter bottle | Decathlon 1 L soft compressible filter bottle / ID 8975330 | 115 g with filter | Useful as dirty-water squeeze bottle/filter combo, but still carry backup tablets. |
+| Hydration bladder | Naturehike Yunquan TPU bladder / CNK2450CF011 | 2 L about 154 g | Fine for sipping, but still carry at least one hard or semi-rigid bottle for measuring and backup. |
+| Puffy | Decathlon Forclaz/Simond MT100 down jacket | about 320 g size L | Good camp warmth for weight; keep it dry. Add fleece/rain shell for wet cold. |
+| Rain shell | Decathlon Forclaz MT500 waterproof jacket / ID 8492328 | about 530 g size L | Heavier than ultralight shells, but more protective and durable for cold rain with a pack. |
+
+Brand caveats:
+
+- **Naturehike variants vary a lot.** The same family name can appear in 15D, 20D, 210T, down-fill, synthetic, regular, large, mummy, envelope, and regional versions. Treat the SKU/model line as part of the gear, not marketing clutter.
+- **Decathlon regional pages differ.** The Canada, US, UK, EU, Japan, Singapore, and India sites may carry different item IDs, weights, or names for very similar products.
+- **Pack load limits matter.** If your first-day load is likely above 15 kg, be cautious with light 60 L packs rated around 12-15 kg. Either cut weight, choose a sturdier pack, or test the exact pack on a long loaded climb.
+- **Buy early enough to return.** Shoes, pack, sleeping pad, and sleeping bag must be tested before the return window closes.
+- **Weigh everything at home.** Build a simple spreadsheet with columns for item, brand/model/SKU, listed weight, measured weight, packed location, and "must bring / maybe / leave".
+
+Purchasing tracker:
+
+| Item | Store/region | SKU or item ID | Listed packed weight | Measured weight | Missing extras | Decision |
+| --- | --- | --- | ---: | ---: | --- | --- |
+| Tent | Naturehike or Decathlon page you will actually buy from | Exact variant, not just family name | Include stakes/footprint if listed | Weigh full trail package | Stakes, guylines, footprint, repair sleeve | Approved / risky / reject |
+| Pack | Exact size/back length | Model and size | Include rain cover if carried | Weigh with liner/cover | Fit, hip belt pockets, rain cover | Approved / risky / reject |
+| Sleeping bag | Exact size/temp/fill | SKU and size | Stuff sack included? | Weigh dry, with sack | Compression sack, liner if used | Approved / risky / reject |
+| Sleeping pad | Exact length/width/R-value | SKU and size | Pad + pump sack + patch kit | Weigh full sleep package | Patch kit, pump sack | Approved / risky / reject |
+| Stove/pot | Exact stove and pot | Ref/SKU | Stove + bag + pot + lighter | Weigh kitchen kit | Fuel bought locally, lighter backup | Approved / risky / reject |
+
+Where to buy each category:
+
+| Category | Decathlon/Naturehike candidate | Better elsewhere / rent / borrow |
+| --- | --- | --- |
+| Tent, pad, stove, puffy, rain shell, trekking poles, dry bags | Good candidates from these brands if specs pass | Rent or borrow tent first if unsure about size. |
+| Pack | Candidate only if it carries your measured load comfortably | Buy elsewhere if your load exceeds the pack's recommended carry range. |
+| Shoes/socks | Decathlon can work, but fit decides | Buy whatever fits your foot after loaded descents; do not force brand loyalty. |
+| Bear canister | Usually not Naturehike/Decathlon | Rent or buy an approved canister/bag that matches current food-storage order. |
+| Satellite messenger/PLB | Usually not Naturehike/Decathlon | Rent/borrow/buy with active subscription/registration. |
+| Water filter | Decathlon bottle can help, but verify filter type | Sawyer/Katadyn/Platypus-style systems may be better proven; carry tablets either way. |
+| Bathroom kit | Trowel and bags can come from many places | Backcountry bidet cap, opaque pack-out bags, sanitizer. |
+| First aid/blister kit | Some basics anywhere | Buy proven blister tape, elastic bandage, meds you tolerate. |
+| Power bank/headlamp | Buy by reliability, not outdoor brand | Test cables, cold performance, and actual phone charging. |
+
 ### The Big Four
 
 Backpackers often talk about the "big three": shelter, sleep system, and pack. For this route, make it the **big four** by adding food storage, because bear-resistant storage changes both weight and pack volume.
@@ -1333,12 +1525,12 @@ Backpackers often talk about the "big three": shelter, sleep system, and pack. F
 | --- | --- | --- |
 | Pack | 60-70 L if carrying a bear can or bulky first kit; 50-60 L only if gear is compact | Buying a pack before knowing what has to fit. |
 | Shelter | 3-season tent, practiced pitch, enough stakes and guylines | Choosing tiny/ultralight before learning storm setup. |
-| Sleep | 20-30 F bag/quilt plus insulated pad around R 3+; warmer if you sleep cold | Trusting bag rating while carrying a summer pad. |
+| Sleep | 0 C comfort bag/quilt plus insulated pad around R 4+; warmer if you sleep cold | Trusting bag rating while carrying a summer pad. |
 | Food storage | Bear canister or approved bear-resistant method that actually fits all smellables | Discovering at the trailhead that food does not fit. |
 
 ### Backpack: Fit Beats Features
 
-For this itinerary, REI's general capacity guidance points toward multiday packs in the 50-80 L range, and extended 5+ night trips often use 70 L or larger. That does **not** mean everyone needs an expedition pack. It means your pack size depends on gear bulk, food volume, bear storage, and how disciplined your packing is.
+For this itinerary, Decathlon and Naturehike both push you toward the 60 L class if your first kit is bulky. That does **not** mean everyone needs an expedition pack. It means your pack size depends on gear bulk, food volume, bear storage, and how disciplined your packing is.
 
 Recommended first-trek approach:
 
@@ -1368,11 +1560,11 @@ Tent capacity is not standardized. A "2-person" tent often means two sleeping pa
 
 | Shelter style | Typical weight range | Best for | Tradeoff |
 | --- | --- | --- | --- |
-| 1P freestanding/semi-freestanding tent | 2-3.5 lb | Solo simplicity and easy site pitching | Tight; gear often lives in vestibule. |
-| 2P lightweight tent shared by two | 2.5-4 lb total | Best group efficiency | Cozy; split body/fly/poles fairly. |
-| 2P roomy/durable tent | 4-5.5 lb total | Comfort, storm confidence, beginners | Heavy but forgiving. |
-| Trekking-pole tent | 1.2-2.5 lb | Experienced hikers already using poles | Needs good staking and practice. |
-| Tarp/bivy/minimal shelter | Under 1.5-2 lb | Skilled, bug/weather-tolerant hikers | Not a first Section J default. |
+| 1P freestanding/semi-freestanding tent | 0.9-1.6 kg | Solo simplicity and easy site pitching | Tight; gear often lives in vestibule. |
+| 2P lightweight tent shared by two | 1.2-1.8 kg total | Best group efficiency | Cozy; split body/fly/poles fairly. |
+| 2P roomy/durable tent | 1.8-2.9 kg total | Comfort, storm confidence, beginners | Heavy but forgiving. |
+| Trekking-pole tent | 0.55-1.3 kg, poles not counted | Experienced hikers already using poles | Needs good staking and practice. |
+| Tarp/bivy/minimal shelter | Under 0.7-0.9 kg | Skilled, bug/weather-tolerant hikers | Not a first Section J default. |
 
 For two people, a 2P tent is efficient if you are comfortable being close. A 3P tent can be luxurious in rain, but the extra weight must be shared intentionally. For one person, a 1P tent saves weight, but a light 2P can be worth it if you sleep poorly in tight spaces. Sleep matters more than tent spreadsheet glory.
 
@@ -1396,12 +1588,12 @@ Tent drill:
 
 ### Sleep System: Bag, Pad, Clothes, And Ground
 
-Your sleeping bag does not work alone. REI's sleep-system guidance is blunt: bag warmth depends heavily on the pad R-value and the clothes you wear in the bag. For this route, plan around possible high-camp lows near freezing and cold rain.
+Your sleeping bag does not work alone. Bag warmth depends heavily on the pad R-value and the clothes you wear in the bag. For this route, plan around possible high-camp lows near freezing and cold rain.
 
 Section J default:
 
-- **Bag/quilt:** 20-30 F rating. Choose 20 F if you sleep cold, use a quilt, or camp high.
-- **Pad:** R-value around 3 or higher for most people; R 4+ if you sleep cold or want more margin.
+- **Bag/quilt:** 0 C comfort as the minimum realistic default. Choose a warmer -5 C-oriented system if you sleep cold, use a quilt, or camp high.
+- **Pad:** R-value around 4 or higher for most people; R 5+ if you sleep cold or want more margin.
 - **Sleep clothes:** dry base layer, dry socks, warm hat.
 - **Storage:** waterproof bag or pack liner. This is sacred gear.
 
@@ -1421,7 +1613,7 @@ This is a classic "easier life vs weight" decision.
 | Pad system | Weight/space | Comfort | Reliability | Recommendation |
 | --- | --- | --- | --- | --- |
 | Closed-cell foam only | Light but bulky outside pack | Low for side sleepers | Excellent; cannot pop | Usable for tough sleepers, not my first-timer default. |
-| Inflatable insulated pad | Light and compact | Best comfort | Can puncture; needs inflation | Best default if R-value is adequate and you carry patch kit. |
+| Inflatable insulated pad | Light and compact; 570-700 g for many warm pads | Best comfort | Can puncture; needs inflation | Best default if R-value is adequate and you carry patch kit. |
 | Foam sit pad plus inflatable | Small extra weight | Helps breaks, protects pad, emergency backup | Very good | Strong recommendation. |
 | Full foam pad plus inflatable | Bulky extra weight | Warm, durable, luxurious | Excellent backup | Worth it if you sleep cold or fear pad failure; otherwise heavy/bulky. |
 
@@ -1439,7 +1631,7 @@ Pad rules:
 
 This trip wants a **boil-water kitchen**. You are not cooking dinner like a tiny restaurant. You are converting water, fuel, and tired hands into calories.
 
-| Food type | Calories/weight | Water/fuel need | Trash | Morale | Use on Section J |
+| Food type | Energy density | Water/fuel need | Trash | Morale | Use on Section J |
 | --- | --- | --- | --- | --- | --- |
 | MRE-style meal | Heavy for backpacking | Often no stove needed; heaters add trash/complexity | High | Familiar, salty, durable | One backup/comfort meal at most. |
 | Freeze-dried meal | Light, compact | Needs boiling water | Moderate pouch trash | High after hard days | Good main dinner if budget allows. |
@@ -1481,8 +1673,8 @@ If the food does not fit at home, it will not fit at the trailhead when everyone
 | Item | Default | Easier-life upgrade | Weight warning |
 | --- | --- | --- | --- |
 | Stove | Canister stove with positive shutoff | Integrated stove system for fast boils | Integrated systems can be bulky. |
-| Fuel | Test your actual meals before deciding | Extra small canister margin | Too little fuel is worse than a few extra ounces. |
-| Pot | 750 ml-1.3 L depending on group | 1.5-2 L for two-person shared meals | Bigger pots pack awkwardly. |
+| Fuel | Test your actual meals before deciding | Extra small canister margin | Too little fuel is worse than a few extra grams. |
+| Pot | 750 mL-1.3 L depending on group | 1.5-2 L for two-person shared meals | Bigger pots pack awkwardly. |
 | Spoon | Long-handled spoon | Backup spoon if group shares gear | Losing the only spoon is comedy until dinner. |
 | Mug | Optional if pot works | Dedicated mug for cocoa/tea | Nice but redundant. |
 | Lighter | Mini Bic plus backup | Waterproof matches as extra | Piezo igniter alone is not enough. |
@@ -1528,8 +1720,8 @@ Bathroom kit:
 
 Bidet method:
 
-1. Walk 200 feet from water, trail, and camp.
-2. Dig cathole 6-8 inches deep where soil allows.
+1. Walk 60 m from water, trail, and camp.
+2. Dig cathole 15-20 cm deep where soil allows.
 3. Do business into the hole.
 4. Use bidet water to clean.
 5. Use a small "drying square" of TP if needed, then pack that square out.
@@ -1566,7 +1758,7 @@ Camp shoes are a tradeoff. Light sandals or water shoes can feel wonderful after
 | Toothbrush/toothpaste | Yes | Toothpaste is a smellable; store with food. |
 | Sunscreen/lip balm | Yes | Lip balm is also a smellable. |
 | Hand sanitizer | Yes | Use before food and after bathroom. |
-| Small soap | Optional | Keep soap 200 feet from water; often sanitizer is enough. |
+| Small soap | Optional | Keep soap 60 m from water; often sanitizer is enough. |
 | Camp towel/bandana | Small only | Full-size towel is dead weight. |
 | Anti-chafe balm | Recommended | Test before trip. Also a smellable. |
 | Contacts/glasses supplies | If needed | Bring backup glasses. |
@@ -1622,7 +1814,7 @@ Add personal meds, spare contacts/glasses, and any condition-specific plan. Do n
 
 ### Repair Kit
 
-Repair is where a few ounces can rescue expensive systems.
+Repair is where a few grams can rescue expensive systems.
 
 | Failure | Repair item |
 | --- | --- |
@@ -1643,18 +1835,18 @@ This is the part where everyone gets emotionally attached. Good. Joy matters. Ju
 
 | Item | Weight tradeoff | Verdict |
 | --- | --- | --- |
-| Sit pad | 1-3 oz | Strong yes. Dry seat, knee pad, pad supplement. |
-| Inflatable pillow | 2-4 oz | Yes if it improves sleep. Sleep is performance. |
-| Camp shoes | 6-16 oz | Maybe. Great for swollen feet; heavy if unused. |
-| Book/e-reader | 4-8 oz | Maybe. One small luxury is allowed. |
-| Journal/pen | 1-4 oz | Yes if meaningful. |
-| Tiny towel | 1-2 oz | Maybe. Bandana often enough. |
-| Lightweight chair | 1-2 lb | Usually no for Section J. Sit pad wins. |
-| Umbrella | 6-10 oz | Maybe for sun/rain if you already use one. Awkward in brush/wind. |
-| Extra shirt | 4-8 oz | Usually no unless you need sleep/dry separation. |
-| Extra socks | 2-3 oz | Often yes. Feet are the trip. |
-| Camp mug | 2-4 oz | Maybe if hot drinks are morale fuel. |
-| Tripod | 2-12 oz | Only if photography is a real priority. |
+| Sit pad | 30-85 g | Strong yes. Dry seat, knee pad, pad supplement. |
+| Inflatable pillow | 60-115 g | Yes if it improves sleep. Sleep is performance. |
+| Camp shoes | 170-450 g | Maybe. Great for swollen feet; heavy if unused. |
+| Book/e-reader | 115-225 g | Maybe. One small luxury is allowed. |
+| Journal/pen | 30-115 g | Yes if meaningful. |
+| Tiny towel | 30-60 g | Maybe. Bandana often enough. |
+| Lightweight chair | 450-900 g | Usually no for Section J. Sit pad wins. |
+| Umbrella | 170-285 g | Maybe for sun/rain if you already use one. Awkward in brush/wind. |
+| Extra shirt | 115-225 g | Usually no unless you need sleep/dry separation. |
+| Extra socks | 55-85 g | Often yes. Feet are the trip. |
+| Camp mug | 60-115 g | Maybe if hot drinks are morale fuel. |
+| Tripod | 60-340 g | Only if photography is a real priority. |
 
 ### Stuff People Forget
 
@@ -1700,7 +1892,7 @@ This is the part where everyone gets emotionally attached. Good. Joy matters. Ju
 | --- | --- |
 | Pack | 58-70 L fitted backpack, pack liner, small dry bags only where useful, trash compactor bag. |
 | Shelter | 3-season tent, stakes, guylines, footprint/polycryo if used, tent repair patch. |
-| Sleep | 20-30 F bag/quilt, insulated pad around R 3+, patch kit, sleep socks, optional pillow. |
+| Sleep | 0 C comfort bag/quilt or warmer, insulated pad around R 4+, patch kit, sleep socks, optional pillow. |
 | Kitchen | Canister stove, fuel, pot, spoon, lighter, backup lighter/matches, small towel/bandana. |
 | Food | Seven planned days plus no-cook emergency layer, daily snack bags, electrolytes, hot drinks. |
 | Water | Squeeze filter, dirty bag, clean bottles/reservoir, 2 L normal capacity, 3 L possible, chlorine dioxide backup. |
@@ -1762,14 +1954,28 @@ Some gear is not for the trail miles, but it can still make or break the trip.
 | Post-trip trash bags | Wet gear, food trash, and bathroom trash need containment before transport. |
 | Fuel disposal plan | Do not abandon half-used fuel canisters at random. Use local disposal/recycling rules. |
 
+Travel checklist:
+
+| Topic | Decision |
+| --- | --- |
+| Fuel | Do not fly with fuel. Buy threaded EN417 canisters locally after arrival and confirm stove compatibility. |
+| Lithium batteries | Carry power banks in cabin baggage, not checked luggage. Keep within current airline/TSA watt-hour limits. |
+| Poles/stakes/knife | Trekking poles, tent stakes, and knives usually belong in checked luggage. Confirm airline rules before packing. |
+| Food import | If flying internationally, avoid carrying meat, dairy, fresh fruit, and restricted foods across borders. Buy problem foods locally. |
+| Bear storage | Reserve/rent/buy before the trip; do not discover canister availability at the trailhead. |
+| Luggage storage | Decide where city clothes, suitcase, and post-trip shoes live while you are on trail. |
+| Fuel disposal | Plan where unused canister fuel goes after the hike; do not leave it at a hotel or trailhead. |
+| Transport | Confirm Stevens Pass drop-off and Snoqualmie pickup separately. Cell service cannot be the only plan. |
+| Exit clothes | Leave dry clean clothes and non-trail shoes in the pickup bag. This is practical, not indulgent. |
+
 ### The Shakedown: Make The Gear Tell The Truth
 
 The store version of gear is imaginary. The shakedown version is real. Do this before the trip:
 
 1. Pack everything, including seven days of food or a realistic weight/volume substitute.
-2. Carry 2 liters of water.
+2. Carry 2 L of water.
 3. Weigh the pack.
-4. Walk at least 6-8 miles with sustained climbing or stairs.
+4. Walk at least 10-13 km with sustained climbing or stairs.
 5. Take a break and cook or at least boil water.
 6. Filter water from a real source.
 7. Pitch the shelter when tired.
@@ -1797,6 +2003,26 @@ Do not outsource these to hope.
 
 ### Four-Week Skill Curriculum
 
+Use this as the final phase, not the entire preparation plan. For first-time long-distance trekkers, the real ramp should begin about 12 weeks out.
+
+### Twelve-Week First-Timer Training Ramp
+
+| Timeframe | Focus | Pass standard |
+| --- | --- | --- |
+| 12-10 weeks out | Buy/test footwear, begin weekly hikes, start light strength work | Shoes do not create hot spots on 10 km walks. |
+| 9-8 weeks out | Add pack weight gradually; practice poles and downhill technique | 10-12 kg feels manageable for 12-15 km. |
+| 7-6 weeks out | Hills/stairs, rain-layer test, first stove/water practice | You can climb steadily without redlining and can cook/filter without confusion. |
+| 5 weeks out | First full-kit day hike or easy overnight | Shelter, sleep, food, and pack organization all work outside the house. |
+| 4 weeks out | Loaded day hike, shoe/sock test, basic map orientation | No new gear pain; you can point to your map location. |
+| 3 weeks out | Stove dinner, water filtering, bear storage packing | Dinner works in wind; all food fits storage system. |
+| 2 weeks out | Back-to-back loaded hikes or overnight shakedown | Feet survive repeated days; morning pack-up is not chaos. |
+| 1 week out | Offline maps, satellite test, first aid drills, final packing | Phone works in airplane mode; ankle wrap and blister tape are practiced. |
+| Travel week | Rule/closure/weather checks, food purchase, fuel plan | Nothing critical remains theoretical. |
+
+If you only have four weeks left, reduce ambition first, not safety gear.
+
+### Four-Week Final Curriculum
+
 Use this if you want to arrive feeling competent instead of merely equipped.
 
 | Timeframe | Practice | Pass standard |
@@ -1809,7 +2035,7 @@ Use this if you want to arrive feeling competent instead of merely equipped.
 
 ### Five Drills That Make You Safer Fast
 
-1. **Hot-spot drill:** Tape your heel before a hike and walk several miles. Learn what wrinkles feel like.
+1. **Hot-spot drill:** Tape your heel before a hike and walk several kilometres. Learn what wrinkles feel like.
 2. **Wet shelter drill:** Pitch the tent with gloves or cold hands. Time it.
 3. **No-service navigation drill:** Airplane mode, offline map, paper map. Navigate a short loop without cell service.
 4. **Water drill:** Filter from an awkward shallow source and backflush the filter.
@@ -1911,6 +2137,24 @@ Gear, food, maps, and wildlife:
 - [REI backpacking stove fuel guide](https://www.rei.com/learn/expert-advice/how-to-choose-backpacking-fuel.html)
 - [REI water treatment guide](https://www.rei.com/learn/expert-advice/water-treatment-backcountry.html)
 - [REI hydration basics](https://www.rei.com/learn/expert-advice/hydrate.html)
+- [Decathlon Forclaz MT500 2P tent](https://www.decathlon.ca/en/p/8997506/camping-dome-tent-2-person-mt500)
+- [Decathlon Forclaz MT900 2P tarp tent](https://www.decathlon.co.jp/products/trekking-tarp-tent-mt900-2-person)
+- [Naturehike Cloud Up 2 20D](https://www.naturehike.co.za/collections/ultralight-gear/products/cloud-up-2-ultralight-2-person-tent-upgrade)
+- [Naturehike Mongar 2](https://www.naturehike.com/collections/tents/products/naturehike-20d-mongar-double-layer-waterproof-tent-for-2-persons-nh17t007-m)
+- [Decathlon Forclaz MT500 Air 60+10 L pack](https://www.decathlon.co.jp/products/mens-trekking-backpack-6010-l-mt500-air)
+- [Naturehike Rock 2.0 pack](https://www.naturehike.com/en-jp/products/rock%E2%84%A2-2-0-hiking-backpack)
+- [Decathlon Forclaz MT900 Down 0 C sleeping bag](https://www.decathlon.ca/en/p/hiking-down-sleeping-bag-0degc-mt-900/355074/c405m8882708)
+- [Decathlon Forclaz MT500 Synthetic 0 C sleeping bag](https://www.decathlon.ca/en/p/synthetic-sleeping-bag-0degc-mt-500/346447/c405m8799901)
+- [Naturehike CW700 sleeping bag](https://www.naturehike.com/products/cw700-down-ultralight-sleeping-bag)
+- [Naturehike CW400 sleeping bag](https://naturehike.ca/en/products/sleeping-bag-90-down-cw400)
+- [Decathlon MT900 Air insulated pad](https://www.decathlon.es/es/p/aislante-hinchable-de-trekking-183x54-cm-forclaz-mt900-air-l/_/R-p-324574)
+- [Decathlon MT900 Air pad](https://www.decathlon.co.uk/p/lightweight-and-comfortable-inflatable-l-trekking-mattress-mt900-air/355645/m8884891)
+- [Naturehike TuYe R5.8 pad](https://www.naturehike.com/products/tuye-r5-8-ultralight-inflatable-pad)
+- [Decathlon Forclaz MT500 stove](https://www.decathlon.co.uk/p/lightweight-and-compact-gas-stove-with-lighter-mt500/_/R-p-310238)
+- [Decathlon 1 L soft filter bottle](https://www.decathlon.co.uk/p/1l-soft-and-compressible-filter-water-bottle/375940/c149m8975330)
+- [Naturehike TPU 2 L bladder](https://www.naturehike.co.za/collections/bladders/products/tpu-2l-bladder)
+- [Decathlon Forclaz MT100 down jacket](https://www.decathlon.com/collections/camp-hike/products/forclaz-mens-mt100-down-puffer-jacket-335580)
+- [Decathlon Forclaz MT500 waterproof jacket](https://www.decathlon.ch/en/p/_/R-p-172306)
 - [NPS cooking in camp](https://home.nps.gov/subjects/camping/cooking-in-camp.htm)
 - [DLA Meal, Ready-To-Eat](https://www.dla.mil/Troop-Support/Subsistence/Operational-rations/MRE/)
 - [WTA backcountry bidet](https://www.wta.org/go-outside/trail-smarts/how-to/clean-up-your-lnt-act-with-a-backcountry-bidet)

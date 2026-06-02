@@ -258,41 +258,34 @@ Headlamps are for contingencies, not permission to plan sloppy days. If the grou
 
 ## Elevation And Terrain
 
-The route never reaches Himalayan altitude, but it repeatedly moves between forest, lake basins, passes, ridges, and rocky traverses. That means the problem is not oxygen. The problem is repeated effort, exposure, and weather.
+The route never reaches Himalayan altitude, but it repeatedly moves between forest, lake basins, passes, ridges, and rocky traverses. That means the problem is not oxygen. The problem is repeated effort, exposure, and weather. The PCT corridor's high point is around **<span class="altitude-value" data-m="1806" data-ft="5927">1,806 m</span>**, while the Trekking Mama side trips can briefly push you higher: Thunder Mountain Lakes are commonly mapped around **<span class="altitude-value" data-m="1960" data-ft="6430">1,960 m</span>** and Circle Lake around **<span class="altitude-value" data-m="1834" data-ft="6017">1,834 m</span>**.
 
-<div class="elevation-profile" aria-label="Approximate camp elevation rhythm">
-  <div class="elevation-point" style="--profile-height: 47%">
-    <strong>Stevens</strong>
-    <span class="altitude-value" data-m="1237" data-ft="4060">1,237 m</span>
-  </div>
-  <div class="elevation-point" style="--profile-height: 78%">
-    <strong>Thunder</strong>
-    <span class="altitude-value" data-m="1646" data-ft="5400">1,646 m</span>
-  </div>
-  <div class="elevation-point" style="--profile-height: 80%">
-    <strong>Cathedral</strong>
-    <span class="altitude-value" data-m="1676" data-ft="5500">1,676 m</span>
-  </div>
-  <div class="elevation-point" style="--profile-height: 22%">
-    <strong>Waptus</strong>
-    <span class="altitude-value" data-m="914" data-ft="3000">914 m</span>
-  </div>
-  <div class="elevation-point" style="--profile-height: 78%">
-    <strong>Spade</strong>
-    <span class="altitude-value" data-m="1646" data-ft="5400">1,646 m</span>
-  </div>
-  <div class="elevation-point" style="--profile-height: 82%">
-    <strong>Escondido</strong>
-    <span class="altitude-value" data-m="1707" data-ft="5600">1,707 m</span>
-  </div>
-  <div class="elevation-point" style="--profile-height: 50%">
-    <strong>Spectacle</strong>
-    <span class="altitude-value" data-m="1280" data-ft="4200">1,280 m</span>
-  </div>
-  <div class="elevation-point" style="--profile-height: 22%">
-    <strong>Snoqualmie</strong>
-    <span class="altitude-value" data-m="914" data-ft="3000">914 m</span>
-  </div>
+The profile below is a **planning profile**, not a surveyed GPS track. It uses Trekking Mama's completed seven-day SOBO itinerary distance rhythm, PCT Washington's mile-by-mile corridor anchors, and named lake/pass elevations rounded for field use. Verify the final numbers in your own FarOut/Gaia/CalTopo route before departure.
+
+<div class="trek-profile" aria-label="PCT Section J southbound elevation profile for the Trekking Mama itinerary">
+  <div class="trek-profile-point" data-km="0" data-m="1237" data-ft="4060" data-label="Stevens Pass" data-kind="start" data-show-label="true" data-label-position="below" data-note="US 2 start; heavy-pack reality begins immediately."></div>
+  <div class="trek-profile-point" data-km="6.4" data-m="1404" data-ft="4606" data-label="Lake Susan Jane" data-kind="waypoint" data-note="Early lake country; useful body and pack check."></div>
+  <div class="trek-profile-point" data-km="11.5" data-m="1430" data-ft="4690" data-label="Mig / Hope basin" data-kind="waypoint" data-note="Do not over-wander early; day one still climbs."></div>
+  <div class="trek-profile-point" data-km="18.5" data-m="1753" data-ft="5751" data-label="Trap Pass" data-kind="high" data-show-label="true" data-note="First serious high point before the Thunder side trip."></div>
+  <div class="trek-profile-point" data-km="19.3" data-m="1960" data-ft="6430" data-label="Thunder Mountain Lakes" data-day="Night 1" data-kind="camp high" data-show-label="true" data-label-position="below" data-note="Fragile high basin; camp only on durable surfaces and pack out waste."></div>
+  <div class="trek-profile-point" data-km="25" data-m="1461" data-ft="4793" data-label="Glacier Lake" data-kind="waypoint" data-note="Day two rolls through lake country before the pass sequence."></div>
+  <div class="trek-profile-point" data-km="28.5" data-m="1795" data-ft="5890" data-label="Pieper Pass" data-kind="high" data-show-label="true" data-note="PCT Washington lists this as a notable north-half pass."></div>
+  <div class="trek-profile-point" data-km="40" data-m="1370" data-ft="4495" data-label="Deception Pass" data-kind="waypoint" data-note="Lower saddle before the Cathedral transition."></div>
+  <div class="trek-profile-point" data-km="47.5" data-m="1676" data-ft="5500" data-label="Cathedral Pass meadow" data-day="Night 2" data-kind="camp high" data-show-label="true" data-label-position="below" data-note="Exposed-feeling camp zone; protect dry layers and tent pitch."></div>
+  <div class="trek-profile-point" data-km="55.5" data-m="1703" data-ft="5587" data-label="Peggy's Pond" data-kind="side-trip high" data-note="Only earned if pace, knees, and weather are good."></div>
+  <div class="trek-profile-point" data-km="60.5" data-m="1834" data-ft="6017" data-label="Circle Lake" data-kind="side-trip high" data-show-label="true" data-note="Beautiful but optional; the extra altitude and rough travel cost real energy."></div>
+  <div class="trek-profile-point" data-km="74.8" data-m="904" data-ft="2967" data-label="Waptus Lake" data-day="Night 3" data-kind="camp low" data-show-label="true" data-label-position="below" data-note="Major low-basin reset before the Spade climb."></div>
+  <div class="trek-profile-point" data-km="80.4" data-m="1646" data-ft="5400" data-label="Spade Lake" data-day="Night 4" data-kind="camp high" data-show-label="true" data-note="Short day on paper, steep side-trail reality on the ground."></div>
+  <div class="trek-profile-point" data-km="84.2" data-m="1675" data-ft="5500" data-label="Venus Lake" data-kind="side-trip high" data-show-label="true" data-label-position="below" data-note="Optional reward; cut it first if the group is carrying fatigue."></div>
+  <div class="trek-profile-point" data-km="92" data-m="904" data-ft="2967" data-label="Waptus return" data-kind="waypoint low" data-note="The day gives the altitude back before climbing toward Escondido."></div>
+  <div class="trek-profile-point" data-km="102.9" data-m="1707" data-ft="5600" data-label="Escondido Ridge" data-day="Night 5" data-kind="camp high" data-show-label="true" data-note="Camp lower if wind, lightning, or visibility is deteriorating."></div>
+  <div class="trek-profile-point" data-km="108" data-m="1430" data-ft="4690" data-label="Delate Creek meadows" data-kind="waypoint" data-note="Middle terrain before Spectacle."></div>
+  <div class="trek-profile-point" data-km="115" data-m="1300" data-ft="4264" data-label="Spectacle Lake" data-day="Night 6" data-kind="camp" data-show-label="true" data-label-position="below" data-note="The visual reward, not the finish line."></div>
+  <div class="trek-profile-point" data-km="120" data-m="1575" data-ft="5165" data-label="Above Spectacle" data-kind="high" data-note="Final-day legs start by climbing, not merely descending."></div>
+  <div class="trek-profile-point" data-km="125" data-m="1806" data-ft="5927" data-label="Section J high traverse" data-kind="high" data-show-label="true" data-note="PCT corridor high point near the Chikamin/Four Brothers traverse."></div>
+  <div class="trek-profile-point" data-km="131.6" data-m="1607" data-ft="5272" data-label="Ridge / Gravel Lakes" data-kind="waypoint" data-note="Rocky late-stage travel; fatigue makes foot placement worse."></div>
+  <div class="trek-profile-point" data-km="133.3" data-m="1635" data-ft="5365" data-label="Kendall Katwalk" data-kind="high" data-show-label="true" data-label-position="below" data-note="Airy, rocky, and not a place to mentally finish early."></div>
+  <div class="trek-profile-point" data-km="144" data-m="914" data-ft="3000" data-label="Snoqualmie Pass" data-kind="end low" data-show-label="true" data-note="Exit logistics still count; eat before the road and pickup zone."></div>
 </div>
 
 | Section | What it feels like | What to do |
@@ -336,7 +329,7 @@ flowchart TD
 
 ### Altitude And Breathing
 
-The high point is under <span class="altitude-value" data-m="1830" data-ft="6000">1,830 m</span>, so altitude illness is not the central problem for most people. Still, people arriving from sea level or from long travel days can feel unusually winded on climbs. Do not confuse that with weakness. Shorten your stride, breathe steadily, and keep eating. The bigger risk is pushing so hard on early climbs that you stop drinking, stop noticing feet, and arrive in camp too depleted to do camp tasks well.
+Even with side trips, the high points are roughly <span class="altitude-value" data-m="1960" data-ft="6430">1,960 m</span>, so altitude illness is not the central problem for most people. Still, people arriving from sea level or from long travel days can feel unusually winded on climbs. Do not confuse that with weakness. Shorten your stride, breathe steadily, and keep eating. The bigger risk is pushing so hard on early climbs that you stop drinking, stop noticing feet, and arrive in camp too depleted to do camp tasks well.
 
 ## Weather For 6-12 September
 
@@ -1516,6 +1509,46 @@ Where to buy each category:
 | Bathroom kit | Trowel and bags can come from many places | Backcountry bidet cap, opaque pack-out bags, sanitizer. |
 | First aid/blister kit | Some basics anywhere | Buy proven blister tape, elastic bandage, meds you tolerate. |
 | Power bank/headlamp | Buy by reliability, not outdoor brand | Test cables, cold performance, and actual phone charging. |
+
+### Equipment Workflows To Practice
+
+Owning the right item is only half the skill. The other half is having a repeatable workflow when you are cold, hungry, wet, and trying not to spread gear across a fragile campsite. Practice these systems at home and on a shakedown hike until they feel boring.
+
+```mermaid
+flowchart TB
+  subgraph Pack["Pack Organization"]
+    P1[Bottom: dry sleep bag inside liner] --> P2[Middle: food canister, tent body, dense shared gear]
+    P2 --> P3[Top: rain shell, fleece, first aid, headlamp]
+    P3 --> P4[Hip/side pockets: snacks, water, map, sunscreen]
+  end
+  subgraph Water["Dirty-To-Clean Water"]
+    W1[Dirty pouch only touches source water] --> W2[Filter threads stay out of dirt]
+    W2 --> W3[Clean bottle mouth stays clean]
+    W3 --> W4[Backup tablets live outside filter kit]
+  end
+  subgraph Camp["Camp Setup"]
+    C1[Shelter first in bad weather] --> C2[Dry layer on before chill]
+    C2 --> C3[Water for dinner and morning]
+    C3 --> C4[Food/smellables stored before sleep]
+  end
+  subgraph Feet["Foot Care"]
+    F1[Hot spot noticed] --> F2[Stop immediately]
+    F2 --> F3[Clean and dry skin]
+    F3 --> F4[Tape before it becomes a blister]
+  end
+```
+
+Workflow standards:
+
+| System | Pass standard before the trip |
+| --- | --- |
+| Pack organization | You can find rain shell, gloves, headlamp, first aid, snacks, water, and map without unpacking the whole bag. |
+| Water filtering | Dirty pouch, filter, clean bottle, and backup tablets are clearly separated and everyone knows which threads stay dirty. |
+| Bear storage | Every smellable fits at home, including trash, toothpaste, sunscreen, lip balm, drink mixes, wrappers, and tomorrow's breakfast. |
+| Sleep system | Bag, pad, sleep clothes, and electronics stay inside the waterproof core even during a wet shelter pitch. |
+| Tent staking | You can pitch with all required stakes, add guylines, and tension the fly with cold hands or gloves. |
+| Bidet/TP system | Bathroom bottle, trowel, sanitizer, and pack-out bag are obvious and never confused with clean drinking gear. |
+| Blister taping | Each person can tape their own heel/toe hot spot without borrowing the only scissors or alcohol wipe from another pack. |
 
 ### The Big Four
 

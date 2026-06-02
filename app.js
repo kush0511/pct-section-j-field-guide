@@ -3,6 +3,7 @@ const DEFAULT_MARKDOWN_SOURCE = content.dataset.markdownSource || "README.md";
 const SOURCE_PARAMS = ["source", "file", "md"];
 const ZERO_WIDTH_PREFIX = /^[\u200B\u200C\u200D\u200E\u200F\uFEFF]+/;
 const ALTITUDE_UNIT_STORAGE_KEY = "pct-section-j-altitude-unit";
+const SVG_NS = "http://www.w3.org/2000/svg";
 
 const markdown = createMarkdownRenderer();
 
@@ -76,6 +77,7 @@ async function renderMarkdownDocument() {
 
     enhanceDocument(content, metadata, source);
     await renderMermaid(content);
+    restoreHashScroll();
   } catch (error) {
     content.innerHTML = `<p class="loading">Unable to load the Markdown document: ${escapeHtml(error.message)}</p>`;
   } finally {
@@ -156,6 +158,7 @@ function enhanceDocument(root, metadata, source) {
   enhanceCallouts(root);
   wrapTables(root);
   buildGuideNavigation(root);
+  enhanceTrekProfiles(root);
   enhanceAltitudeToggle(root);
 }
 
@@ -194,6 +197,25 @@ function slugify(value) {
     .replace(/[^\w\s-]/g, "")
     .replace(/\s+/g, "-")
     .replace(/-+/g, "-");
+}
+
+function restoreHashScroll() {
+  if (!window.location.hash) return;
+
+  let targetId = "";
+
+  try {
+    targetId = decodeURIComponent(window.location.hash.slice(1));
+  } catch {
+    targetId = window.location.hash.slice(1);
+  }
+
+  const target = document.getElementById(targetId);
+  if (!target) return;
+
+  window.requestAnimationFrame(() => {
+    target.scrollIntoView({ block: "start" });
+  });
 }
 
 function enhanceLinks(root) {
@@ -284,6 +306,310 @@ function buildGuideNavigation(root) {
   }
 }
 
+function enhanceTrekProfiles(root) {
+  root.querySelectorAll(".trek-profile").forEach((profile) => {
+    if (profile.dataset.enhanced === "true") return;
+
+    const points = [...profile.querySelectorAll(".trek-profile-point")]
+      .map((point, index) => {
+        const km = Number(point.dataset.km);
+        const metres = Number(point.dataset.m);
+        const feet = Number(point.dataset.ft);
+
+        if (!Number.isFinite(km) || !Number.isFinite(metres) || !Number.isFinite(feet)) {
+          return null;
+        }
+
+        return {
+          day: point.dataset.day || "",
+          feet,
+          index,
+          kind: point.dataset.kind || "waypoint",
+          km,
+          label: point.dataset.label || `Waypoint ${index + 1}`,
+          labelPosition: point.dataset.labelPosition || "auto",
+          metres,
+          note: point.dataset.note || "",
+          showLabel: point.dataset.showLabel === "true"
+        };
+      })
+      .filter(Boolean)
+      .sort((a, b) => a.km - b.km || a.index - b.index);
+
+    profile._trekProfilePoints = points;
+    profile.dataset.enhanced = "true";
+    renderTrekProfile(profile, getStoredAltitudeUnit());
+  });
+}
+
+function renderTrekProfiles(root, unit) {
+  root.querySelectorAll(".trek-profile[data-enhanced='true']").forEach((profile) => {
+    renderTrekProfile(profile, unit);
+  });
+}
+
+function renderTrekProfile(profile, unit) {
+  const points = profile._trekProfilePoints || [];
+  if (points.length < 2) return;
+
+  const selectedUnit = unit === "ft" ? "ft" : "m";
+  const altitudeKey = selectedUnit === "ft" ? "feet" : "metres";
+  const width = 1040;
+  const height = 430;
+  const margin = { top: 32, right: 28, bottom: 82, left: 68 };
+  const plotWidth = width - margin.left - margin.right;
+  const plotHeight = height - margin.top - margin.bottom;
+  const minKm = Math.min(...points.map((point) => point.km));
+  const maxKm = Math.max(...points.map((point) => point.km));
+  const altitudes = points.map((point) => point[altitudeKey]);
+  const tickStep = selectedUnit === "ft" ? 500 : 200;
+  const tickPadding = selectedUnit === "ft" ? 250 : 100;
+  const minAltitude = Math.floor((Math.min(...altitudes) - tickPadding) / tickStep) * tickStep;
+  const maxAltitude = Math.ceil((Math.max(...altitudes) + tickPadding) / tickStep) * tickStep;
+  const xScale = (km) => margin.left + ((km - minKm) / (maxKm - minKm)) * plotWidth;
+  const yScale = (altitude) => {
+    const ratio = (altitude - minAltitude) / (maxAltitude - minAltitude);
+    return margin.top + (1 - ratio) * plotHeight;
+  };
+  const formatNumber = new Intl.NumberFormat("en-US", { maximumFractionDigits: 0 });
+  const tickValues = [];
+
+  for (let tick = minAltitude; tick <= maxAltitude; tick += tickStep) {
+    tickValues.push(tick);
+  }
+
+  const distanceTicks = createDistanceTicks(minKm, maxKm);
+  const linePath = points
+    .map((point, index) => `${index === 0 ? "M" : "L"} ${roundSvg(xScale(point.km))} ${roundSvg(yScale(point[altitudeKey]))}`)
+    .join(" ");
+  const baselineY = margin.top + plotHeight;
+  const lastPoint = points[points.length - 1];
+  const areaPath = `${linePath} L ${roundSvg(xScale(lastPoint.km))} ${roundSvg(baselineY)} L ${roundSvg(xScale(points[0].km))} ${roundSvg(baselineY)} Z`;
+  const labelledPoints = points.filter((point) => point.showLabel);
+  const campPoints = points.filter((point) => point.kind.includes("camp"));
+
+  const shell = document.createElement("div");
+  shell.className = "trek-profile-shell";
+
+  const svg = createSvgElement("svg", {
+    "aria-label": profile.getAttribute("aria-label") || "Trek elevation profile",
+    class: "trek-profile-svg",
+    role: "img",
+    viewBox: `0 0 ${width} ${height}`
+  });
+
+  svg.append(
+    createSvgElement("title", {}, profile.getAttribute("aria-label") || "Trek elevation profile"),
+    createSvgElement("desc", {}, "Elevation profile with cumulative itinerary distance on the horizontal axis and altitude on the vertical axis.")
+  );
+
+  const defs = createSvgElement("defs");
+  const areaGradient = createSvgElement("linearGradient", {
+    id: "trek-profile-fill",
+    x1: "0",
+    x2: "0",
+    y1: "0",
+    y2: "1"
+  });
+  areaGradient.append(
+    createSvgElement("stop", { offset: "0%", "stop-color": "#8fc8da", "stop-opacity": "0.55" }),
+    createSvgElement("stop", { offset: "55%", "stop-color": "#6fb18b", "stop-opacity": "0.22" }),
+    createSvgElement("stop", { offset: "100%", "stop-color": "#6fb18b", "stop-opacity": "0.04" })
+  );
+  defs.append(areaGradient);
+  svg.append(defs);
+
+  tickValues.forEach((tick) => {
+    const y = yScale(tick);
+    svg.append(
+      createSvgElement("line", {
+        class: "trek-profile-gridline",
+        x1: margin.left,
+        x2: width - margin.right,
+        y1: roundSvg(y),
+        y2: roundSvg(y)
+      }),
+      createSvgElement("text", {
+        class: "trek-profile-axis-label",
+        x: margin.left - 14,
+        y: roundSvg(y + 4),
+        "text-anchor": "end"
+      }, `${formatNumber.format(tick)} ${selectedUnit}`)
+    );
+  });
+
+  distanceTicks.forEach((tick) => {
+    const x = xScale(tick);
+    svg.append(
+      createSvgElement("line", {
+        class: "trek-profile-distance-line",
+        x1: roundSvg(x),
+        x2: roundSvg(x),
+        y1: margin.top,
+        y2: baselineY
+      }),
+      createSvgElement("text", {
+        class: "trek-profile-axis-label",
+        x: roundSvg(x),
+        y: height - 36,
+        "text-anchor": "middle"
+      }, `${formatNumber.format(tick)} km`)
+    );
+  });
+
+  let previousCampLabelX = -Infinity;
+  let campLabelRow = 0;
+
+  campPoints.forEach((point) => {
+    const x = xScale(point.km);
+    if (x - previousCampLabelX < 88) {
+      campLabelRow = campLabelRow === 0 ? 1 : 0;
+    } else {
+      campLabelRow = 0;
+    }
+    previousCampLabelX = x;
+
+    svg.append(
+      createSvgElement("line", {
+        class: "trek-profile-camp-line",
+        x1: roundSvg(x),
+        x2: roundSvg(x),
+        y1: margin.top,
+        y2: baselineY
+      }),
+      createSvgElement("text", {
+        class: "trek-profile-camp-label",
+        x: roundSvg(x),
+        y: height - 58 - campLabelRow * 18,
+        "text-anchor": "middle"
+      }, point.day || point.label)
+    );
+  });
+
+  svg.append(
+    createSvgElement("path", { class: "trek-profile-area", d: areaPath }),
+    createSvgElement("path", { class: "trek-profile-line", d: linePath }),
+    createSvgElement("line", {
+      class: "trek-profile-axis",
+      x1: margin.left,
+      x2: width - margin.right,
+      y1: baselineY,
+      y2: baselineY
+    })
+  );
+
+  points.forEach((point) => {
+    const x = xScale(point.km);
+    const y = yScale(point[altitudeKey]);
+    const group = createSvgElement("g", {
+      class: `trek-profile-marker ${point.kind.includes("camp") ? "is-camp" : ""}`,
+      tabindex: "0"
+    });
+    const title = `${point.day ? `${point.day}: ` : ""}${point.label}, ${formatDistance(point.km)}, ${formatAltitude(point[altitudeKey], selectedUnit)}${point.note ? `. ${point.note}` : ""}`;
+
+    group.append(
+      createSvgElement("title", {}, title),
+      createSvgElement("circle", {
+        cx: roundSvg(x),
+        cy: roundSvg(y),
+        r: point.kind.includes("camp") ? 6 : 4
+      })
+    );
+    svg.append(group);
+  });
+
+  labelledPoints.forEach((point, labelIndex) => {
+    const x = xScale(point.km);
+    const y = yScale(point[altitudeKey]);
+    const direction = point.labelPosition === "below" || (point.labelPosition === "auto" && labelIndex % 2 === 1) ? 1 : -1;
+    const labelY = y + direction * 25;
+    const anchor = x < margin.left + 70 ? "start" : x > width - margin.right - 70 ? "end" : "middle";
+    const text = createSvgElement("text", {
+      class: "trek-profile-point-label",
+      x: roundSvg(x),
+      y: roundSvg(labelY),
+      "text-anchor": anchor
+    });
+
+    text.append(
+      createSvgElement("tspan", { x: roundSvg(x), dy: 0 }, point.label),
+      createSvgElement("tspan", {
+        class: "trek-profile-point-altitude",
+        x: roundSvg(x),
+        dy: 15
+      }, formatAltitude(point[altitudeKey], selectedUnit))
+    );
+    svg.append(text);
+  });
+
+  const axisTitle = createSvgElement("text", {
+    class: "trek-profile-axis-title",
+    x: width / 2,
+    y: height - 8,
+    "text-anchor": "middle"
+  }, "Approximate cumulative itinerary distance, including Trekking Mama side trips");
+  svg.append(axisTitle);
+
+  const legend = document.createElement("ol");
+  legend.className = "trek-profile-list";
+
+  labelledPoints.forEach((point) => {
+    const item = document.createElement("li");
+    const name = document.createElement("strong");
+    const meta = document.createElement("span");
+    const note = document.createElement("span");
+
+    name.textContent = point.day ? `${point.day}: ${point.label}` : point.label;
+    meta.textContent = `${formatDistance(point.km)} | ${formatAltitude(point[altitudeKey], selectedUnit)}`;
+    note.textContent = point.note;
+    item.append(name, meta);
+    if (point.note) item.append(note);
+    legend.appendChild(item);
+  });
+
+  shell.append(svg, legend);
+  profile.replaceChildren(shell);
+}
+
+function createDistanceTicks(minKm, maxKm) {
+  const span = maxKm - minKm;
+  const step = span > 130 ? 25 : 20;
+  const ticks = [];
+
+  for (let tick = Math.ceil(minKm / step) * step; tick < maxKm; tick += step) {
+    ticks.push(tick);
+  }
+
+  if (!ticks.includes(minKm)) ticks.unshift(minKm);
+  if (!ticks.includes(maxKm)) ticks.push(maxKm);
+  return ticks;
+}
+
+function createSvgElement(tagName, attributes = {}, textContent = "") {
+  const element = document.createElementNS(SVG_NS, tagName);
+
+  Object.entries(attributes).forEach(([key, value]) => {
+    element.setAttribute(key, String(value));
+  });
+
+  if (textContent) {
+    element.textContent = textContent;
+  }
+
+  return element;
+}
+
+function roundSvg(value) {
+  return Math.round(value * 10) / 10;
+}
+
+function formatDistance(km) {
+  const value = Number(km);
+  if (!Number.isFinite(value)) return `${km} km`;
+
+  return `${new Intl.NumberFormat("en-US", { maximumFractionDigits: value >= 10 ? 0 : 1 }).format(value)} km`;
+}
+
 function enhanceAltitudeToggle(root) {
   const values = [...root.querySelectorAll(".altitude-value[data-m][data-ft]")];
   if (values.length === 0 || root.querySelector(".unit-toggle")) return;
@@ -348,6 +674,8 @@ function setAltitudeUnit(root, unit) {
     button.classList.toggle("is-selected", isSelected);
     button.setAttribute("aria-pressed", String(isSelected));
   });
+
+  renderTrekProfiles(root, selectedUnit);
 
   try {
     window.localStorage?.setItem(ALTITUDE_UNIT_STORAGE_KEY, selectedUnit);

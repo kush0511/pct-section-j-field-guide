@@ -7,32 +7,57 @@ theme: alpine
   <div>
     <p class="hero-kicker">Stevens Pass to Snoqualmie Pass | 6-12 September 2026</p>
     <h1>PCT Section J Field Guide</h1>
-    <p class="hero-deck">A seven-day southbound plan for walking through the Alpine Lakes Wilderness with enough judgment, systems, and margin to enjoy the lakes and ridges instead of merely surviving them.</p>
+    <p class="hero-deck">An adversarial, decision-ready plan for a remote Cascade traverse: what can go wrong, how to prevent it, and when the correct choice is not to start.</p>
     <div class="hero-facts">
       <span><strong>Route</strong>Stevens Pass to Snoqualmie Pass</span>
       <span><strong>Dates</strong>Sunday 6 Sep to Saturday 12 Sep 2026</span>
-      <span><strong>Distance</strong>About 120 PCT km, up to 145 km with side trips</span>
-      <span><strong>Mindset</strong>Stove, bear storage, offline maps, dry sleep layer</span>
+      <span><strong>Core distance</strong>About 120 km / 75 mi pass to pass</span>
+      <span><strong>Current status</strong>Provisional no-go: Waptus bridge out</span>
     </div>
   </div>
 </section>
 
 ## Read This First
 
-You are not going for a casual lake walk. You are going for a week on the Cascade crest, moving through remote country where the trail is usually obvious until weather, smoke, fatigue, injury, or a missed junction makes it less obvious. The trick is not to become fearless. The trick is to build small habits that make fear unnecessary most of the time.
+**Section J is not beginner backpacking.** Washington Trails Association describes it as unsuitable for beginning backpackers: roughly 75 roadless miles, about 16,000 ft of gain, no resupply, and limited practical exits. A strong day hiker can still be an inexperienced backpacker. A loaded pack, repeated days, camp chores, cold rain, smoke, injury, off-trail travel, and a late decision all change the problem.
 
-The linked Trekking Mama itinerary is the right inspiration: start at Stevens Pass, walk south, sleep at beautiful lakes and high benches, and finish at Snoqualmie Pass. But there is a difference between an inspiring trip report and a field plan. A trip report tells you what worked once. A field plan tells you what to do when the ridge is socked in, one person is limping, the lake is too cold to swim, and the side trip no longer fits the day.
+The linked Trekking Mama itinerary remains the story's inspiration: start at Stevens Pass, move south through lake country, and finish at Snoqualmie Pass. It is not a safety certificate. Its author describes herself as an above-average hiker, the side-trip version reaches roughly 90 miles, and she recommends 8-10 days if you want multiple detours, swims, and recovery time. Circle Lake in particular is not a signed PCT side trail; reaching it involves off-trail route-finding on steep, loose terrain. A trip report tells you what worked once. This guide must also tell you what to do when it does not work.
 
-> [!DECISION]
-> The safer working version is a **seven-day southbound Section J hike from Sunday 6 September to Saturday 12 September 2026**, using the Trekking Mama camps as the scenic baseline, but treating Thunder Mountain Lakes, Peggy's Pond, Circle Lake, Spade, Venus, and even Spectacle time as conditional rewards. The PCT itself is the mission. Side trips are earned by weather, pace, feet, and daylight.
+> [!EMERGENCY]
+> **Status on 29 July 2026: this exact itinerary is a provisional no-go.** PCTA reports the Waptus River bridge at PCT mile 2430.5 out as of 8 June, with the remaining ford described as difficult and the hazard rated **Extreme**. PCTA also reports a large rockfall just south of Lake Susan Jane. A trail-condition report is not the same as a legal closure, but an unrepaired bridge and difficult ford are incompatible with this first-timer plan. Do not start unless a current land-manager/PCTA update or recent reliable field evidence confirms a safe, legal passage that does not require an improvised ford.
 
 <div class="quick-grid">
-  <div><strong>Primary rule</strong>If the group is behind schedule, cold, injured, or smoke-limited, cut side trips before cutting sleep, water, calories, or safety checks.</div>
-  <div><strong>Fire rule</strong>Plan for **zero campfires**. Cook on a canister stove. A single possible legal window at lower Waptus is not enough to build a trip plan around.</div>
-  <div><strong>Emergency rule</strong>Carry a satellite messenger or PLB, leave a written trip plan, and define the exact time your emergency contact should call for help.</div>
+  <div><strong>Route rule</strong>The PCT-only traverse is the baseline. Every lake detour is a separate risk decision, not part of the mileage you are entitled to complete.</div>
+  <div><strong>Fire rule</strong>Current 2026 orders prohibit campfires across both forests during the trip dates. Use only a legal shutoff stove on a cleared 3 ft site.</div>
+  <div><strong>Food rule</strong>A current hard-sided IGBC-certified canister is the simplest default. A bear hang is a skilled fallback only where both the order and the tree geometry allow it.</div>
+  <div><strong>Emergency rule</strong>Carry two independent ways to navigate and a satellite/PLB system, leave a written trip plan, and define an exact overdue-response clock.</div>
 </div>
 
-This guide is current as of **2 June 2026**. Recheck closures, fire restrictions, food-storage rules, water comments, smoke, product specs, and the National Weather Service forecast during **30 August to 5 September 2026**, then again before stepping onto the trail.
+This guide is audited through **29 July 2026** for a trip planned **6-12 September 2026**. It cannot predict September. Recheck bridge/rockfall status, closures, fire orders, food-storage orders, smoke, water, snow, trail damage, and the National Weather Service forecast in the final week, the final 24 hours, and again at the trailhead.
+
+### Evidence Has A Shelf Life
+
+The guide labels three different kinds of information:
+
+| Type | Meaning | How to use it |
+| --- | --- | --- |
+| **Durable rule** | A skill or safety principle that changes slowly | Practice it before the trip and carry it in the field. |
+| **Dated condition** | A closure, damaged bridge, fire order, smoke event, snow report, or water report | Record the source and check time. Re-verify before acting. |
+| **Planning estimate** | Distance, pace, temperature range, fuel, battery, or water-carry assumption | Stress-test it; do not mistake it for a forecast or guarantee. |
+
+### Dated Conditions Snapshot: 29 July 2026
+
+| Issue | Current evidence | Planning consequence |
+| --- | --- | --- |
+| Waptus River bridge | [PCTA reports the bridge out](https://www.pcta.org/discover-the-trail/trail-condition/waptus-river-bridge-is-out/) at mile 2430.5; difficult ford; Extreme hazard; report dated 8 June | **Provisional no-go** until safe passage is confirmed. A ford is not the novice workaround. |
+| Lake Susan Jane rockfall | [PCTA reports 20+ m of rockfall](https://www.pcta.org/discover-the-trail/trail-condition/rockfall-near-lake-susan-jane/) roughly ten minutes south of the lake; report dated 18 June | Obtain a fresh passability report; do not assume normal tread under loose rock. |
+| Three Queens/Mineral Creek alert | The [live PCTA closure page](https://closures.pcta.org/closure/oHAAQNBkfvMebLBAJaiP) currently narrows the closure to Mineral Creek Trail #1331 and says no other PCT/access-trail closure is in place in that area | Earlier cached guidance was broader. Recheck the live page; do not repeat a stale Spectacle/PCT avoidance statement as current. |
+| Fire restrictions | Both forests have 2026 seasonal orders running across the planned dates unless rescinded | Zero campfires; only the exact currently allowed shutoff stove on a cleared site. |
+| Food-storage orders | MBS Order 06-05-25-01 runs to 15 April 2027; Okanogan-Wenatchee Order 06-17-00-24-01 runs to 30 June 2029, unless rescinded | Recheck both and confirm the exact container; use a current hard-sided IGBC canister as the conservative default. |
+| Labor Day logistics | Trip starts Sunday of Labor Day weekend; Monday 7 September is the holiday | Expect US 2/I-90 and trailhead pressure; lock transport and parking contingencies before arrival. |
+
+> [!DECISION]
+> The safe objective is **a PCT-corridor traverse with optional scenery**, not a seven-day collection of named lakes. For a genuinely first-time group, the recommended default is PCT-only, or PCT plus at most one maintained-trail side trip after the team has demonstrated margin. The full Thunder-Peggy's-Circle-Spade-Venus-Spectacle story belongs in an 8-10 day plan led by people with multi-night and off-trail experience.
 
 ## How To Use This Guide
 
@@ -51,6 +76,8 @@ Think in four layers:
 
 > [!FIELD]
 > A good backpacker is not someone who suffers quietly. A good backpacker notices small problems early, fixes them while they are cheap, and keeps the group out of situations where courage becomes the main tool.
+
+Before departure, turn the final verification card into a screenshot or printed page. Write the date and time beside every status check. “I looked last month” is not a trail condition.
 
 ## Group Operating Rules
 
@@ -99,58 +126,80 @@ Fourth, you exit through Spectacle, the Chickamin and Four Brothers high travers
 </div>
 
 ```mermaid
-flowchart LR
-  A[Stevens Pass] --> B[Thunder Mountain Lakes]
-  B --> C[Cathedral Pass]
-  C --> D[Waptus Lake]
-  D --> E[Spade / Venus decision]
-  E --> F[Escondido Ridge]
-  F --> G[Spectacle Lake]
-  G --> H[Kendall Katwalk]
-  H --> I[Snoqualmie Pass]
+flowchart TD
+  A[Stevens Pass] --> B[PCT northern lake country]
+  B --> C[Cathedral and Waptus corridor]
+  C --> D{"Waptus bridge gate cleared?"}
+  D -->|No| X["Do not start: use alternate trip"]
+  D -->|Yes| E[PCT Escondido and Spectacle corridor]
+  E --> F[Kendall high traverse]
+  F --> G[Snoqualmie Pass]
+  B -. trained optional .-> H[Thunder detour]
+  C -. off-trail excluded for novice plan .-> I[Circle]
+  D -. advanced optional only with margin .-> J[Spade and Venus]
 ```
 
-## The Seven-Day Itinerary
+## The Seven-Day Ambition Itinerary
 
-This is the exact working plan for **6-12 September 2026**, adapted from the Trekking Mama southbound itinerary. The side trips make it a full itinerary, not a soft one. Start early. Keep breaks efficient. Stop before decision quality collapses.
+This is the original **6-12 September 2026** story, preserved so the tradeoffs remain visible. It is now an **ambition layer**, not the recommended first-timer baseline. Distances and elevation are planning estimates derived from the trip report and mapping sources; verify them against one final offline route.
 
-| Date | Route and camp | Distance and elevation | Instructor's notes |
+| Date | Original route and camp | Planning estimate | Adversarial verdict |
 | --- | --- | --- | --- |
-| Sun 6 Sep | Stevens Pass to Thunder Mountain Lakes | About 19 km, +<span class="altitude-value" data-m="760" data-ft="2500">760 m</span> / -<span class="altitude-value" data-m="460" data-ft="1500">460 m</span> | First test of pack fit and pace. If weather is poor or arrival is late, shorten the day and do not force Thunder. |
-| Mon 7 Sep | Thunder Mountain Lakes to Cathedral Pass meadow | About 28 km, +<span class="altitude-value" data-m="850" data-ft="2800">850 m</span> / -<span class="altitude-value" data-m="670" data-ft="2200">670 m</span> | Big day through Glacier, Deception, and Cathedral terrain. Camp is exposed; arrive with dry layers protected. |
-| Tue 8 Sep | Cathedral Pass to Peggy's Pond / Circle Lake to Waptus Lake | About 26.5-27.5 km, +<span class="altitude-value" data-m="305" data-ft="1000">305 m</span> / -<span class="altitude-value" data-m="915" data-ft="3000">915 m</span> | Side trips are steep and rocky. If knees are sore, skip Circle. The long descent to Waptus is not a rest day. |
-| Wed 9 Sep | Waptus Lake to Spade Lake | About 5-6 km, +<span class="altitude-value" data-m="610" data-ft="2000">610 m</span> | Short on paper, hard in reality. This is a deliberate recovery and swim/read afternoon only if weather is stable. |
-| Thu 10 Sep | Spade to Venus to Waptus to Escondido Ridge | About 21-22.5 km, +<span class="altitude-value" data-m="1220" data-ft="4000">1,220 m</span> / -<span class="altitude-value" data-m="1065" data-ft="3500">1,065 m</span> | Hardest decision day. Venus is optional. Escondido is exposed; do not camp high into a deteriorating forecast. |
-| Fri 11 Sep | Escondido Ridge to Spectacle Lake | About 11-13 km, +<span class="altitude-value" data-m="305" data-ft="1000">305 m</span> / -<span class="altitude-value" data-m="460" data-ft="1500">460 m</span> | Shorter day by design. Dry gear, eat well, check the exit forecast, and prepare for a long final push. |
-| Sat 12 Sep | Spectacle Lake to Snoqualmie Pass | About 27-29 km, mostly descent | Long, rocky, exposed exit. Cross high country early, move carefully near Kendall Katwalk, and keep food/water available. |
+| Sun 6 Sep | Stevens Pass to Thunder Mountain Lakes | About 19 km, +<span class="altitude-value" data-m="760" data-ft="2500">760 m</span> / -<span class="altitude-value" data-m="460" data-ft="1500">460 m</span> | Optional detour on the heaviest-pack day. Labor Day weekend adds parking and trailhead pressure. Use a verified PCT camp if pace, weather, or navigation is not easy. |
+| Mon 7 Sep | Thunder Mountain Lakes to Cathedral Pass area | About 28 km, +<span class="altitude-value" data-m="850" data-ft="2800">850 m</span> / -<span class="altitude-value" data-m="670" data-ft="2200">670 m</span> | Long day after an ambitious start. Do not target an exposed meadow as an entitlement; choose a durable legal site with wind protection. |
+| Tue 8 Sep | Cathedral to Peggy's Pond / Circle Lake to Waptus Lake | About 26.5-27.5 km, +<span class="altitude-value" data-m="305" data-ft="1000">305 m</span> / -<span class="altitude-value" data-m="915" data-ft="3000">915 m</span> | **Circle is off-trail and unmarked**, with loose, steep route-finding reported. It is excluded from the novice baseline, not merely skipped for sore knees. |
+| Wed 9 Sep | Waptus Lake to Spade Lake | About 5-6 km, +<span class="altitude-value" data-m="610" data-ft="2000">610 m</span> | Steep side trip, not a recovery stroll. It consumes the margin needed for the route-critical Waptus River problem. |
+| Thu 10 Sep | Spade to Venus to Waptus to a legal PCT camp near the Escondido area | About 21-22.5 km, +<span class="altitude-value" data-m="1220" data-ft="4000">1,220 m</span> / -<span class="altitude-value" data-m="1065" data-ft="3500">1,065 m</span> | **Currently blocked by the bridge/ford gate.** Venus adds route-finding and fatigue. Camping is prohibited within 200 horizontal ft of Escondido Tarns; “Escondido Ridge camp” is not a permission. |
+| Fri 11 Sep | Escondido area to Spectacle Lake | About 11-13 km, +<span class="altitude-value" data-m="305" data-ft="1000">305 m</span> / -<span class="altitude-value" data-m="460" data-ft="1500">460 m</span> | A short planned day cannot repay unsafe decisions made earlier. Use only established durable camps and restoration-compliant access. |
+| Sat 12 Sep | Spectacle Lake to Snoqualmie Pass | About 27-29 km | Long, rocky exit across exposed high terrain. Bad weather means hold, reroute, or use a safe forecast window—not automatically walking it before dawn. |
 
-> [!CHECK]
-> The itinerary has one hidden trap: **Wednesday looks easy and Thursday looks heroic**. Do not let the short Waptus-to-Spade day convince you the route has become gentle. The energy saved on Wednesday is meant to protect Thursday and Saturday.
+The PCT-only distance, the USFS mileage inside the wilderness, and the trip-report mileage are not contradictions: they measure different scopes. Use approximately **120 km / 75 mi pass to pass** for the core traverse, approximately **67 mi inside the wilderness boundary**, and approximately **145 km / 90 mi** only for the heavily detoured story.
+
+### Baseline Versus Ambition
+
+| Route element | Baseline status | Why |
+| --- | --- | --- |
+| PCT Stevens to Snoqualmie | Core objective, subject to bridge/closure gates | Maintained corridor, but still remote and officially rated hard. |
+| Thunder Mountain Lakes | Optional maintained/defined detour only after route verification | Adds distance and navigation on the heaviest-pack day. |
+| Peggy's Pond | Optional only with time, clear weather, and a verified trail | Do not bundle it automatically with Circle. |
+| Circle Lake | **Off-trail skill trip; excluded for novice group** | Unmarked, steep, loose route-finding with consequential terrain reported. |
+| Spade Lake | Optional steep side trip | A short map distance hides major climbing and descent cost. |
+| Venus Lake | **Advanced ambition layer** | Adds route-finding and compounds the hardest day. |
+| Escondido area | Camp only at a legal durable site | Camping is prohibited within 200 horizontal ft of Escondido Tarns. |
+| Spectacle Lake | Optional destination, not a finish-line promise | Popular, fragile basin before a long high-country exit. |
+
+> [!DECISION]
+> Do not book the full ambition layer into seven days for first-time backpackers. Either add enough days and an experienced leader, or simplify to the PCT corridor. If the bridge remains out, change the trip—not the risk tolerance.
 
 ### First-Timer Reality Gate
 
-This itinerary is beautiful, but it is not automatically reasonable just because it fits on seven calendar days. With a 14.5-20.5 kg starting pack, first-time long-distance trekkers should earn the side trips before committing to them.
+Passing this gate does not make Section J “beginner-safe.” It is the minimum evidence needed before considering the PCT-only traverse. Off-trail side trips require separate navigation and movement competence.
 
 Before the trip, each hiker should be able to pass this gate:
 
 | Gate | Pass standard | If you miss it |
 | --- | --- | --- |
-| Loaded distance | Two back-to-back hikes of 18-22 km with the actual shoes and at least 12-15 kg pack weight | Cut side trips first; do not pretend trail adrenaline fixes conditioning. |
+| Loaded distance | At least one multi-night shakedown plus two back-to-back hikes of 18-22 km with the actual shoes and 12-15 kg pack weight | Choose an easier route or add days; trail adrenaline is not conditioning. |
 | Climbing | One loaded hike with 700-1,000 m of gain or equivalent stair/hill work | Keep the PCT corridor as the mission and treat Spade/Venus as optional. |
 | Feet | No worsening blisters, toenail pain, or hot spots after the second day | Change shoe/sock/lacing system before departure. |
 | Camp speed | Shelter, water, dinner, food storage, and dry sleep setup completed calmly in 60 minutes | Practice until camp does not consume the whole evening. |
 | Morning speed | Packed and walking within 90 minutes of waking | Start earlier, simplify breakfast, or reduce camp complexity. |
 | Recovery | You wake up able to walk again without limping | Redesign the route or shorten high-output days. |
+| Navigation | Every hiker can locate the group on paper and offline maps; two people can lead a backtrack | Stay on maintained trail; Circle and Venus are out. |
+| Cold/wet systems | Group has pitched in wind/rain and kept sleep insulation dry on a real overnight | Do not use Section J as the first systems test. |
+| River judgment | Group can identify downstream hazards, scout alternatives, and say “turn around” | Never improvise the Waptus ford. Wait for a safe route. |
 
-If the gate fails, the answer is not shame. The answer is a better plan: skip Peggy's/Circle, skip Venus, skip Spade if needed, camp lower, or turn Section J into a PCT-focused traverse rather than a lake-collecting mission.
+If any gate fails, the answer is a better plan: use an easier multi-night route, add days, skip all off-trail travel, or bring an experienced leader. Cutting Circle at the junction does not repair an inadequate sleep, rain, navigation, or emergency system.
 
 ### Daily Field Notes
 
 #### Day 1: Sunday 6 September - Stevens Pass To Thunder Mountain Lakes
 
-The first day is when you learn whether your plan exists outside a spreadsheet. The pack is heaviest, your shoulders are still adapting, and the trail immediately asks for climbing. Start early enough that you are not racing evening light into camp. Stop within the first hour to adjust hip belt, shoulder straps, shoe lacing, and trekking pole length. Small discomforts on day one become injuries by day three if you pretend they are normal.
+The first day is when you learn whether your plan exists outside a spreadsheet. The pack is heaviest, your shoulders are still adapting, and the trail immediately asks for climbing. It is also the Sunday of Labor Day weekend; Monday 7 September is the federal holiday, and both US 2 and I-90 are historically busy holiday corridors. Pre-arrange drop-off and pickup, arrive early, verify parking/pass rules, and do not assume a walk-up space, cell service, or rideshare.
 
-Your instructor mindset for day one is simple: **move smoothly, not heroically**. Eat before hunger. Drink before thirst. Fix hot spots immediately. If weather is worse than expected, if someone is slower than expected, or if you arrive at a decision point late, shorten the plan. The first night should prove that your shelter, dry sleep clothes, food storage, and stove workflow all work.
+Start early enough that you are not racing evening light into camp. Stop within the first hour to adjust hip belt, shoulder straps, shoe lacing, and trekking pole length. Small discomforts on day one become injuries by day three if you pretend they are normal.
+
+Your instructor mindset for day one is simple: **move smoothly, not heroically**. Eat before hunger becomes a deficit. Drink to thirst and current conditions rather than forcing a rigid volume. Fix hot spots immediately. If weather is worse than expected, if someone is slower than expected, or if you arrive at a decision point late, shorten the plan. The first night should prove that your shelter, dry sleep clothes, food storage, and stove workflow all work.
 
 Day-one camp priorities:
 
@@ -175,24 +224,29 @@ Day-two instructor cues:
 
 #### Day 3: Tuesday 8 September - Cathedral To Waptus, With Peggy's Pond And Circle Only If Earned
 
-This day looks like a descent into relief, but the side trips can turn it into a trap. Peggy's Pond and Circle Lake are rewards, not obligations. The long descent to Waptus asks for controlled knees, active poles, and patience. Long downhill kilometres with a loaded pack are where blisters, toenail pain, and ankle slips show up.
+This day looks like a descent into relief, but the side trips can turn it into a trap. Peggy's Pond and Circle are not one simple signed excursion. Circle requires off-trail route-finding on steep, loose terrain where trip reports describe an unmarked route and scrambling/route-finding experience. For this first-timer plan, **Circle is out**. It becomes eligible only in a redesigned trip with an experienced off-trail leader, a vetted GPX/line on both devices, clear/dry visibility, and surplus daylight.
+
+The long descent to Waptus asks for controlled knees, active poles, and patience. Long downhill kilometres with a loaded pack are where blisters, toenail pain, and ankle slips show up.
 
 The Waptus basin is lower and friendlier, but do not let that reset your discipline. Treat water, store food, keep camp clean, and protect your dry sleep layer. If you arrive with daylight and energy, use the evening to repair gear, air feet, organize food, and study the Spade decision. Do not use Waptus as an excuse to stay up late.
 
 #### Day 4: Wednesday 9 September - Waptus To Spade Lake
 
-This is the shortest-distance day and one of the most important days of the trip. The climb to Spade is steep enough to turn a "rest day" into a sweaty, exposed effort. The correct use of this day is recovery: get to camp with margin, dry gear, eat a real meal, inspect feet, and decide honestly whether Venus and Escondido still make sense tomorrow.
+This is the shortest-distance day and one of the most important days of the trip. The climb to Spade is steep enough to turn a "rest day" into a sweaty, exposed effort. Do not enter this side trip while the next day's Waptus crossing is unresolved. The correct use of this day is recovery only after the entire onward route is known viable: get to camp with margin, dry gear, eat a real meal, inspect feet, and decide honestly whether returning to the PCT is still within the group's capacity.
 
 If you swim, do it like a cold-water drill, not like a beach day. Enter slowly. Stay close to shore. Have dry clothes staged. No distance swimming. No jumping from logs or rocks. Get warm before the shivering becomes a problem.
 
-#### Day 5: Thursday 10 September - Spade, Venus, Waptus, Escondido Ridge
+#### Day 5: Thursday 10 September - Spade, Venus, Waptus, Escondido Area
 
-This is the queen stage. It asks for climbing legs, descent control, route discipline, and weather judgment. Venus is optional. Escondido Ridge is optional if conditions are deteriorating. The PCT corridor and a lower camp are legitimate success, not failure.
+This is the queen stage in the original story and the route-critical failure point in the current plan. PCTA reports the Waptus River bridge out at mile 2430.5 and the ford difficult. **Do not arrive expecting to improvise.** Unless the bridge is repaired or current authoritative/reliable evidence verifies a safe, legal alternative suitable for this exact group, the trip does not start.
+
+If the bridge gate is cleared, the day still asks for climbing legs, descent control, route discipline, and weather judgment. Venus is an advanced optional route, not a normal waypoint. “Escondido Ridge” means a verified legal durable camp in the area; it never means camping within 200 horizontal ft of Escondido Tarns.
 
 The decision point is not "Can we physically do it?" Many groups can physically keep moving long after they have stopped making good decisions. The question is: **Can we do it and still arrive with warm layers dry, dinner cooked, food stored, and tomorrow protected?**
 
 Before committing high, check:
 
+- Written bridge/crossing verification made before the trip.
 - Time remaining before dark.
 - Cloud base and wind trend.
 - Everyone's feet and knees.
@@ -200,7 +254,7 @@ Before committing high, check:
 - Water available for camp and morning.
 - Whether a lower campsite gives you a safer night.
 
-#### Day 6: Friday 11 September - Escondido Ridge To Spectacle Lake
+#### Day 6: Friday 11 September - Escondido Area To Spectacle Lake
 
 This is designed as a shorter day because the final day is long. Do not burn the spare time on carelessness. Use Spectacle as a full reset: wash feet away from the lake, dry socks, inventory food, pack the final-day snack system, check weather if any service exists, and set a real departure time.
 
@@ -208,7 +262,9 @@ Spectacle can feel celebratory, but it is not the finish. The most common last-n
 
 #### Day 7: Saturday 12 September - Spectacle Lake To Snoqualmie Pass
 
-Start earlier than you think you need to. The exit is long, and the terrain can be slow when wet or when legs are tired. Keep the group together through exposed or confusing sections, especially in poor visibility. Do not pack snacks so deeply that you stop eating. Do not bury rain gear because "we are almost out." Almost out is still out.
+Use a forecast-supported departure time that keeps the exposed high section in usable light. In stable weather, that may be an early headlamp start on familiar trail. In ugly weather, “start before dawn” can put novices on exposed terrain in darkness; instead hold at a safe camp, move only in a safer forecast window, or activate the preplanned contingency. The exit is long, and the terrain can be slow when wet or when legs are tired.
+
+Keep the group together through exposed or confusing sections, especially in poor visibility. Do not pack snacks so deeply that you stop eating. Do not bury rain gear because "we are almost out." Almost out is still out.
 
 The final day standard: every person reaches Snoqualmie with enough awareness to cross trailheads, roads, parking lots, and pickup logistics safely. Many accidents happen after people mentally finish.
 
@@ -218,27 +274,32 @@ Use these gates without debate. They keep the group from negotiating with fatigu
 
 | Gate | If this is true | Decision |
 | --- | --- | --- |
+| 72 hours before start | Waptus bridge still out, crossing evidence is absent/ambiguous, or a difficult ford remains | **Do not start Section J.** Choose the alternate trip. |
+| Trailhead | Any closure, evacuation notice, illegal stove/storage setup, missing permit, failed satellite device, or unaccounted transport | Resolve it before walking or cancel. |
 | Start of Day 2 | Feet are blistered, pack pain is sharp, or weather is worsening | Keep to the PCT and skip extra lake wandering. |
-| Peggy's Pond junction | You are behind schedule, knees are sore, or clouds are dropping | Skip Peggy's and Circle. Descend to Waptus with daylight. |
-| Waptus morning | Forecast calls for sustained rain, lightning, or strong wind | Skip Spade/Venus. Continue along the PCT corridor. |
+| Peggy's Pond junction | Group lacks off-trail leader/track, visibility is poor, rock is wet/snow-covered, anyone is tired, or daylight margin is thin | Circle is out. Take only the verified maintained route. |
+| Waptus morning | Bridge status differs from the documented pre-trip evidence, river passage is not obviously safe, or forecast calls for sustained rain/lightning/strong wind | Do not ford. Stop, backtrack/hold safely, and communicate. Skip Spade/Venus. |
 | Spade morning | Anyone slept badly, is chilled, or has foot trouble | Skip Venus. Descend carefully and protect the Escondido climb. |
-| Escondido camp | Ridge wind is building or visibility is poor | Camp lower if possible. Exposed beauty is not worth a bad night. |
-| Spectacle morning | Final-day weather is ugly | Start before dawn, eat early, keep layers accessible, and stay together through exposed sections. |
+| Escondido area | Tarns are within 200 horizontal ft, site is fragile/restoring, wind is building, or visibility is poor | Do not camp there. Use a verified legal durable site or continue/retreat while safe. |
+| Spectacle morning | Final-day weather makes the high traverse unsafe | Hold at a safe legal site, use a safe forecast window, or communicate the delay. Darkness is not a weather solution. |
 
 ### Bailout And Exit Playbook
 
-Bailouts are not magic doors. They are alternate hikes with their own distance, descent, road access, and transport problems. Mark these on paper and digital maps before departure, then verify current trail status in WTA/FarOut/PCTA comments.
+A bailout is not a line on a map. It is another backcountry route whose trail, bridge, snow, road gate, distance, pickup, and land manager must all be verified. Section J has no road crossing or resupply between US 2 and I-90. Interior exits can be long and may end at locked or rough roads with no service.
 
-| Situation | Likely exit concept | What it costs | Road/service reality | Emergency handoff |
-| --- | --- | --- | --- | --- |
-| Early injury before Cathedral/Waptus | Backtrack north toward Stevens Pass or use a mapped north-side trail exit if closer | Distance may still be long; do not assume downhill is easy | US 2 access is better than interior exits, but service is still patchy | Call 911/SOS; describe nearest trail, pass, creek, or lake. |
-| Trouble around Deception/Cathedral | Deception-area exits toward US 2 if clearly safer than continuing | Long descent and navigation attention; verify exact route before trip | Road pickup must be preplanned; do not count on rideshare | County may depend on exact drainage; give coordinates. |
-| Waptus basin injury or schedule failure | Exit east/southeast via Waptus/Cle Elum/Salmon La Sac approach | Long walk out, often 20+ km depending location | Road access is remote; arrange pickup/shuttle deliberately | Likely Kittitas County side if exiting toward Cle Elum. |
-| Spade/Venus plan is failing | Return to Waptus and stay on PCT corridor | Costs the side trip, saves the trip | Better camps and water than exposed high terrain | No rescue needed if group can walk and communicate. |
-| Escondido/Spectacle weather problem | Camp lower if possible or continue PCT only; do not force ridges in poor visibility | May mean a longer final day or changed camp | Service unreliable until nearer Snoqualmie | Use satellite messenger if safety margin is shrinking. |
-| Final-day injury near Snoqualmie side | Continue only if safe; otherwise stop, shelter, and communicate | Shorter distance does not mean low consequence | Snoqualmie/King County access improves near pass | King County/Snoqualmie-area responders likely if near I-90 side. |
+Before departure, build an offline **exit sheet** from the final map. For each segment, record:
 
-Write this into the emergency contact plan: "If we press SOS, our device coordinates are primary. If we are overdue without SOS, call 911 and ask for the sheriff/search-and-rescue jurisdiction covering our last known segment. We may be in King, Kittitas, Chelan, or Snohomish County depending location."
+| Required field | What must be written |
+| --- | --- |
+| Primary direction | Backtrack to Stevens, continue to Snoqualmie, or take a specifically named verified trail—not “head east.” |
+| Trigger | Exact injury, weather, fire, pace, bridge, or equipment condition that activates it. |
+| Route facts | Trail name/number, junction coordinates, distance/gain, known crossings, last verified report/date. |
+| Road handoff | Exact trailhead, road status/gate, vehicle access, and named pickup contact. |
+| Communication | Check-in text, SOS threshold, ranger district, and 911/SAR handoff wording. |
+
+Do not advertise an unverified interior exit as safer than the maintained PCT. If the person cannot walk safely, weather/fire threatens immediate life, the group is lost without a safe backtrack, or delay will make the condition critical, stop moving into more hazard, shelter, and use SOS/911. Rescue may take many hours or longer; the messenger is not a helicopter button.
+
+For non-emergency questions before the trip, confirm route-specific conditions with the managing ranger district: Skykomish Ranger District (north side), Snoqualmie Ranger District (southwest side), or Cle Elum Ranger District (east side). Recheck phone numbers on the official forest pages before putting them on the printed plan.
 
 ### Daylight Budget
 
@@ -248,11 +309,11 @@ Early September gives useful daylight, but long days still punish late starts. U
 | --- | --- | --- | --- |
 | Sun 6 Sep | 08:00 if logistics allow | First hour: pack/shoe adjustment and pace check | If weather or pace is poor by mid-afternoon, shorten before Thunder. |
 | Mon 7 Sep | 06:30-07:00 | Midday: confirm feet, food eaten, and Cathedral timing | If behind by 14:00, choose the simpler legal camp option. |
-| Tue 8 Sep | 06:30-07:00 | Peggy/Circle decision before committing off-corridor | If knees or time are bad, skip side trips and descend to Waptus. |
-| Wed 9 Sep | 08:00 is acceptable only if weather is stable | Top of climb: assess heat, water, and camp timing | If storms build, skip swim and secure camp. |
-| Thu 10 Sep | 06:00-06:30 | Waptus return timing and Escondido weather | If Venus costs too much, skip it. If ridge weather worsens, camp lower. |
+| Tue 8 Sep | 06:30-07:00 | Peggy decision before leaving the maintained route | Circle is excluded from the novice plan. Descend with daylight. |
+| Wed 9 Sep | 08:00 is acceptable only if weather and onward route are stable | Before leaving PCT: bridge evidence, legs, weather, return margin | If the onward route is unresolved, stay out of Spade/Venus. |
+| Thu 10 Sep | 06:00-06:30 | Confirm the already-cleared bridge gate and legal camp target | Never improvise the ford. If conditions changed, stop and communicate. |
 | Fri 11 Sep | 07:00 | Spectacle arrival with enough time for full reset | If delayed, protect food/water/sleep before photography. |
-| Sat 12 Sep | 05:30-06:30 | High traverse before weather/traffic fatigue builds | If moving slowly, eat early, group up, and use headlamps before dusk. |
+| Sat 12 Sep | Set from forecast and daylight, not habit | High traverse only in a safe light/weather window | Hold or delay if exposure is unsafe; send a schedule update early. |
 
 Headlamps are for contingencies, not permission to plan sloppy days. If the group is repeatedly walking into camp after dark, the itinerary is too ambitious.
 
@@ -273,12 +334,12 @@ The profile below is a **planning profile**, not a surveyed GPS track. It uses T
   <div class="trek-profile-point" data-km="40" data-m="1370" data-ft="4495" data-label="Deception Pass" data-kind="waypoint" data-note="Lower saddle before the Cathedral transition."></div>
   <div class="trek-profile-point" data-km="47.5" data-m="1676" data-ft="5500" data-label="Cathedral Pass meadow" data-day="Night 2" data-kind="camp high" data-show-label="true" data-label-position="below" data-note="Exposed-feeling camp zone; protect dry layers and tent pitch."></div>
   <div class="trek-profile-point" data-km="55.5" data-m="1703" data-ft="5587" data-label="Peggy's Pond" data-kind="side-trip high" data-note="Only earned if pace, knees, and weather are good."></div>
-  <div class="trek-profile-point" data-km="60.5" data-m="1834" data-ft="6017" data-label="Circle Lake" data-kind="side-trip high" data-show-label="true" data-note="Beautiful but optional; the extra altitude and rough travel cost real energy."></div>
+  <div class="trek-profile-point" data-km="60.5" data-m="1834" data-ft="6017" data-label="Circle Lake" data-kind="side-trip high" data-show-label="true" data-note="Off-trail, unmarked, steep and loose; excluded from the novice baseline."></div>
   <div class="trek-profile-point" data-km="74.8" data-m="904" data-ft="2967" data-label="Waptus Lake" data-day="Night 3" data-kind="camp low" data-show-label="true" data-label-position="below" data-note="Major low-basin reset before the Spade climb."></div>
   <div class="trek-profile-point" data-km="80.4" data-m="1646" data-ft="5400" data-label="Spade Lake" data-day="Night 4" data-kind="camp high" data-show-label="true" data-note="Short day on paper, steep side-trail reality on the ground."></div>
   <div class="trek-profile-point" data-km="84.2" data-m="1675" data-ft="5500" data-label="Venus Lake" data-kind="side-trip high" data-show-label="true" data-label-position="below" data-note="Optional reward; cut it first if the group is carrying fatigue."></div>
-  <div class="trek-profile-point" data-km="92" data-m="904" data-ft="2967" data-label="Waptus return" data-kind="waypoint low" data-note="The day gives the altitude back before climbing toward Escondido."></div>
-  <div class="trek-profile-point" data-km="102.9" data-m="1707" data-ft="5600" data-label="Escondido Ridge" data-day="Night 5" data-kind="camp high" data-show-label="true" data-note="Camp lower if wind, lightning, or visibility is deteriorating."></div>
+  <div class="trek-profile-point" data-km="92" data-m="904" data-ft="2967" data-label="Waptus return" data-kind="waypoint low" data-note="The route is not viable while the reported-out Waptus bridge still requires a difficult ford."></div>
+  <div class="trek-profile-point" data-km="102.9" data-m="1707" data-ft="5600" data-label="Escondido area" data-day="Night 5" data-kind="camp high" data-show-label="true" data-note="Use only a verified durable legal site; camping is prohibited within 200 horizontal ft of Escondido Tarns."></div>
   <div class="trek-profile-point" data-km="108" data-m="1430" data-ft="4690" data-label="Delate Creek meadows" data-kind="waypoint" data-note="Middle terrain before Spectacle."></div>
   <div class="trek-profile-point" data-km="115" data-m="1300" data-ft="4264" data-label="Spectacle Lake" data-day="Night 6" data-kind="camp" data-show-label="true" data-label-position="below" data-note="The visual reward, not the finish line."></div>
   <div class="trek-profile-point" data-km="120" data-m="1575" data-ft="5165" data-label="Above Spectacle" data-kind="high" data-note="Final-day legs start by climbing, not merely descending."></div>
@@ -331,19 +392,21 @@ flowchart TD
 
 Even with side trips, the high points are roughly <span class="altitude-value" data-m="1960" data-ft="6430">1,960 m</span>, so altitude illness is not the central problem for most people. Still, people arriving from sea level or from long travel days can feel unusually winded on climbs. Do not confuse that with weakness. Shorten your stride, breathe steadily, and keep eating. The bigger risk is pushing so hard on early climbs that you stop drinking, stop noticing feet, and arrive in camp too depleted to do camp tasks well.
 
-## Weather For 6-12 September
+## Weather Threat Model For 6-12 September
 
 You cannot know the 2026 forecast yet. You can know the pattern. Early September is one of the best windows for this part of the Cascades, but "best" still includes cold rain, smoke, fog, wind, and the possibility of early snow or graupel at high points.
 
 NOAA climate normals for Stevens Pass show September precipitation around **99 mm** for the month, with precipitation on roughly **8.4 days** of at least 0.25 mm. A higher/interior reference such as Olallie Meadows shows that nearby Cascade terrain can be wetter, around **139 mm** over roughly **9.6 wet days** in September normals. Snoqualmie Pass September averages from current climate summaries sit roughly around the mid-teens C by day and around 5 C by night at pass level. High camps and windy ridges can feel much colder.
 
-| Date | Camp zone | Planning temperature | Weather lesson |
+The table below contains **stress-test ranges, not a forecast**. It exists to size shelter, clothing, and judgment. Replace it with the NWS point forecasts in the final week; do not copy these numbers into a trip plan labelled “expected weather.”
+
+| Date | Camp zone | Stress-test range | Weather lesson |
 | --- | --- | --- | --- |
 | Sun 6 Sep | Thunder Mountain Lakes, high alpine basin | Fair: 7-18 C moving, 0-6 C night. Storm: 2-10 C and wet. | First night proves whether your sleep system and dry-bag discipline are real. |
 | Mon 7 Sep | Cathedral Pass meadow | Fair: 6-17 C moving, -2 to 4 C night. | Exposed camp. Wind can make a mild forecast feel sharp. |
 | Tue 8 Sep | Waptus Lake, lower basin | Fair: 10-21 C moving, 3-10 C night. | Lower and more protected, but condensation and damp gear still matter. |
 | Wed 9 Sep | Spade Lake | Fair: 7-18 C moving, -1 to 6 C night. | Cold swim plus wind can steal heat fast. Dry off and dress immediately. |
-| Thu 10 Sep | Escondido Ridge | Fair: 4-16 C moving, -2 to 4 C night. | This is the camp to abandon if wind, lightning, or dense cloud builds. |
+| Thu 10 Sep | Legal camp in Escondido area | Fair: 4-16 C moving, -2 to 4 C night. | Do not camp inside the tarn exclusion; abandon high exposure if wind, lightning, or dense cloud builds. |
 | Fri 11 Sep | Spectacle Lake | Fair: 7-18 C moving, 0-7 C night. | Beautiful basin, but it can become a cold, wet holding pen in a storm. |
 | Sat 12 Sep | Exit to Snoqualmie | Fair: 7-18 C moving. Storm: 2-10 C, rain, low visibility. | Final-day rain is plausible. Keep gloves, shell, snacks, and headlamp reachable. |
 
@@ -352,7 +415,7 @@ NOAA climate normals for Stevens Pass show September precipitation around **99 m
 
 ### The Weather Checks That Matter
 
-Check weather three ways before starting:
+Check weather through four independent lenses before starting:
 
 1. National Weather Service point forecasts for Stevens Pass, Snoqualmie Pass, and one or two high interior points near Spectacle, Chikamin, Cathedral, or Olallie-style interior terrain.
 2. Smoke forecast and air quality for Washington, plus visible fire activity on PCTA closures and InciWeb.
@@ -398,7 +461,35 @@ If thunder follows lightning, you are already in the decision zone. Do not wait 
 
 ### Smoke Protocol
 
-Smoke can be merely unpleasant or trip-ending. It reduces views, slows pace, irritates lungs, and can hide the very mountains you are using for navigation. If AQI is unhealthy or a fire is creating closure risk, do not negotiate with the plan. Section J is not worth lung damage or getting trapped between closure points.
+Smoke can be merely unpleasant or trip-ending. It reduces views, slows pace, irritates lungs, and can hide the very mountains you are using for navigation. Use current AirNow/Ecology observations and forecasts, not smell alone.
+
+| AQI | Meaning | Trip response |
+| --- | --- | --- |
+| 0-100 | Good through Moderate | Continue monitoring; sensitive hikers follow their health plan. |
+| 101-150 | Unhealthy for sensitive groups | Sensitive hikers should avoid the traverse or reduce exposure per medical advice; everyone cuts hard exertion and watches trend. |
+| 151-200 | Unhealthy for everyone | Do not start; if already out, move toward the safest verified exit without adding exposure. |
+| 201+ | Very unhealthy or worse | Treat as a serious health threat; shelter from smoke as practical, communicate, and execute the safest exit/emergency plan. |
+
+AQI is regional and can change by drainage. Anyone with asthma or heart/lung disease needs a clinician-informed personal threshold, accessible medication, and a lower trigger. An N95 may reduce particles when it seals well; it does not make a smoky traverse safe and does not protect against all gases.
+
+### Active Wildfire Protocol
+
+Smoke and nearby fire are different hazards. If you see flame, a fresh plume, falling ash, or receive a closure/evacuation message:
+
+1. Stop and locate yourself, the fire/plume, wind, terrain, and two escape directions.
+2. Do not move uphill above a fire or into saddles, narrow drainages, or fuel-filled chutes. Fire can accelerate uphill and outrun a hiker.
+3. Move away from fire toward already-burned ground, rock, a broad meadow, or another sparse-fuel area only if the route is clearly safer.
+4. Contact 911/SOS with coordinates, observations, travel direction, group condition, and message time. Follow official instructions.
+5. Make the group visible with bright fabric or a light. Do **not** light a signal fire.
+
+### Snow And Ice Gate
+
+Early snow, lingering steep snow, or overnight ice can erase tread and turn a normal traverse into a fall hazard. A blank or out-of-season avalanche forecast is **not** a green light.
+
+- Check recent reports, satellite imagery if useful, freezing/snow levels, and land-manager conditions.
+- Cancel or reroute if continuous snow covers steep/exposed trail, hides the route, or has a dangerous runout and the group lacks snow-travel skill.
+- Microspikes improve traction in limited conditions; they do not teach self-arrest, make soft snow stable, or replace an ice axe and training where a fall has consequences.
+- After an early storm, wait for reliable field evidence rather than assuming one warm afternoon cleared every shaded traverse.
 
 ## Permits, Rules, And Fire
 
@@ -411,6 +502,8 @@ You do **not** need a PCTA long-distance permit for this hike. PCTA long-distanc
 | Parking | Northwest Forest Pass or posted trailhead fee rules may apply if leaving a car. Confirm at both ends. |
 | Group size | Wilderness group limit is generally 12, but keep your group smaller for travel and campsite impact. |
 | Drones and bikes | Wilderness means no drones, bikes, carts, or mechanized shortcuts. |
+| Escondido Tarns | Camping is prohibited within 200 horizontal ft; a map label or old trip report does not override the order. |
+| Restoration postings | Closed/revegetating sites remain closed even if a flattened tent pad exists. |
 
 ### The Rule-Checking Ritual
 
@@ -427,47 +520,19 @@ Rules change faster than printed plans. On **Saturday 5 September 2026**, do thi
 > [!RULE]
 > Treat online comments as hints and agency rules as authority. If a hiker comment says "fires were fine last year" and the current forest order says no fires, the order wins.
 
-### Campfires By Day
+### Current 2026 Fire Orders
 
-The short answer: **plan for no campfires on the trail**.
+As of **29 July 2026**, the answer for every night is **no campfire**:
 
-Alpine Lakes Wilderness restrictions prohibit campfires above **<span class="altitude-value" data-m="1220" data-ft="4000">1,220 m</span>** on the Mt. Baker-Snoqualmie side, above **<span class="altitude-value" data-m="1525" data-ft="5000">1,525 m</span>** on the Okanogan-Wenatchee side, and within 800 m of many named lakes relevant to Section J, including Susan Jane, Mig, Hope, Josephine, Deep, Glacier, Ivanhoe, and Spectacle. September seasonal fire restrictions can be stricter and may ban campfires forest-wide outside developed rings.
+- Mt. Baker-Snoqualmie Order **06-05-26-10** is in effect 23 July-31 October unless rescinded.
+- Okanogan-Wenatchee Order **06-17-00-2026-21** is in effect 17 July-30 October unless rescinded.
+- Both prohibit wood fires, charcoal, wood-burning stoves, and other open-flame fire uses covered by the orders across the trip corridor.
+- A pressurized gas or liquid-fuel stove with an on/off valve is currently allowed only when operated on a site cleared of overhead and surrounding flammables for at least **3 ft**. Read the exact current order before departure.
 
-| Night | Camp | Campfire answer |
-| --- | --- | --- |
-| Sun 6 Sep | Thunder Mountain Lakes | No. High alpine basin and likely above the relevant elevation threshold. |
-| Mon 7 Sep | Cathedral Pass | No. High, exposed, fragile, and above practical fire limits. |
-| Tue 8 Sep | Waptus Lake | The only plausible baseline candidate because it is lower, but do not plan on it. Seasonal restrictions may ban it, wood impact is real, and you still need a stove. |
-| Wed 9 Sep | Spade Lake | No. High alpine lake basin. |
-| Thu 10 Sep | Escondido Ridge | No. High, exposed, and poor fire terrain. |
-| Fri 11 Sep | Spectacle Lake | No. Named lake with specific campfire restriction. |
-| Sat 12 Sep | Finished | Use a restaurant, not a fire ring. |
+These dated orders are stricter than the wilderness baseline restrictions. If an order is later rescinded, the baseline lake/elevation prohibitions still apply. Do not convert a changed order into permission without checking both layers.
 
 > [!FIRE]
-> If you remember one rule: **a legal stove is your kitchen; a campfire is not part of this itinerary**. Carry a canister stove or other pressurized fuel stove with a positive shutoff, and check the 2026 fire order wording before departure.
-
-### If You Ever Make A Legal Fire Elsewhere
-
-Practice this in a legal frontcountry campground, not for the first time in the Alpine Lakes Wilderness.
-
-Use an existing ring. Clear loose burnable material. Keep water beside you. Gather only dead, downed wood that can be broken by hand: tinder, pencil-thin kindling, finger-thick sticks, then thumb-thick fuel. Start small. Feed air. Feed wood slowly. Keep flames below knee height. Never leave it unattended. When done, drown it, stir it, drown it again, and touch the ashes only when they are cold.
-
-Do not cook your real dinner on a campfire. It is slow, dirty, weather-dependent, and may become illegal overnight. Cook on the stove. Marshmallows are fine morale food, but do not build a fire for them. Eat them plain, drop them into hot chocolate, or save them for a legal campground.
-
-### Fire Skill Without Fire Dependence
-
-A survival expert learns fire because fire is a powerful emergency tool. A responsible wilderness traveler also learns when not to use it. On this itinerary, your normal heat comes from clothing, shelter, food, and movement. Fire is not your warmth plan.
-
-If you practice in a legal campground, learn the structure:
-
-| Material | Size | Job | Mistake to avoid |
-| --- | --- | --- | --- |
-| Tinder | Dry grass, shavings, fire starter, tiny twigs | Catches the spark/flame | Expecting damp bark to ignite. |
-| Kindling | Pencil-thin dry sticks | Builds the first stable flame | Adding large wood too early. |
-| Fuel | Finger to thumb thick | Sustains heat | Building a bonfire instead of a small controlled fire. |
-| Water | Full bottle/pot nearby | Control and extinguish | Searching for water after the fire is already too hot. |
-
-Extinguishing is a skill, not a vibe. Drown, stir, feel, repeat. If it is too hot to touch, it is too hot to leave.
+> Fire is not an emergency warmth system for this trip. Shelter, dry insulation, food, controlled movement, and evacuation are. Do not carry a wood stove or plan “one possible fire at Waptus.” Do not build a signal fire. The group's only planned flame is a currently legal shutoff stove on a cleared 3 ft site, used outside the shelter with water immediately available.
 
 ## Navigation System
 
@@ -616,29 +681,31 @@ Known water rhythm is generally favorable: lakes and streams near the northern b
 
 ```mermaid
 flowchart TD
-  A[Reach water source] --> B{Flowing and clear?}
-  B -->|Yes| C[Collect upstream of people, trail crossings, and disturbed sediment]
-  B -->|No| D[Look for better source nearby]
-  D --> E{No better source?}
-  E -->|Yes| F[Prefilter cloudy water through bandana, then filter/treat]
-  E -->|No| C
-  C --> G{Filter working?}
-  G -->|Yes| H[Filter into clean container]
-  G -->|No| I[Use chlorine dioxide or boil]
-  H --> J[Separate dirty and clean threads]
-  I --> J
-  J --> K[Drink now, leave with enough for next segment]
+  A[Reach water source] --> B{Chemical sheen, fuel/mining runoff, or dense scum/algae?}
+  B -->|Yes| C[Reject source: normal filter, tablets, and boiling cannot make it safe]
+  B -->|No| D{Flowing and clear?}
+  D -->|Yes| E[Collect upstream of people, crossings, stock, and disturbed sediment]
+  D -->|No| F[Look for a better source nearby]
+  F --> G{No safer source?}
+  G -->|Yes| H[Prefilter cloudy water, then use the strongest appropriate treatment]
+  G -->|No| E
+  E --> I{Filter intact and unfrozen?}
+  I -->|Yes| J[Filter into clean container]
+  I -->|No| K[Use backup treatment exactly per label or boil]
+  J --> L[Separate dirty and clean threads]
+  K --> L
+  L --> M[Drink now; leave with verified capacity for next segment]
 ```
 
 ### Choosing A Source
 
 Best source: cold, flowing water from a stream above campsites and away from obvious animal or human contamination. Good source: lake outlet or clear lake water collected away from muddy edges. Last-resort source: warm stagnant tarn, silty puddle, or water near heavy camp use. Last-resort water can still be made usable, but you should prefilter and treat carefully.
 
-Avoid collecting:
+Reject or avoid collecting:
 
+- Water with a chemical smell/sheen, known fuel or mine runoff, or dense surface scum/algae. Ordinary filters, chlorine dioxide, and boiling do not reliably remove chemical contamination or cyanotoxins.
 - Immediately downstream of campsites, stock use, trail crossings, or obvious feces.
 - From shallow muddy edges where every scoop stirs sediment.
-- From water with surface scum or heavy algae if another source exists.
 - From the same place people are washing bodies, dishes, or socks.
 
 ### Squeeze Filter Procedure
@@ -654,7 +721,7 @@ Avoid collecting:
 Backup:
 
 - Carry chlorine dioxide tablets.
-- If the filter breaks, chemically treat according to label time.
+- If the filter breaks, chemically treat according to the exact product label and required contact time; cold/cloudy water often needs longer.
 - If water is cloudy, prefilter through a bandana, then treat.
 - Boil if needed. CDC guidance is a rolling boil for 1 minute below <span class="altitude-value" data-m="1980" data-ft="6500">1,980 m</span>; Section J's high point is below that.
 
@@ -672,16 +739,46 @@ Know the limits. Most common squeeze filters are excellent for protozoa and bact
 
 ### Hydration And Electrolytes
 
-Dehydration is not the only water problem. Drinking huge amounts of plain water without salts while sweating hard can also make you feel bad. Use food and electrolytes together.
+Dehydration is not the only water problem. Drinking beyond thirst—whether plain water or sports drink—can dilute blood sodium during prolonged exertion. Normal food and an appropriate electrolyte mix can replace losses, but salt does not make overdrinking safe.
 
 Trail rhythm:
 
 - Start each morning with water already treated.
-- Drink some at camp before leaving.
+- Drink to thirst at camp and while moving; do not chug a prescribed volume just to meet a schedule.
 - Carry 2 L by default, more for climbs, dry camps, hot days, or uncertainty.
-- Use electrolyte mix on hard, sweaty days, especially days 2, 5, and 7.
-- Watch urine color, headache, dizziness, unusual fatigue, nausea, and cramps as signals to stop and assess.
+- Use electrolyte mix and salty food during long, hot, high-sweat efforts according to the product directions and your tested routine.
+- Watch urine color only as one clue alongside thirst, fluid intake, headache, dizziness, unusual fatigue, nausea, swelling, and cramps; symptoms overlap, so stop and assess rather than reflexively drinking more.
 - Do not ration water into dehydration if the next source is uncertain. Slow down and solve the source problem.
+
+### Hand Hygiene And GI Prevention
+
+Water treatment does not prevent illness if hands move fecal particles to food. Norovirus and other GI infections can disable a group.
+
+- Wash with soap and water after toileting and before preparing food when practical; do it at least 200 ft from water, and scatter strained wash water.
+- Alcohol sanitizer is useful when hands are not visibly dirty, but it is less reliable against norovirus and does not replace proper washing.
+- One person handles shared food only with clean hands. Do not pass a communal snack bag down a line of dirty hands.
+- Keep the backcountry bidet/nozzle, dirty water gear, and toilet kit physically separated from clean bottle mouths and kitchen items.
+- If vomiting or diarrhea begins, isolate that person's utensils and food handling, increase handwashing, manage hydration, and plan an early exit.
+
+### Stream And River Crossings
+
+Many small creeks may be routine in low flow, but every crossing is a new observation; the current Waptus bridge report is not a normal creek. People die in backcountry crossings. The decision is made from shore, and turning around is an expert outcome.
+
+Before any unbridged crossing:
+
+1. Stop well back from the edge. Look downstream for waterfalls, logs, strainers, boulders, and banks that prevent escape.
+2. Scout upstream and downstream for a safer location. Slower, deeper water can be safer than shallow, fast water.
+3. Ask whether every person can cross and whether the last person can return if someone cannot. If not, do not begin.
+4. Keep footwear on. Unbuckle hip belt and sternum strap; waterproof critical gear. Trekking poles are support, not proof that current is safe.
+5. Cross facing upstream with three points of contact and small shuffling steps. Do not cross legs. One person crosses at a time unless the group has practiced a recognized team method.
+6. Do not rig a rope unless trained in swiftwater technique; a rope can pin or drown a person.
+
+There is no universal “knee-deep is safe” rule. For this group, stop if the current moves a pole or leg, footing is invisible/unstable, the runout is bad, anyone is frightened or unsteady, or a retreat cannot be guaranteed. Rain, warm afternoons, and snowmelt can change a crossing; waiting for lower flow is useful only from a safe camp with food and schedule margin.
+
+If swept, protect the airway and orient feet downstream in a defensive position while working toward shore. Release the pack if it is pulling you under or trapping you. Once out, treat injury and cold exposure immediately and communicate.
+
+> [!EMERGENCY]
+> The reported Waptus “difficult ford” is a **pre-trip route gate**, not a place to apply this checklist experimentally. No repaired bridge or suitable verified passage means no Section J start for this group.
 
 ### Swimming In Alpine Lakes
 
@@ -882,27 +979,60 @@ On long days, the failure mode is often not "I forgot dinner." It is "I ate too 
 
 ## Food Storage And Camp Kitchen
 
-Both national forests relevant to Section J have food-storage orders. Mt. Baker-Snoqualmie has a forest-wide order effective through **15 April 2027**. Okanogan-Wenatchee has a forest-wide order effective through **30 June 2029** unless rescinded. The practical instruction is simple: bring an approved bear-resistant storage method.
+Both national forests relevant to Section J publish forest-wide food-storage requirements. The Okanogan-Wenatchee order defines acceptable storage precisely: a current IGBC-certified container, secured hard-sided structure/vehicle, qualifying electric fence, or a suspension at least **10 ft clear of the ground at all points** and at least **4 ft horizontally from the supporting tree or pole**. Daytime possession means within 100 ft **and** in direct sight.
 
-For this group, the lowest-stress options are:
+Mt. Baker-Snoqualmie Order **06-05-25-01** is effective through 15 April 2027 unless rescinded and requires acceptable possession/storage by day and acceptable storage at night. Okanogan-Wenatchee Order **06-17-00-24-01** is effective through 30 June 2029 unless rescinded. Recheck both before departure because a later order can be stricter.
 
-- A hard-sided bear canister if you can fit the food.
-- An IGBC-approved bear-resistant bag if allowed by the exact current order and used correctly.
+For this group, the default is a **hard-sided canister whose exact model appears on the current IGBC certified-products list** and is accepted by both managing forests. Certification is product-specific and does not itself override a local order. A soft-sided IGBC-certified product is an alternative only after confirming the exact model is locally accepted and practicing the manufacturer's anchor/closure procedure.
 
-A perfect hang is hard in subalpine country and often impossible when tired. Do not build a plan around finding the perfect branch after dark.
+Fit all food, trash, toiletries, medications with food odor, drink mixes, gum, sunscreen/lip balm, and cooking residue before leaving home. Keep the canister locked whenever you are not actively accessing it. At camp, place it closed on stable ground away from the tent, water, cliffs, and anything that lets an animal roll it away. Do not tie a retrieval cord around a canister unless its manufacturer specifically requires it; cords can give a bear leverage.
 
 Camp kitchen rules:
 
-- Cook away from the tent.
+- Cook and store food about 30 m / 100 ft from the tent and each other where terrain and durable surfaces allow; this is a risk-reduction target, not permission to damage vegetation.
 - Store food, trash, toothpaste, sunscreen, lip balm, wrappers, and cookware residue together.
 - Do not sleep with snacks.
-- Do not leave packs unattended with food accessible.
+- Keep food within direct sight and 100 ft while it is out during the day; do not leave a food-filled pack unattended.
 - Put the canister somewhere stable where it cannot roll into water or off rock.
 - Pack out every scrap, including tea bags, fruit peels, and spilled noodles.
 
+### The PCT Bear-Hang Method
+
+The “PCT method” is a **toggle hang**, named by hikers; it is not a blanket legal exception and it is not guaranteed bear-proof. It solves one common weakness by leaving no load-bearing rope tied to the trunk. It works only when the final bag actually meets the current order's geometry. PCTA's Leave No Trace guidance uses the more conservative target of roughly **12 ft above ground and 6 ft from the trunk/limb**; aim for that so the bag also clears Okanogan-Wenatchee's 10 ft / 4 ft legal minimum.
+
+Practice this in daylight before the trip:
+
+1. Carry roughly 15 m / 50 ft of low-stretch slick cord, a locking or secure carabiner, an odor-reducing food bag, and a small throw bag. Never throw rocks loose.
+2. Before camp chores, find a strong **live** branch with clear space below it, far enough from the trunk, and with no dead overhead limbs. If the branch or ground geometry cannot produce the final clearance, the site does not support a legal hang.
+3. Toss the weighted line over the branch from a clear throw zone. Clip the food bag to the carabiner, run the free cord through the carabiner, and pull the bag all the way up near the branch.
+4. At reachable height, tie a clove hitch in the free end around a smooth stick roughly finger-thick and 15-20 cm long. The stick is the toggle.
+5. Slowly release the free end. The bag descends while the toggle rises until the stick catches against the carabiner. Check the **entire bag**, not just the knot: it must remain high enough and far enough from trunk, branch, slope, and jumping access.
+6. Coil the slack inconspicuously above ground without tying it to the trunk. To retrieve, pull the free end until the toggle comes down, remove the stick, then lower the bag under control.
+
+<figure class="bear-hang-figure">
+  <div class="bear-hang-viewport">
+    <img src="assets/images/pct-bear-hang-diagram.svg" alt="PCT toggle bear-hang schematic showing the cord over a live branch, the stick toggle caught at the carabiner, the loaded food bag at least 12 feet above ground, and at least 6 feet horizontally from the trunk">
+  </div>
+  <figcaption>The conservative 12 ft / 6 ft target is shown after the loaded branch flexes. The current Okanogan-Wenatchee legal minimum is 10 ft / 4 ft; always re-read the operative order.</figcaption>
+</figure>
+
+> [!WARNING]
+> If a suitable branch is unavailable, darkness prevents inspection, the bag can hit the trunk, the branch bends below clearance, or the cord may strand the food, the PCT method has failed **before** you hang. Use the approved canister. Do not accept a decorative low hang that teaches a bear to raid hikers.
+
+| Hang failure | Why it matters | Prevention |
+| --- | --- | --- |
+| Branch is dead, weak, or too close to trunk | Falling limb/injury; animal reaches bag | Inspect in daylight; choose live branch and conservative geometry. |
+| Bag starts at 12 ft but sags below 10 ft | No longer meets the order | Measure the bottom of the loaded bag after the branch flexes. |
+| Rope is tied to trunk | Bear can cut/pull it; obvious human scent trail | Use the toggle correctly and leave no load-bearing trunk tie. |
+| Thin cord cuts bark or jams | Tree damage or stranded food | Use smooth appropriate cord, avoid fragile bark, test retrieval. |
+| Food exceeds bag/branch rating | Closure fails or branch bends | Weigh/fit the full seven-day load at home; use multiple approved containers if needed. |
+| Hang is installed after dark | Poor branch and clearance choices | Select storage while choosing camp, before dinner. |
+
+A traditional counterbalance hang can be legal if it achieves the same current geometry, but both hangs are hard in subalpine forest and have high real-world failure rates. A canister is heavier and simpler; for this itinerary, that is a good trade.
+
 ### The Camp Kitchen Triangle
 
-Separate sleeping, cooking, and food storage whenever terrain allows. In crowded or constrained camps, use the best durable arrangement available, but keep the principle clear: do not turn your sleeping area into a kitchen.
+Separate sleeping, cooking, and food storage whenever terrain allows, aiming for roughly 30 m / 100 ft between nodes without trampling vegetation. Keep cooking/storage downwind when the terrain and wind make that sensible. In crowded or constrained camps, use the best existing durable arrangement available, but keep the principle clear: do not turn your sleeping area into a kitchen.
 
 ```mermaid
 flowchart LR
@@ -920,7 +1050,8 @@ Camp kitchen routine:
 5. Pour no food scraps into lakes or creeks.
 6. Pack every wrapper, crumb-catching bag, and used pouch into odor storage.
 7. Store toothpaste, sunscreen, lip balm, trash, cookware, and food together.
-8. Do a final "no smellables in tent" check before sleep.
+8. Close the certified container exactly as its manufacturer requires.
+9. Do a final "no smellables in tent or unattended pack" check before sleep.
 
 ### Dishwashing Without Making A Mess
 
@@ -1015,7 +1146,7 @@ Bring:
 - One **20,000 mAh** power bank per heavy phone/navigation user, or one 20,000-30,000 mAh shared bank plus smaller personal banks.
 - Short known-good cables.
 - Headlamp with fresh battery or recharge plan.
-- Satellite messenger or PLB with active subscription/registration.
+- Dedicated two-way satellite messenger or a registered 406 MHz PLB; when possible, add an independent satellite-capable backup carried by another person.
 
 Minimal phone user can sometimes survive on 10,000 mAh. If you use the phone for photos, FarOut, Gaia, weather notes before losing service, and journaling, 20,000 mAh is the safer baseline.
 
@@ -1054,26 +1185,40 @@ September sun angle, forest shade, clouds, smoke, and constant movement make sol
 
 ### Emergency Contact System
 
-Best practice: carry a **Garmin inReach or similar two-way satellite messenger** with active subscription. A 406 MHz PLB such as an ACR ResQLink is also strong for emergency distress but does not support normal two-way check-ins. iPhone 14 or later Emergency SOS via satellite is a useful backup in the United States, but it is not a complete substitute for a dedicated device because it depends on phone battery, phone condition, sky view, and emergency-only workflows.
+Best practice: carry a **Garmin inReach or similar dedicated two-way satellite messenger** with an active plan. A NOAA-registered 406 MHz PLB is a strong distress tool but does not support routine two-way check-ins. A compatible phone's satellite features can be a useful independent backup only after testing the exact service, country/account eligibility, device software, and workflow; they still depend on phone battery, condition, and sky view.
+
+One device carried by one person is a single point of failure. For the group, aim for two independent emergency paths on different people—for example, a dedicated two-way messenger plus a registered PLB or a tested satellite-capable phone. Split paper maps, shelter, water treatment, and emergency insulation so a lost pack or separated hiker does not remove every critical system.
 
 Before leaving:
 
 - Set up device, subscription, contacts, and preset messages.
+- Register a PLB with NOAA SARSAT and keep owner/emergency-contact details current; renew/update as required.
 - Send a test message from outside.
 - Confirm recipients can see coordinates or MapShare/location details if your device supports it.
 - Teach both trekkers how to trigger SOS.
 - Write a trip plan with camps, side-trip options, bailouts, and exit date.
-- Tell one reliable person: "If you have not heard from us by **Sunday 13 September 2026 at noon Pacific Time**, call 911 or the relevant county sheriff and provide this route plan."
+- Give at least two reliable contacts the plan, but name one decision-maker to avoid duplicate or contradictory calls.
+- If the trusted contact is outside the United States, give them direct ranger/sheriff dispatch numbers and rehearse the call; overseas callers cannot assume dialing 911 reaches Washington responders.
 
 Check-in protocol:
 
-- One "starting day" message.
-- One "camped safely" message each night if sky view allows.
-- One "delayed but okay" preset.
-- One "non-life-threatening help needed" preset if your device supports it.
-- SOS only for serious emergency.
+- **START:** trailhead, route version, group count, and start time.
+- **CAMPED / OK:** location and time each evening.
+- **DELAYED / OK:** new camp, reason, revised next check-in and exit clock.
+- **ROUTE CHANGE / OK:** side trip skipped, backtrack, hold, or named exit; give coordinates.
+- **HELP, NOT SOS:** only if the device/service supports an understood assistance workflow and the contact has an exact action.
+- **SOS:** serious or potentially serious emergency; continue two-way communication if safe.
 
-A missed routine check-in is not automatically a rescue call unless your plan says it is. Messages can fail because of sky view, terrain, battery, device handling, or simple forgetfulness. That is why the trip plan needs two clocks: expected nightly check-ins and a separate hard overdue trigger.
+A missed routine check-in is not automatically a rescue call unless your written plan makes it one. Messages can fail because of sky view, terrain, battery, device handling, or simple forgetfulness. Define the ladder before departure:
+
+| Clock | Contact action |
+| --- | --- |
+| Nightly check-in window missed | Try messenger/text/phone, inspect the last location, and wait only for the agreed grace period. |
+| Two consecutive check-ins missed or an “uncertain/help” message arrives | Call the named ranger/sheriff dispatch for guidance with last known point, direction, condition, device details, and plan. |
+| Hard overdue time passes with no explicit extension | Call sheriff/search-and-rescue immediately; do not wait for social media or another day. |
+| SOS/distress, life-threatening message, or evidence of immediate danger | Contact 911/responders now while the device coordination center handles the SOS. |
+
+Set the original hard overdue trigger to **Sunday 13 September 2026 at noon Pacific Time** only if the final planned exit is Saturday evening and the contact has received no later extension. Every delay message must state a replacement deadline. A schedule update is not optional courtesy; it prevents both delayed rescue and a false alarm.
 
 For two-way messengers, send from open sky when possible, leave the device still until the send confirms, keep it warm/dry, and do not bury it in the pack during an emergency. Everyone should know where it rides during the day.
 
@@ -1086,15 +1231,17 @@ Give your emergency contact a document that can be handed to a sheriff or search
 - Route: Stevens Pass to Snoqualmie Pass, southbound PCT Section J.
 - Dates: Sunday 6 September to Saturday 12 September 2026.
 - Planned camps and side-trip options.
-- Bailout routes you understand.
+- Final PCT route, excluded side trips, and fully verified exit routes.
 - Satellite device type, phone number/address, and preset message meanings.
+- Device registration/subscription status and how contacts can reply.
 - Gear colors: tent, packs, rain shells.
 - Medical concerns and medications if relevant.
 - Overdue trigger: Sunday 13 September 2026 at noon Pacific Time unless updated.
+- Direct ranger/sheriff dispatch numbers for an overseas contact, verified shortly before departure.
 
 ### SOS Decision Standard
 
-Use SOS for serious or potentially serious emergencies: life-threatening injury, inability to self-evacuate safely, severe hypothermia signs, serious allergic reaction, chest pain, stroke signs, severe bleeding, or being lost/injured with worsening conditions. Do not delay SOS because you are embarrassed. Also do not use SOS for routine inconvenience, a slow day, or because the food plan is boring.
+Use SOS for serious or potentially serious emergencies: life-threatening injury, inability to self-evacuate safely, altered mental status, moderate/severe hypothermia signs, serious allergic reaction, chest pain, stroke signs, severe bleeding, being lost/injured with worsening conditions, or an active fire threatening the group. Do not delay SOS because you are embarrassed or assume rescue will be immediate. Send location, group count, problem, hazards, care given, and shelter/visibility details; then conserve power and monitor replies. Routine inconvenience, a slow day, or boring food is not an SOS.
 
 ## Wildlife, Plants, And Small Hazards
 
@@ -1108,8 +1255,13 @@ Wildlife rules:
 - Do not run from bear or cougar.
 - If you see a black bear, speak calmly, back away, and give it space.
 - If a black bear approaches persistently, get big, shout, group up, and use bear spray if carried and trained.
+- If a black bear makes physical contact or attacks, **fight back aggressively; never play dead**.
 - If a cougar appears, stay upright, maintain eye contact, look large, back away, and fight back if attacked.
 - Store all scented items properly.
+
+Bear spray is not legally required here, but WDFW recommends carrying it where black bears are present. If carried, keep it immediately accessible on a belt or chest strap, know its safety and range, check the expiry, and practice with an inert trainer. Do not bury it in the pack, deploy it casually, or pre-spray tents/gear; wind can disable you and residues can attract investigation by animals.
+
+If you are flying, do not quietly pack bear spray. FAA guidance says most bear-spray canisters exceed the narrow US domestic checked-baggage exception, and international aviation rules prohibit self-defense sprays in both carry-on and checked baggage. Buy or borrow it after arrival, confirm the exact airline/product rule, and arrange a lawful post-trip handoff or disposal rather than abandoning it.
 
 Plants:
 
@@ -1124,16 +1276,19 @@ Bugs and ticks:
 - Consider permethrin-treated clothing, never applied directly to skin.
 - Do daily tick checks: socks, waistband, groin, armpits, scalp.
 - Remove ticks with tweezers, pulling straight out.
+- Know whether anyone has a history of severe insect-sting allergy and carry prescribed epinephrine accessibly.
+- Check current WDFW hunting seasons; if legal hunting is active near the route, wear a high-visibility outer layer and make human voices heard in low visibility.
 
 ### Animal Response Cards
 
 | Animal | Prevent | If encountered |
 | --- | --- | --- |
-| Black bear | Store food, cook clean, make noise in brush | Speak calmly, group up, back away, do not run. If it approaches aggressively, get big and firm. |
-| Cougar | Keep group together, watch children/small hikers, avoid running alone at dawn/dusk | Maintain eye contact, look large, back away, do not crouch. Fight back if attacked. |
-| Mountain goat | Keep distance, do not let it lick sweaty gear or urine spots | Move away and give it space. Never feed. |
+| Black bear | Store food, cook clean, make noise in brush, carry spray accessibly if chosen | Speak calmly, group up, back away, do not run. Persistent approach: get large/loud and prepare spray. Physical attack: fight back; never play dead. |
+| Cougar | Keep group together, avoid running alone at dawn/dusk, never approach a carcass | Maintain eye contact, look large, back away, do not crouch. Fight back if attacked. |
+| Mountain goat | Keep distance; keep salty gear secured; urinate away from camp/trail on durable mineral soil where possible | Move away and give it space. Never feed or let it approach for salt. |
 | Rodents | Store food and trash, close pack pockets | Do not leave salty straps or snacks accessible. |
 | Snakes | Watch hands/feet in warm rocky spots | Step back, give space, do not handle. For a bite, evacuate and keep the person calm. |
+| Bees/wasps | Watch ground nests, keep food sealed, know allergy plan | Move away without swatting; for breathing trouble, facial/tongue swelling, collapse, or multi-system reaction, use prescribed epinephrine and SOS. |
 
 For a venomous snakebite: get emergency help, keep the person still, remove tight jewelry or constrictive items near the bite area, and avoid folk remedies. Do not cut the wound, suck venom, apply ice, or use a tourniquet.
 
@@ -1158,7 +1313,7 @@ Ticks are less central here than in some regions, but September is still within 
 5. Save or photograph the tick if practical.
 6. Watch for rash, fever, flu-like symptoms, or unusual illness after the trip and tell a clinician about the tick exposure.
 
-## First Aid And Sprains
+## First Aid And Medical Emergencies
 
 The best first aid is prevention: tested shoes, dry sleep socks, poles on descents, food before bonking, and not pretending a hot spot is "fine."
 
@@ -1173,7 +1328,9 @@ Minimum kit:
 - Emergency blanket.
 - Tiny repair overlap: duct tape, Tenacious Tape, zip ties.
 
-This is field guidance, not a substitute for medical training or care. Take a wilderness first aid course if possible. At minimum, know when a problem is beyond your group: altered mental status, worsening hypothermia, severe allergic reaction, major bleeding, suspected fracture, chest pain, stroke symptoms, severe dehydration, or inability to walk safely.
+Before the trip, every hiker should disclose relevant allergies, medical conditions, and the location/use of prescribed rescue medication. Carry personal prescriptions plus delay margin, prescribed epinephrine or inhaler if applicable, and a medication list. Check tetanus status, travel/medical coverage, and how evacuation costs are handled. At least two people should take wilderness first aid; a video watched at the trailhead is not a substitute.
+
+This is field guidance, not a substitute for medical training or care. At minimum, know when a problem is beyond your group: altered mental status, worsening cold illness, severe allergic reaction, major bleeding, suspected fracture, chest pain, stroke symptoms, severe dehydration, or inability to walk safely.
 
 Do not use this page to decide medication doses, diagnose fractures, drain complicated blisters, or push through symptoms that are worsening. The field goal is recognition, stabilization, and evacuation judgment.
 
@@ -1218,17 +1375,32 @@ Field response:
 1. Stop heat loss: shelter, wind block, rain protection.
 2. Replace wet clothing with dry layers if possible.
 3. Insulate from the ground.
-4. Add hat, gloves, puffy, sleeping bag/quilt.
+4. Add hat, gloves, puffy, sleeping bag/quilt, and a wind/water-resistant outer wrap. Insulate the head/neck and handle gently.
 5. Give warm sweet drinks and food only if the person is awake, alert, and can swallow normally.
-6. Use satellite communication if the person is not improving quickly or cannot travel safely.
+6. Mild shivering with normal coordination/mental status may improve with shelter, dry layers, calories, and monitoring. **Clumsiness, stumbling, slurred speech, confusion, unusual behavior, decreasing shivering, or reduced alertness means SOS now**, not “wait to see.”
 
-Do not use alcohol as warmth. Do not put a severely impaired person in a risky situation with hot liquids.
+Do not use alcohol as warmth. Do not rub or aggressively move cold limbs, apply direct intense heat, or give food/drink to someone who is not fully alert and swallowing normally. A moderately or severely hypothermic person can deteriorate during movement; keep them horizontal and gentle when practical while following responder instructions.
 
 ### Heat Illness And Overexertion
 
-Early September can still be warm on climbs. Heat problems often start with pace ego.
+Early September can still be warm on climbs. Heat problems often start with pace ego, heavy packs, inadequate acclimatization, or illness.
 
-Watch for headache, dizziness, nausea, cramps, unusual fatigue, chills in heat, irritability, or stopping sweat under hot conditions. Respond by stopping in shade, loosening clothing, drinking, eating salty snacks/electrolytes, cooling skin, and reducing pace. If confusion, collapse, or severe symptoms appear, treat as an emergency.
+Headache, dizziness, nausea, weakness, cramps, unusual fatigue, or irritability call for stopping in shade, removing excess layers/pack, active skin cooling, rest, and a careful hydration/food assessment. Do not diagnose by sweat: a person with heat stroke may still be sweating.
+
+**Altered mental status, collapse, seizure, severe agitation, or inability to walk normally in heat is heat stroke until proven otherwise.** Trigger SOS and cool immediately: move to shade, remove excess clothing, wet the person and fan continuously, and use cool-water immersion only if helpers can keep the airway safe. Cooling takes priority over transport during the first response.
+
+Do not force water into a confused person. Headache, nausea, vomiting, confusion, swollen hands, or worsening symptoms after excessive plain-water intake can be exercise-associated hyponatremia; it also needs urgent medical guidance. “Drink more” is not a universal answer.
+
+### Anaphylaxis
+
+Breathing difficulty, throat/tongue swelling, collapse, or a rapid multi-system reaction after a sting, food, or medication is an emergency.
+
+1. Use the person's prescribed epinephrine auto-injector immediately according to its instructions.
+2. Trigger SOS/911. Improvement can be temporary; evacuation is still required.
+3. Position for breathing/circulation and monitor the airway. Do not make a faint person stand or walk.
+4. Give a second prescribed dose only according to the person's plan/product guidance and responder direction.
+
+Antihistamines do not replace epinephrine for anaphylaxis.
 
 ### Cuts, Scrapes, And Infection Prevention
 
@@ -1265,9 +1437,11 @@ Arrive with enough daylight to:
 Human waste:
 
 - Use toilets where present.
-- Otherwise dig catholes 15-20 cm deep and 60 m from water where soil allows.
+- Otherwise dig catholes 15-20 cm deep and at least 60 m / 200 ft from water, trail, and camp **only where organic soil allows**.
+- If soil is too thin/rocky, the site is a fragile high-use basin, or restoration/local rules require it, use a WAG-style waste bag and pack feces out. Never build a rock "toilet."
 - Pack out toilet paper and wipes.
-- Use hand sanitizer before touching food.
+- Wash hands with soap and water away from natural water when practical; sanitizer is a useful supplement, not a reliable norovirus substitute.
+- Urinate well away from camp/trail on durable mineral soil or rock where practical; salty urine can draw mountain goats to sleeping areas and vegetation.
 
 ### Campsite Selection
 
@@ -1282,6 +1456,7 @@ Avoid:
 - Exposed ridges in wind.
 - Depressions that collect cold air or water.
 - Crowding another party when other durable options exist.
+- Any signed restoration/no-camping area, including the 200-horizontal-foot exclusion around Escondido Tarns.
 
 Good campsite sequence:
 
@@ -1345,8 +1520,10 @@ Section J is loved hard. Your standard is to make your camp invisible to the nex
 - Do not wash in lakes with soap.
 - Do not leave food scraps for "nature."
 - Pack out toilet paper and wipes.
+- Pack out feces where catholes are inappropriate or prohibited.
 - Step on durable rock or dirt instead of trampling plants around lakes.
 - Yield politely and keep breaks off the tread.
+- Use existing legal camps; this guide's named "camp zones" are not reservations or permission to create a site.
 
 ## Alcohol And The Rum Toddy Question
 
@@ -1455,14 +1632,14 @@ Buy the items that must fit your body or that you will use often. Borrow or rent
 
 You said you plan to buy mostly from Naturehike or Decathlon. Good: both brands can build a very workable first Section J kit if you avoid the cheapest "camping" versions and choose trekking/backpacking models by weight, warmth, and repairability.
 
-Use the table as a shopping shortlist, not gospel. Product names, regional item IDs, and variants change. Before buying, open the exact regional page, confirm the SKU/item ID, and weigh the packed item when it arrives. Manufacturer weights may exclude footprint, pump sack, storage sack, stakes, repair kit, or shipping packaging.
+Use the table as a **29 July 2026 shopping snapshot**, not gospel. Product names, regional item IDs, specs, links, and variants change. Before buying, open the exact regional page, confirm the SKU/item ID, and weigh the packed item when it arrives. Manufacturer weights may exclude footprint, pump sack, storage sack, stakes, repair kit, or shipping packaging.
 
 | System | Product / SKU or item ID | Listed weight | Route take |
 | --- | --- | ---: | --- |
 | 2P tent, freestanding-ish | Naturehike Cloud Up 2 20D / Cloud Up 2P | 1.76-1.8 kg packed | Best Naturehike default if you want simple setup and acceptable weight. Vestibule space is modest. |
 | 2P tent, roomier | Naturehike Mongar 2 / NH17T007-M; grey 20D SKU/barcode seen as 6927595708071 | about 2.1-2.6 kg depending variant/listing | More livable for two people than Cloud Up, but heavier. Verify 15D/20D/210T fabric and packed weight before buying. |
 | 2P tent, durable Decathlon | Decathlon Forclaz MT500 2P dome / item 8997506 | 2.85 kg; groundsheet ref 8933562 extra | Heavy but forgiving, splitable, and repairable. Good beginner storm-confidence choice if two people share it. |
-| 2P tarp tent, ultralight Decathlon | Decathlon Forclaz MT900 2P tarp tent / item 4195142, model 8612300 | 1.3 kg, poles not included | Light, but only for hikers who will carry trekking poles and practice a tensioned pitch before the trip. |
+| 2P tarp tent, ultralight Decathlon | Decathlon Forclaz MT900 2P tarp tent / current UK ID 8968614 | 1.3 kg, poles not included | Light, but marketed for experienced users; only for hikers who will carry trekking poles and practice a tensioned pitch before the trip. |
 | Pack | Decathlon Forclaz MT500 Air 60+10 L | 1.75 kg incl. 100 g rain cover | Strong default if carrying bulky first-trek gear. Decathlon recommends not exceeding 15 kg load. |
 | Pack | Naturehike Rock 2.0 60 L | 1.30-1.37 kg by size; recommended load 12-15 kg | Light and attractive, but test comfort with your actual 15-20 kg starting load before committing. |
 | Sleeping bag, down | Decathlon Forclaz MT900 Down 0 C / ID 8882708 | L 930 g; comfort 0 C, limit -5 C | Best Decathlon sleep choice for weight/volume if you protect down from moisture. Decathlon recommends a pad around R 4.8+. |
@@ -1475,7 +1652,7 @@ Use the table as a shopping shortlist, not gospel. Product names, regional item 
 | Stove | Decathlon Forclaz MT500 gas stove / Ref. 8559534 | 85 g stove + 15 g bag | Good simple canister stove. Uses EN417 threaded canisters; buy fuel after flying. |
 | Water filter bottle | Decathlon 1 L soft compressible filter bottle / ID 8975330 | 115 g with filter | Useful as dirty-water squeeze bottle/filter combo, but still carry backup tablets. |
 | Hydration bladder | Naturehike Yunquan TPU bladder / CNK2450CF011 | 2 L about 154 g | Fine for sipping, but still carry at least one hard or semi-rigid bottle for measuring and backup. |
-| Puffy | Decathlon Forclaz/Simond MT100 down jacket | about 320 g size L | Good camp warmth for weight; keep it dry. Add fleece/rain shell for wet cold. |
+| Puffy | Decathlon Forclaz MT100 down jacket / ID 8858285 | about 280 g size L on the current UK listing | Good camp warmth for weight; keep it dry. Add fleece/rain shell for wet cold. |
 | Rain shell | Decathlon Forclaz MT500 waterproof jacket / ID 8492328 | about 530 g size L | Heavier than ultralight shells, but more protective and durable for cold rain with a pack. |
 
 Brand caveats:
@@ -1569,7 +1746,7 @@ Recommended first-trek approach:
 
 | Pack choice | When it makes sense | Tradeoff |
 | --- | --- | --- |
-| 50-55 L | Compact gear, approved bag instead of canister, disciplined food | Hard for first-timers with bulky sleep/tent/food. |
+| 50-55 L | Compact gear, a locally confirmed certified soft container instead of canister, disciplined food | Hard for first-timers with bulky sleep/tent/food; do not choose volume before storage legality. |
 | 58-65 L | Best default for many backpackers | Enough space without inviting absurd extras. |
 | 65-70 L | Bear canister, bulkier synthetic bag, extra cold/rain margin | Easier packing, but you may fill empty space with bad ideas. |
 | 70+ L | Bulky rental gear, group gear, winter-style kit, carrying for someone else | Comfortable load carriage but easy to overpack. |
@@ -1790,12 +1967,12 @@ Camp shoes are a tradeoff. Light sandals or water shoes can feel wonderful after
 | --- | --- | --- |
 | Toothbrush/toothpaste | Yes | Toothpaste is a smellable; store with food. |
 | Sunscreen/lip balm | Yes | Lip balm is also a smellable. |
-| Hand sanitizer | Yes | Use before food and after bathroom. |
-| Small soap | Optional | Keep soap 60 m from water; often sanitizer is enough. |
+| Hand sanitizer | Yes | Useful when hands are not visibly dirty; less reliable against norovirus. |
+| Small biodegradable soap | Yes, tiny amount | Wash hands after toileting/before food when practical; keep soap and wash water 60 m from natural water. |
 | Camp towel/bandana | Small only | Full-size towel is dead weight. |
 | Anti-chafe balm | Recommended | Test before trip. Also a smellable. |
 | Contacts/glasses supplies | If needed | Bring backup glasses. |
-| Prescription meds | Yes | Carry extra day and keep dry. |
+| Prescription/rescue meds | Yes | Carry delay margin, keep dry/accessibly as appropriate, and share the emergency plan. |
 | Menstrual supplies | If applicable | Pack out used products; consider odor-proof bags. |
 | Deodorant | Usually no | Scented, unnecessary, and stored as smellable if carried. |
 
@@ -1806,7 +1983,7 @@ The goal is not to bring a tiny electronics shop. The goal is to make sure navig
 | Item | Default | Tradeoff |
 | --- | --- | --- |
 | Phone | Yes, offline maps | Protect from water/cold; do not burn battery on boredom. |
-| Satellite messenger/PLB | Strongly recommended | Weight/subscription cost; big safety value. |
+| Satellite messenger/PLB | Required by this plan | Prefer a dedicated two-way device plus an independent registered/tested backup on another person. |
 | Power bank | 20,000 mAh per heavy phone/nav user or shared 20,000-30,000 mAh | Heavy but reliable. |
 | Cables | Short, tested, correct plugs | Bring one backup if cable failure would break systems. |
 | Headlamp | Yes | Keep separate from phone battery. |
@@ -1839,6 +2016,7 @@ Do not carry a giant pharmacy. Carry a small kit you know how to use.
 | Sprain/strain | Elastic bandage, trekking poles, pain meds you personally tolerate. |
 | Cuts | Gauze, tape, bandages, irrigation syringe, gloves. |
 | Allergy/itch | Antihistamine you have used before. |
+| Anaphylaxis/asthma | Prescribed epinephrine/inhaler, carried immediately accessible by the patient; group knows how to help. |
 | Stomach trouble | Electrolytes, anti-diarrheal if appropriate for you. |
 | Cold stress | Emergency blanket, dry layers, hot drink capacity. |
 | Splinters/ticks | Tweezers. |
@@ -1929,15 +2107,15 @@ This is the part where everyone gets emotionally attached. Good. Joy matters. Ju
 | Kitchen | Canister stove, fuel, pot, spoon, lighter, backup lighter/matches, small towel/bandana. |
 | Food | Seven planned days plus no-cook emergency layer, daily snack bags, electrolytes, hot drinks. |
 | Water | Squeeze filter, dirty bag, clean bottles/reservoir, 2 L normal capacity, 3 L possible, chlorine dioxide backup. |
-| Food storage | Bear canister or approved method, odor bags if useful, trash bag, all smellables fit. |
+| Food storage | Exact current IGBC-certified hard canister accepted by both forests, odor bags if useful, trash bag, all smellables fit; PCT-hang kit only as a practiced legal fallback. |
 | Navigation | FarOut, Gaia/CalTopo offline, PCTA GPX/data, paper map, compass, printed itinerary. |
-| Communication | Satellite messenger or PLB, phone, power bank, cables, emergency contact plan. |
+| Communication | Dedicated two-way satellite messenger or registered PLB, independent backup when possible, phone, power bank, cables, tested contact/escalation plan. |
 | Clothing | Hiking outfit, dry sleep base layers, rain shell, rain pants/wind pants, fleece, puffy, hat, gloves, socks, underwear. |
 | Footwear | Tested shoes, 2-3 hiking socks, dry sleep socks, optional gaiters/camp shoes. |
-| First aid | Blister kit, elastic bandage, meds, gauze, tape, tweezers, gloves, emergency blanket. |
+| First aid | Blister kit, elastic bandage, personal/rescue meds, gauze, tape, tweezers, gloves, hypothermia wrap materials. |
 | Repair | Tenacious Tape, duct tape, zip ties, needle/thread, pad patch, spare cord, tiny multitool. |
 | Hygiene | Trowel, bidet or TP pack-out system, sanitizer, toothbrush, toothpaste, sunscreen, lip balm. |
-| Safety | Headlamp, spare battery/charge, whistle, sunglasses, sun hat, emergency fire starter for survival only. |
+| Safety | Headlamp, spare battery/charge, whistle, sunglasses, sun hat, high-visibility layer, current conditions card. No fire-starting kit for this fire-ban itinerary. |
 | Comfort | Sit pad, pillow, journal, cocoa, marshmallows, one camp luxury that does not steal safety margin. |
 
 ### Shared Gear Split
@@ -1951,7 +2129,7 @@ Shared gear saves weight only when responsibility is explicit. Do not say "we ha
 | Water treatment | Main filter with one person, backup tablets with another | One filter, no backup, and no one knows how to backflush it. |
 | First aid | Shared core kit plus personal meds in personal packs | All meds and blister care in one pack. |
 | Repair | Shared kit plus pad-specific patches with the pad owner | Bringing repair bits nobody has used. |
-| Satellite messenger | One primary carrier; everyone knows SOS and preset message workflow | Device buried in a pack where only one person knows the buttons. |
+| Satellite messenger | Primary two-way device on one person; independent PLB/phone backup on another; everyone knows SOS and message workflow | One buried device, one trained operator, and one battery bank. |
 | Paper map/compass | At least two people can access navigation | Only the fastest hiker carries all navigation. |
 
 Each person should still have personal survival basics: rain shell, warm layer, headlamp, water capacity, food for the day, whistle, emergency contact card, and the ability to stay warm if the group is separated briefly.
@@ -1991,7 +2169,8 @@ Travel checklist:
 
 | Topic | Decision |
 | --- | --- |
-| Fuel | Do not fly with fuel. Buy threaded EN417 canisters locally after arrival and confirm stove compatibility. |
+| Fuel and stove | Never fly with a fuel canister. Camping equipment must have no residual fuel or vapour, and an airline may still refuse used equipment; confirm its policy. Buy threaded EN417 canisters locally and confirm compatibility. |
+| Bear spray | Do not pack it for an international flight; most canisters also fail the narrow US domestic exception. Buy/borrow locally and plan a lawful post-trip handoff or disposal. |
 | Lithium batteries | Carry power banks in cabin baggage, not checked luggage. Keep within current airline/TSA watt-hour limits. |
 | Poles/stakes/knife | Trekking poles, tent stakes, and knives usually belong in checked luggage. Confirm airline rules before packing. |
 | Food import | If flying internationally, avoid carrying meat, dairy, fresh fruit, and restricted foods across borders. Buy problem foods locally. |
@@ -2000,6 +2179,19 @@ Travel checklist:
 | Fuel disposal | Plan where unused canister fuel goes after the hike; do not leave it at a hotel or trailhead. |
 | Transport | Confirm Stevens Pass drop-off and Snoqualmie pickup separately. Cell service cannot be the only plan. |
 | Exit clothes | Leave dry clean clothes and non-trail shoes in the pickup bag. This is practical, not indulgent. |
+
+### Labor Day Transport And No-Resupply Reality
+
+The trip starts Sunday 6 September; Labor Day is Monday 7 September 2026. WSDOT identifies both US 2 and I-90 as holiday-congestion corridors. Build the transport plan around that fact:
+
+- Stage vehicles or use a pre-booked driver/shuttle with written pickup windows and backup contacts. Do not depend on same-day rideshare.
+- Confirm the exact legal parking location, pass, overnight rules, and whether construction or seasonal operations affect the Stevens Pass lot.
+- Leave a spare key with the pickup system, not hidden casually on the vehicle.
+- Agree what the driver does if the group sends **DELAYED / OK**, changes exit, or misses the window.
+- Carry every meal, medication, fuel need, and battery plan from the start. There is no road crossing or resupply between the passes.
+- Download WSDOT travel alerts and record the driver route before losing service.
+
+The exit plan is part of wilderness safety: a fatigued group standing on I-90 at night without a confirmed ride has not completed the system.
 
 ### The Shakedown: Make The Gear Tell The Truth
 
@@ -2027,11 +2219,15 @@ Do not outsource these to hope.
 - Cook a dinner with the exact stove and pot.
 - Filter water from a shallow stream.
 - Backflush the filter.
-- Pack all food into the bear can or approved bag.
+- Pack all food/smellables into the exact certified canister and close it correctly.
+- Build and retrieve a full-weight PCT hang that measures at least 12 ft high and 6 ft out—then plan not to need it.
+- Scout a stream from shore, identify downstream hazards, and explain the no-cross decision. Do not “practice” in swift water without instruction.
 - Tape a hot spot on your own heel.
 - Wrap an ankle with an elastic bandage.
 - Navigate one short hike using offline map plus paper map.
 - Send and receive a satellite test message.
+- Run a mock delayed check-in and SOS conversation with the trusted contact.
+- Recognize and act out hypothermia, heat-stroke, and anaphylaxis response cards.
 - Pack the bag in the order you will use it in rain.
 
 ### Four-Week Skill Curriculum
@@ -2045,11 +2241,11 @@ Use this as the final phase, not the entire preparation plan. For first-time lon
 | 12-10 weeks out | Buy/test footwear, begin weekly hikes, start light strength work | Shoes do not create hot spots on 10 km walks. |
 | 9-8 weeks out | Add pack weight gradually; practice poles and downhill technique | 10-12 kg feels manageable for 12-15 km. |
 | 7-6 weeks out | Hills/stairs, rain-layer test, first stove/water practice | You can climb steadily without redlining and can cook/filter without confusion. |
-| 5 weeks out | First full-kit day hike or easy overnight | Shelter, sleep, food, and pack organization all work outside the house. |
+| 5 weeks out | First full-kit overnight; preferably begin a multi-night shakedown | Shelter, sleep, food, storage, hygiene, and pack organization all work outside the house. |
 | 4 weeks out | Loaded day hike, shoe/sock test, basic map orientation | No new gear pain; you can point to your map location. |
 | 3 weeks out | Stove dinner, water filtering, bear storage packing | Dinner works in wind; all food fits storage system. |
-| 2 weeks out | Back-to-back loaded hikes or overnight shakedown | Feet survive repeated days; morning pack-up is not chaos. |
-| 1 week out | Offline maps, satellite test, first aid drills, final packing | Phone works in airplane mode; ankle wrap and blister tape are practiced. |
+| 2 weeks out | Multi-night shakedown or back-to-back loaded hikes plus wet camp | Feet survive repeated days; morning pack-up is not chaos; critical insulation stays dry. |
+| 1 week out | Offline maps, satellite ladder, first aid and hang drills, final packing | Phone works in airplane mode; both people can communicate, navigate, and use rescue meds. |
 | Travel week | Rule/closure/weather checks, food purchase, fuel plan | Nothing critical remains theoretical. |
 
 If you only have four weeks left, reduce ambition first, not safety gear.
@@ -2061,7 +2257,7 @@ Use this if you want to arrive feeling competent instead of merely equipped.
 | Timeframe | Practice | Pass standard |
 | --- | --- | --- |
 | 4 weeks out | Loaded day hike, shoe/sock test, basic map orientation | No new gear pain; you can point to your map location. |
-| 3 weeks out | Stove dinner, water filtering, bear storage packing | Dinner works in wind; all food fits storage system. |
+| 3 weeks out | Stove dinner, water filtering, canister and measured PCT-hang practice | Dinner works on a legal cleared site; all food fits; fallback hang meets geometry. |
 | 2 weeks out | Overnight shakedown or back-to-back hikes | Sleep system works; feet survive repeated days. |
 | 1 week out | Offline maps, satellite test, first aid drills, final packing | Phone works in airplane mode; ankle wrap and blister tape are practiced. |
 | Travel week | Rule/closure/weather checks, food purchase, fuel plan | Nothing critical remains theoretical. |
@@ -2074,70 +2270,120 @@ Use this if you want to arrive feeling competent instead of merely equipped.
 4. **Water drill:** Filter from an awkward shallow source and backflush the filter.
 5. **Camp-in-20 drill:** Arrive at a practice site and do shelter, layer, water, and stove setup in 20 focused minutes.
 
+Add two non-negotiable tabletop drills:
+
+- **Route failure:** the Waptus bridge is still out, the live alert changed, or a side trail is closed. Choose the alternate trip without bargaining.
+- **Medical/communication:** one person becomes confused and clumsy in cold rain. Build the wrap, trigger the correct message/SOS, give coordinates, and keep the device operating.
+
 ## Final Go/No-Go Checklist
 
-Run this on **Saturday 5 September 2026** before starting.
+Do not perform one vague “check conditions.” Use a dated evidence card. Write the URL/source, status, and check time; a blank box is a no-go, not permission to assume.
 
-- [ ] PCTA closures checked.
-- [ ] Mt. Baker-Snoqualmie and Okanogan-Wenatchee alerts checked.
-- [ ] Fire restrictions checked and stove type confirmed legal.
-- [ ] Food storage order checked and storage method confirmed.
-- [ ] NWS forecasts checked for Stevens, Snoqualmie, and interior high terrain.
-- [ ] Smoke forecast and air quality checked.
-- [ ] WTA, FarOut, and PCTA trail/water comments checked.
-- [ ] Maps downloaded and opened offline.
-- [ ] Paper map packed.
-- [ ] Satellite messenger tested.
-- [ ] Emergency contact has route, camps, device info, and overdue time.
-- [ ] All food fits in storage system.
-- [ ] Filter, backup tablets, and fuel packed.
-- [ ] Dry sleep layer protected in waterproof storage.
-- [ ] Exit transport from Snoqualmie confirmed.
+### 72 Hours Before Start
+
+- [ ] **Waptus gate:** bridge repaired, or a current land-manager/PCTA update and reliable recent field evidence confirm a safe legal passage suitable for this group. A “difficult ford” is a fail.
+- [ ] PCTA Section J conditions and live closure map checked, including Susan Jane rockfall and the current Three Queens/Mineral Creek wording.
+- [ ] Mt. Baker-Snoqualmie and Okanogan-Wenatchee alerts/orders checked.
+- [ ] NWS point forecasts and forecast discussion checked for both passes and high interior route; freezing/snow levels, wind, lightning, and multi-day rain assessed.
+- [ ] AirNow/Washington smoke forecast and InciWeb/PCTA fire activity checked.
+- [ ] Recent water, snow, blowdown, bridge, and tread reports checked with date/source recorded.
+- [ ] Alternate trip selected and transport/accommodation change rules known.
+
+### 24 Hours Before Start
+
+- [ ] Every 72-hour status rechecked; screenshots/PDFs saved offline with timestamps.
+- [ ] Fire orders read; exact stove/fuel remains legal and a 3 ft cleared operation site is understood.
+- [ ] Operative food-storage order and exact container model confirmed; all food, trash, and smellables physically fit.
+- [ ] Final PCT-only route, legal camp zones, prohibited Escondido Tarns buffer, and **excluded Circle/Venus branches** marked on both digital and paper maps.
+- [ ] Every exit-sheet row names a real trail, junction, distance, road handoff, status date, and contact.
+- [ ] Two navigation systems opened successfully after restart in airplane mode.
+- [ ] Satellite device sends/receives; PLB registration/subscription, contacts, preset meanings, and independent backup verified.
+- [ ] Trusted contact can state the nightly window, grace period, dispatch number, and hard overdue action.
+- [ ] Stevens drop-off and Snoqualmie pickup reconfirmed for Labor Day traffic; delay and alternate-exit logic understood.
+- [ ] Full weather-ready pack, food, water, and fuel weighed; no critical gear is still theoretical.
+
+### At The Trailhead
+
+- [ ] Re-open live alerts/forecast if service exists; compare with saved status.
+- [ ] Obtain and complete the free self-issued wilderness permit; carry the required part.
+- [ ] Parking/pass and vehicle/key system verified.
+- [ ] START message sent with group count, route version, time, and first check-in.
+- [ ] Every person has rain shell, insulation, headlamp, food, water, whistle, and navigation access.
+- [ ] No one is ill, injured, under-slept to the point of unsafe judgment, or hiding a failed training gate.
+- [ ] Turnaround/alternate-trip authority repeated out loud: any person can veto the start.
+
+| Hard no-go | Why |
+| --- | --- |
+| Bridge remains out with difficult/ambiguous ford | Route-critical Extreme hazard for this group. |
+| Active closure/evacuation, nearby uncontrolled fire, or route-threatening smoke | The group cannot outrun fire or negotiate an order. |
+| AQI 151+ or lower personal medical threshold | Unhealthy exposure plus remote exertion. |
+| Multi-day cold storm, dangerous wind/lightning window, or snow/ice beyond skills | Seven-day schedule has inadequate recovery/route margin. |
+| Failed shelter, dry-sleep, water, food-storage, navigation, satellite, or transport system | A critical layer has no proven function or backup. |
+| Training gate failure or full ambition layer still booked into seven days | Calendar ambition has replaced evidence. |
 
 > [!EMERGENCY]
-> Turn around or exit early for worsening injury, uncontrolled shivering, confusion, severe smoke, active fire closure, lightning exposure, lost navigation confidence, broken shelter, broken water treatment with no backup, or a pace that means you will run out of food. Finishing the spreadsheet is not the goal. Getting both hikers home healthy is the goal.
+> Turn around, hold safely, or exit for worsening injury, uncontrolled shivering, any confusion/clumsiness in cold, heat-related altered mental status, severe smoke, active fire/closure, lightning exposure, lost navigation confidence, an unsafe crossing, broken critical system without backup, or a pace that consumes food/daylight margin. If self-evacuation is unsafe, use SOS. Finishing the spreadsheet is not the goal. Getting the whole group home healthy is.
 
-## Sources To Recheck
+## Sources And Final Recheck Stack
 
-Route and itinerary:
+Open the **live-status** sources in this order at 72 hours, 24 hours, and the trailhead. Save the page or screenshot with date/time. Sources further down explain durable skills and planning assumptions; they do not overrule a current closure or order.
 
-- [The Trekking Mama Section J southbound itinerary](https://www.thetrekkingmama.com/hiking-pct-section-j-solo-7-days-70-miles-and-why-long-trails-are-different/)
-- [WTA: PCT Section J](https://www.wta.org/go-hiking/hikes/pacific-crest-trail-section-j-snoqualmie-pass-to-stevens-pass-east)
-- [PCT Washington: Section J southbound description](https://pctwashington.com/descriptions/section_j)
-- [USFS: Pacific Crest Trail 2000, Stevens Pass south](https://www.fs.usda.gov/r06/mbs/recreation/trails/pacific-crest-trail-2000-stevens-pass-south)
-- [USFS: Alpine Lakes Wilderness, Mt. Baker-Snoqualmie](https://www.fs.usda.gov/r06/mbs/recreation/alpine-lakes-wilderness-mt-baker-snoqualmie)
+Live route and hazard status:
 
-Permits, closures, fire, and regulations:
+- [PCTA Section J condition feed](https://www.pcta.org/discover-the-trail/trail-conditions/sections/section-j-washington/)
+- [PCTA: Waptus River bridge out, mile 2430.5](https://www.pcta.org/discover-the-trail/trail-condition/waptus-river-bridge-is-out/)
+- [PCTA: rockfall near Lake Susan Jane](https://www.pcta.org/discover-the-trail/trail-condition/rockfall-near-lake-susan-jane/)
+- [PCTA live closure map](https://closures.pcta.org/)
+- [PCTA live Three Queens/Mineral Creek alert](https://closures.pcta.org/closure/oHAAQNBkfvMebLBAJaiP)
+- [Mt. Baker-Snoqualmie alerts](https://www.fs.usda.gov/r06/mbs/alerts)
+- [Okanogan-Wenatchee alerts](https://www.fs.usda.gov/r06/okanogan-wenatchee/alerts)
 
-- [PCTA permits](https://www.pcta.org/discover-the-trail/permits/)
-- [PCTA local permit areas](https://www.pcta.org/discover-the-trail/permits/local-permits/)
-- [PCTA closures](https://closures.pcta.org/)
-- [PCTA trail conditions](https://www.pcta.org/discover-the-trail/trail-conditions/)
-- [PCTA fire information](https://www.pcta.org/discover-the-trail/backcountry-basics/fire/)
-- [PCTA Leave No Trace](https://www.pcta.org/discover-the-trail/backcountry-basics/leave-no-trace/)
-- [Mt. Baker-Snoqualmie wilderness regulations](https://www.fs.usda.gov/r06/mbs/recreation/wilderness-regulations)
+Current orders and wilderness rules:
+
+- [Mt. Baker-Snoqualmie 2026 seasonal campfire-ban alert](https://www.fs.usda.gov/r06/mbs/alerts/campfire-ban-goes-effect-july-23)
+- [Okanogan-Wenatchee 2026 Stage 2 restrictions](https://www.fs.usda.gov/r06/okanogan-wenatchee/alerts/stage-2-fire-restrictions)
+- [Mt. Baker-Snoqualmie food-storage alert](https://www.fs.usda.gov/r06/mbs/alerts/entire-forest-under-food-storage-order)
+- [Okanogan-Wenatchee food-storage order](https://www.fs.usda.gov/r06/okanogan-wenatchee/alerts/safe-storage-possession-and-handling-food-and-refuse-forestwide)
+- [IGBC bear-resistant product program](https://igbconline.org/programs/bear-resistant-products/)
+- [IGBC certified-products list, 16 February 2026 PDF](https://igbconline.org/wp-content/uploads/260216_Certified_Products_List.pdf)
+- [Alpine Lakes Wilderness restrictions order PDF, including Escondido Tarns](https://www.fs.usda.gov/sites/nfs/files/r06/okanogan-wenatchee/publication/alerts/Alpine%20Lakes%20Wilderness%20Restrictions%20CO%20%2306-17-1994-001.pdf)
+- [Mt. Baker-Snoqualmie Alpine Lakes Wilderness and self-issue permit](https://www.fs.usda.gov/r06/mbs/recreation/alpine-lakes-wilderness-mt-baker-snoqualmie)
 - [Okanogan-Wenatchee Alpine Lakes Wilderness](https://www.fs.usda.gov/r06/okanogan-wenatchee/recreation/alpine-lakes-wilderness-okanogan-wenatchee)
-- [Alpine Lakes Wilderness restrictions order PDF](https://www.fs.usda.gov/sites/nfs/files/r06/okanogan-wenatchee/publication/alerts/Alpine%20Lakes%20Wilderness%20Restrictions%20CO%20%2306-17-1994-001.pdf)
-- [Mt. Baker-Snoqualmie food storage order](https://www.fs.usda.gov/r06/mbs/alerts/entire-forest-under-food-storage-order)
-- [Okanogan-Wenatchee food storage order](https://www.fs.usda.gov/r06/okanogan-wenatchee/alerts/safe-storage-possession-and-handling-food-and-refuse-forestwide)
-- [USFS: responsible recreation](https://www.fs.usda.gov/visit/know-before-you-go/responsible-recreation)
-- [Leave No Trace: minimize campfire impacts](https://lnt.org/why/7-principles/minimize-campfire-impacts/)
-- [InciWeb wildfire incidents](https://inciweb.wildfire.gov/)
+- [PCTA local permit guidance](https://www.pcta.org/discover-the-trail/permits/local-permits/)
+
+Route design evidence:
+
+- [WTA: PCT Section J—Hard and not for beginning backpackers](https://www.wta.org/go-hiking/hikes/pacific-crest-trail-section-j-snoqualmie-pass-to-stevens-pass-east)
+- [The Trekking Mama seven-day southbound itinerary and 8-10 day recommendation](https://www.thetrekkingmama.com/hiking-pct-section-j-solo-7-days-70-miles-and-why-long-trails-are-different/)
+- [WTA trip report: Circle Lake requires off-trail route-finding](https://www.wta.org/go-hiking/trip-reports/trip_report-2021-08-16-2522227382)
+- [WTA trip report: unmarked/Class 2 Circle-area route](https://www.wta.org/go-hiking/trip-reports/trip_report-2024-08-12.105306686256)
+- [USFS: PCT 2000, Stevens Pass south](https://www.fs.usda.gov/r06/mbs/recreation/trails/pacific-crest-trail-2000-stevens-pass-south)
+- [PCT Washington: Section J southbound description](https://pctwashington.com/descriptions/section_j)
+- [WSDOT holiday-weekend travel](https://wsdot.wa.gov/travel/holiday-weekend-travel)
+- [WSDOT US 2 Labor Day travel charts](https://wsdot.wa.gov/travel/holiday-weekend-travel/labor-day-weekend-travel-times/us-2-travel-charts)
 
 Weather, water, and safety:
 
 - [National Weather Service Snoqualmie Pass point forecast](https://forecast.weather.gov/MapClick.php?lat=47.4290&lon=-121.4099)
 - [National Weather Service Stevens Pass point forecast](https://forecast.weather.gov/MapClick.php?lat=47.733650948903716&lon=-121.09796047210693)
 - [NWS Seattle mountain forecast resources](https://www.weather.gov/sew/Mountainforecast)
+- [NWS lightning safety](https://www.weather.gov/safety/lightning)
+- [AirNow AQI basics](https://www.airnow.gov/aqi/aqi-basics/)
+- [Northwest Avalanche Center forecasts](https://nwac.us/avalanche-forecast/)
 - [NOAA Climate Normals](https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals)
 - [NOAA Stevens Pass September normals data](https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-monthly-1991-2020&stations=USS0021B01S&startDate=0001-09-01&endDate=9996-09-30&format=json)
 - [NOAA Olallie Meadows September normals data](https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-monthly-1991-2020&stations=USS0021B55S&startDate=0001-09-01&endDate=9996-09-30&format=json)
 - [Washington wildfire smoke](https://ecology.wa.gov/Air-Climate/Air-quality/Smoke-fire/Wildfire-smoke)
+- [PCTA: how to react to wildfires](https://www.pcta.org/discover-the-trail/backcountry-basics/fire/how-to-react-to-wildfires/)
+- [InciWeb wildfire incidents](https://inciweb.wildfire.gov/)
 - [CDC backcountry water treatment](https://www.cdc.gov/drinking-water/prevention/water-treatment-hiking-camping-traveling.html)
 - [PCTA water issues](https://www.pcta.org/discover-the-trail/backcountry-basics/water/)
+- [PCTA stream-crossing safety](https://www.pcta.org/discover-the-trail/backcountry-basics/water/stream-crossing-safety/)
+- [CDC norovirus prevention](https://www.cdc.gov/norovirus/prevention/)
 - [Washington State Parks cold water safety](https://parks.wa.gov/about/rules-and-safety/boater-education-safety/cold-water-safety)
 - [Washington DOH lake, river, and beach safety](https://doh.wa.gov/community-and-environment/water-recreation/lake-river-and-beach-safety)
 - [PCTA emergency beacons and trip plans](https://www.pcta.org/discover-the-trail/backcountry-basics/safety-tips/emergency-beacon-search-rescue-trip-plan/)
+- [NOAA SARSAT: register and use 406 MHz beacons](https://www.sarsat.noaa.gov/emergency-406-beacons/)
 - [CDC carbon monoxide basics](https://www.cdc.gov/carbon-monoxide/about/index.html)
 - [CDC tick bite guidance](https://www.cdc.gov/ticks/after-a-tick-bite/index.html)
 - [Washington DOH ticks](https://doh.wa.gov/community-and-environment/pests/ticks)
@@ -2158,6 +2404,8 @@ Gear, food, maps, and wildlife:
 - [Garmin inReach SOS behavior](https://www8.garmin.com/manuals/webhelp/GUID-802DEF62-EBB2-463C-8C51-C58FB29F89E3/EN-US/GUID-1A05801A-FC6D-401A-9E38-AA13923E9E96.html)
 - [NOAA SARSAT 406 MHz beacons](https://www.sarsat.noaa.gov/emergency-406-beacons/)
 - [NPS Ten Essentials](https://www.nps.gov/articles/10essentials.htm)
+- [PCTA bear canisters and food protection](https://www.pcta.org/discover-the-trail/backcountry-basics/food/bear-canister-protecting-your-food/)
+- [PCTA Leave No Trace and conservative hang geometry](https://www.pcta.org/discover-the-trail/backcountry-basics/leave-no-trace/)
 - [USFS bear-resistant food canister guidance](https://www.fs.usda.gov/visit/know-before-you-go/bears/bear-resistant-food-canister)
 - [REI backpacking tent guide](https://www.rei.com/learn/expert-advice/backpacking-tent.html)
 - [REI backpack guide](https://www.rei.com/learn/expert-advice/backpack.html)
@@ -2171,7 +2419,7 @@ Gear, food, maps, and wildlife:
 - [REI water treatment guide](https://www.rei.com/learn/expert-advice/water-treatment-backcountry.html)
 - [REI hydration basics](https://www.rei.com/learn/expert-advice/hydrate.html)
 - [Decathlon Forclaz MT500 2P tent](https://www.decathlon.ca/en/p/8997506/camping-dome-tent-2-person-mt500)
-- [Decathlon Forclaz MT900 2P tarp tent](https://www.decathlon.co.jp/products/trekking-tarp-tent-mt900-2-person)
+- [Decathlon Forclaz MT900 2P tarp tent](https://www.decathlon.co.uk/p/two-person-trekking-ultra-light-and-ultra-compact-tarp-tent-mt900/324534/c193c382m8968614)
 - [Naturehike Cloud Up 2 20D](https://www.naturehike.co.za/collections/ultralight-gear/products/cloud-up-2-ultralight-2-person-tent-upgrade)
 - [Naturehike Mongar 2](https://www.naturehike.com/collections/tents/products/naturehike-20d-mongar-double-layer-waterproof-tent-for-2-persons-nh17t007-m)
 - [Decathlon Forclaz MT500 Air 60+10 L pack](https://www.decathlon.co.jp/products/mens-trekking-backpack-6010-l-mt500-air)
@@ -2186,17 +2434,23 @@ Gear, food, maps, and wildlife:
 - [Decathlon Forclaz MT500 stove](https://www.decathlon.co.uk/p/lightweight-and-compact-gas-stove-with-lighter-mt500/_/R-p-310238)
 - [Decathlon 1 L soft filter bottle](https://www.decathlon.co.uk/p/1l-soft-and-compressible-filter-water-bottle/375940/c149m8975330)
 - [Naturehike TPU 2 L bladder](https://www.naturehike.co.za/collections/bladders/products/tpu-2l-bladder)
-- [Decathlon Forclaz MT100 down jacket](https://www.decathlon.com/collections/camp-hike/products/forclaz-mens-mt100-down-puffer-jacket-335580)
+- [Decathlon Forclaz MT100 down jacket](https://www.decathlon.co.uk/p/men-s-mountain-trekking-down-jacket-mt100-5degc/335580/c33m8858285)
 - [Decathlon Forclaz MT500 waterproof jacket](https://www.decathlon.ch/en/p/_/R-p-172306)
 - [NPS cooking in camp](https://home.nps.gov/subjects/camping/cooking-in-camp.htm)
 - [DLA Meal, Ready-To-Eat](https://www.dla.mil/Troop-Support/Subsistence/Operational-rations/MRE/)
 - [WTA backcountry bidet](https://www.wta.org/go-outside/trail-smarts/how-to/clean-up-your-lnt-act-with-a-backcountry-bidet)
 - [WTA backcountry hygiene](https://www.wta.org/go-outside/trail-smarts/how-to/keep-it-clean-in-the-backcountry)
 - [WDFW black bear](https://wdfw.wa.gov/species-habitats/species/ursus-americanus)
+- [WDFW 2026 black-bear incident statement and bear-spray advice](https://wdfw.wa.gov/newsroom/wdfw-statement/human-black-bear-incident-king-county)
+- [FAA PackSafe: bear spray and self-defense sprays](https://www.faa.gov/hazmat/packsafe/sprays-repellents)
+- [FAA PackSafe: camping stoves and outdoor equipment](https://www.faa.gov/hazmat/packsafe/outdoor-equipment)
 - [WDFW cougar](https://wdfw.wa.gov/species-habitats/species/puma-concolor)
 - [WDFW snakes](https://wdfw.wa.gov/species-habitats/living/snakes)
 - [WTA poisonous plants](https://www.wta.org/go-outside/trail-smarts/how-to/how-to-avoid-poisonous-plants-on-a-hike)
 - [Red Cross hypothermia first aid](https://www.redcross.org/take-a-class/resources/learn-first-aid/hypothermia)
+- [Wilderness Medical Society accidental-hypothermia guideline (PubMed)](https://pubmed.ncbi.nlm.nih.gov/31740369/)
+- [CDC/NIOSH first aid for heat illness](https://www.cdc.gov/niosh/docs/mining/UserFiles/works/pdfs/2024-100.pdf)
+- [NIAID food-allergy and anaphylaxis guideline summary](https://www.niaid.nih.gov/sites/default/files/faguidelinesexecsummary.pdf)
 - [Red Cross heat exhaustion first aid](https://www.redcross.org/take-a-class/resources/learn-first-aid/heat-exhaustion)
 - [Red Cross muscle, bone, and joint injury first aid](https://www.redcross.org/take-a-class/resources/learn-first-aid/muscle-bone-joint-injury)
 - [Red Cross venomous snake bite first aid](https://www.redcross.org/take-a-class/resources/learn-first-aid/venomous-snake-bites)

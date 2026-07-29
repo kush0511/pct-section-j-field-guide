@@ -716,6 +716,38 @@ mark {
   width: auto;
 }
 
+.bear-hang-figure {
+  margin: 28px 0 38px;
+}
+
+.bear-hang-viewport {
+  background: #0c1411;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  overflow-x: auto;
+  scrollbar-color: rgba(143, 200, 218, 0.56) rgba(236, 243, 235, 0.08);
+  scrollbar-width: thin;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+.bear-hang-viewport img {
+  display: block;
+  height: auto;
+  max-width: none;
+  min-width: 760px;
+  width: 100%;
+}
+
+.bear-hang-figure figcaption {
+  border-left: 2px solid rgba(143, 200, 218, 0.48);
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.5;
+  margin-top: 10px;
+  padding-left: 12px;
+}
+
 .diagram-error {
   border-left: 3px solid var(--ember);
   margin: 24px 0 34px;

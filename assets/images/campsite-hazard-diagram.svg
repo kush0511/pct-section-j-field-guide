@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Campsite hazard identification diagram</title>
+  <desc id="desc">Four marked campsite options. A is below a dead hanging limb, B is in a dry drainage, C is on an exposed ridge, and D is on durable sheltered ground.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16251f"/>
+      <stop offset="1" stop-color="#293c31"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3a4935"/>
+      <stop offset=".55" stop-color="#2a3b30"/>
+      <stop offset="1" stop-color="#4d5539"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#030706" flood-opacity=".5"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="560" fill="url(#sky)"/>
+  <path d="M0 270 140 190 290 260 430 150 610 245 785 115 960 230 1090 140 1200 205V560H0Z" fill="#1d2f27"/>
+  <path d="M0 352C170 305 300 320 425 365c135 49 260 34 390-11 136-47 258-45 385 9v197H0Z" fill="url(#ground)"/>
+
+  <!-- exposed crest -->
+  <path d="M820 250 940 202 1080 245 1200 205v232H820Z" fill="#596048"/>
+  <path d="M850 267c92-33 176-28 258-2" fill="none" stroke="#dfb95f" stroke-width="4" stroke-dasharray="13 12" opacity=".8"/>
+  <path d="m1090 92 18 36 39 5-28 28 7 40-36-19-35 19 6-40-28-28 39-5Z" fill="#c9d9d0" opacity=".72"/>
+  <path d="M1050 78q54 36 85 88" fill="none" stroke="#dce9e1" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+
+  <!-- dead tree and widowmaker -->
+  <path d="M163 340 181 142 203 142 213 340Z" fill="#554c3e"/>
+  <path d="M192 191 310 127" stroke="#665a47" stroke-width="19" stroke-linecap="round"/>
+  <path d="M288 139 362 176" stroke="#665a47" stroke-width="15" stroke-linecap="round"/>
+  <path d="M338 158 378 207" stroke="#665a47" stroke-width="12" stroke-linecap="round"/>
+  <path d="M290 130 334 113" stroke="#9c7450" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="292" cy="129" r="8" fill="#d58a63"/>
+
+  <!-- drainage -->
+  <path d="M382 328c80 30 75 78 149 92 85 16 129 53 184 140H445c-21-59-69-74-107-116-35-39-45-79-80-100Z" fill="#172925" opacity=".9"/>
+  <path d="M347 345c68 32 71 81 151 104 56 16 96 50 128 98" fill="none" stroke="#6f978b" stroke-width="6" stroke-dasharray="15 13" opacity=".8"/>
+  <path d="m492 438 12 18 21-2-13 17 8 20-20-7-17 13 1-22-18-12 21-6Z" fill="#90a99a" opacity=".55"/>
+
+  <!-- sheltered trees around D -->
+  <g fill="#183126">
+    <path d="m665 332 38-128 38 128Z"/><rect x="697" y="317" width="12" height="56" fill="#514938"/>
+    <path d="m760 342 44-146 44 146Z"/><rect x="798" y="326" width="12" height="55" fill="#514938"/>
+    <path d="m585 365 33-106 33 106Z"/><rect x="613" y="351" width="10" height="46" fill="#514938"/>
+  </g>
+  <ellipse cx="720" cy="407" rx="112" ry="42" fill="#4f5d43" stroke="#7b8e68" stroke-width="3"/>
+  <path d="m671 417 49-54 51 54Z" fill="#d5ad58" stroke="#f0cc79" stroke-width="4"/>
+  <path d="M720 364v53" stroke="#111b16" stroke-width="4"/>
+
+  <!-- risky tents -->
+  <path d="m196 397 43-45 45 45Z" fill="#a95e4d" stroke="#e39a83" stroke-width="3"/>
+  <path d="m428 436 43-45 45 45Z" fill="#a95e4d" stroke="#e39a83" stroke-width="3"/>
+  <path d="m979 319 43-45 45 45Z" fill="#a95e4d" stroke="#e39a83" stroke-width="3"/>
+
+  <!-- labels -->
+  <g font-family="system-ui, -apple-system, sans-serif" font-weight="800" text-anchor="middle" filter="url(#shadow)">
+    <g transform="translate(238 438)">
+      <circle r="25" fill="#e29a83"/><text y="8" font-size="25" fill="#1b1512">A</text>
+      <text y="53" font-size="18" fill="#f2dfd8">dead limb</text>
+    </g>
+    <g transform="translate(472 482)">
+      <circle r="25" fill="#e29a83"/><text y="8" font-size="25" fill="#1b1512">B</text>
+      <text y="53" font-size="18" fill="#f2dfd8">drainage</text>
+    </g>
+    <g transform="translate(1024 362)">
+      <circle r="25" fill="#e29a83"/><text y="8" font-size="25" fill="#1b1512">C</text>
+      <text y="53" font-size="18" fill="#f2dfd8">exposed crest</text>
+    </g>
+    <g transform="translate(720 470)">
+      <circle r="28" fill="#7bc79b"/><text y="9" font-size="27" fill="#102018">D</text>
+      <text y="57" font-size="18" fill="#e8f4ec">durable shelter</text>
+    </g>
+  </g>
+</svg>

@@ -459,6 +459,8 @@ If thunder follows lightning, you are already in the decision zone. Do not wait 
 - Descend to lower, more uniform terrain if you can do so safely.
 - Wait 30 minutes after the last thunder before resuming exposed travel.
 
+If someone is struck or knocked down, they **do not retain an electrical charge and are safe to touch**. Do not become a second casualty in continuing exposure, but do not delay lifesaving care because of an electrical-charge myth. Trigger SOS/911, check responsiveness and breathing, and begin trained CPR/AED care if needed. Move the person only when necessary to reduce an immediate continuing hazard or provide care.
+
 ### Smoke Protocol
 
 Smoke can be merely unpleasant or trip-ending. It reduces views, slows pace, irritates lungs, and can hide the very mountains you are using for navigation. Use current AirNow/Ecology observations and forecasts, not smell alone.
@@ -1258,6 +1260,7 @@ Wildlife rules:
 - If a black bear makes physical contact or attacks, **fight back aggressively; never play dead**.
 - If a cougar appears, stay upright, maintain eye contact, look large, back away, and fight back if attacked.
 - Store all scented items properly.
+- Fresh bear tracks, scat, digging, or a partly consumed carcass beside a proposed camp or kitchen changes the site decision. Do not investigate a carcass; group up, back away or reroute, keep food secured, and choose a different durable site.
 
 Bear spray is not legally required here, but WDFW recommends carrying it where black bears are present. If carried, keep it immediately accessible on a belt or chest strap, know its safety and range, check the expiry, and practice with an inert trainer. Do not bury it in the pack, deploy it casually, or pre-spray tents/gear; wind can disable you and residues can attract investigation by animals.
 
@@ -1333,6 +1336,33 @@ Before the trip, every hiker should disclose relevant allergies, medical conditi
 This is field guidance, not a substitute for medical training or care. At minimum, know when a problem is beyond your group: altered mental status, worsening cold illness, severe allergic reaction, major bleeding, suspected fracture, chest pain, stroke symptoms, severe dehydration, or inability to walk safely.
 
 Do not use this page to decide medication doses, diagnose fractures, drain complicated blisters, or push through symptoms that are worsening. The field goal is recognition, stabilization, and evacuation judgment.
+
+### First Minute After A Serious Injury
+
+The first responder does not begin with the most visible ankle, cut, or broken trekking pole. Use a simple primary assessment while the second hiker prepares communication, shelter, and supplies:
+
+1. Check that the scene is safe enough to enter.
+2. Check responsiveness and obtain consent when possible.
+3. Open and assess the airway.
+4. Assess breathing.
+5. Check circulation and immediately control life-threatening bleeding.
+6. Protect the spine when the fall mechanism, pain, numbness, weakness, or mental-status findings make spinal injury plausible.
+7. Expose only enough to find major injury while preventing cold, wind, and rain from creating a second emergency.
+
+If the person is unresponsive, has abnormal or absent breathing, life-threatening bleeding, altered mental status, or cannot self-evacuate safely, trigger SOS/911 early. Both hikers must know how to find and operate the messenger; the registered owner does not have to be the person who presses SOS for someone else.
+
+### Life-Threatening Bleeding
+
+Blood that flows continuously, spurts, pools rapidly, or soaks through clothing can become fatal within minutes. Cleaning is not the first priority.
+
+1. Use gloves or a barrier if available, but do not delay lifesaving care when bleeding is catastrophic.
+2. Expose the wound enough to find the source.
+3. Apply firm direct pressure immediately.
+4. Trigger SOS/911 for life-threatening bleeding while pressure continues.
+5. Use wound packing or a manufactured tourniquet only as trained and appropriate for the wound and location. Follow the exact device/training procedure; do not improvise from a quiz answer.
+6. Protect the person from cold, monitor responsiveness and breathing, and continue care until responders take over.
+
+This is a hands-on skill. Take a current bleeding-control and wilderness-first-aid course and practice with the actual supplies you carry.
 
 ### Blisters
 
@@ -2368,6 +2398,7 @@ Weather, water, and safety:
 - [National Weather Service Stevens Pass point forecast](https://forecast.weather.gov/MapClick.php?lat=47.733650948903716&lon=-121.09796047210693)
 - [NWS Seattle mountain forecast resources](https://www.weather.gov/sew/Mountainforecast)
 - [NWS lightning safety](https://www.weather.gov/safety/lightning)
+- [NWS lightning safety for outdoor activities and casualty care](https://www.weather.gov/safety/lightning-sports)
 - [AirNow AQI basics](https://www.airnow.gov/aqi/aqi-basics/)
 - [Northwest Avalanche Center forecasts](https://nwac.us/avalanche-forecast/)
 - [NOAA Climate Normals](https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals)
@@ -2379,6 +2410,7 @@ Weather, water, and safety:
 - [CDC backcountry water treatment](https://www.cdc.gov/drinking-water/prevention/water-treatment-hiking-camping-traveling.html)
 - [PCTA water issues](https://www.pcta.org/discover-the-trail/backcountry-basics/water/)
 - [PCTA stream-crossing safety](https://www.pcta.org/discover-the-trail/backcountry-basics/water/stream-crossing-safety/)
+- [NPS safe river crossings: Plan, Pick, Assess, Check](https://www.nps.gov/articles/safe-river-crossings.htm)
 - [CDC norovirus prevention](https://www.cdc.gov/norovirus/prevention/)
 - [Washington State Parks cold water safety](https://parks.wa.gov/about/rules-and-safety/boater-education-safety/cold-water-safety)
 - [Washington DOH lake, river, and beach safety](https://doh.wa.gov/community-and-environment/water-recreation/lake-river-and-beach-safety)
@@ -2402,10 +2434,12 @@ Gear, food, maps, and wildlife:
 - [Gaia GPS offline maps](https://help.gaiagps.com/hc/en-us/articles/360047131513-Download-Maps-for-Offline-Use)
 - [FarOut help](https://faroutguides.com/help/)
 - [Garmin inReach SOS behavior](https://www8.garmin.com/manuals/webhelp/GUID-802DEF62-EBB2-463C-8C51-C58FB29F89E3/EN-US/GUID-1A05801A-FC6D-401A-9E38-AA13923E9E96.html)
+- [Garmin inReach communication test procedure](https://www8.garmin.com/manuals/webhelp/explorewebsitepro/EN-US/GUID-B6CD3E55-679F-417A-BDFE-761E7F50DA3E.html)
 - [NOAA SARSAT 406 MHz beacons](https://www.sarsat.noaa.gov/emergency-406-beacons/)
 - [NPS Ten Essentials](https://www.nps.gov/articles/10essentials.htm)
 - [PCTA bear canisters and food protection](https://www.pcta.org/discover-the-trail/backcountry-basics/food/bear-canister-protecting-your-food/)
 - [PCTA Leave No Trace and conservative hang geometry](https://www.pcta.org/discover-the-trail/backcountry-basics/leave-no-trace/)
+- [Leave No Trace backcountry knowledge checks](https://learn.lnt.org/courses/backcountry)
 - [USFS bear-resistant food canister guidance](https://www.fs.usda.gov/visit/know-before-you-go/bears/bear-resistant-food-canister)
 - [REI backpacking tent guide](https://www.rei.com/learn/expert-advice/backpacking-tent.html)
 - [REI backpack guide](https://www.rei.com/learn/expert-advice/backpack.html)
@@ -2448,6 +2482,8 @@ Gear, food, maps, and wildlife:
 - [WDFW snakes](https://wdfw.wa.gov/species-habitats/living/snakes)
 - [WTA poisonous plants](https://www.wta.org/go-outside/trail-smarts/how-to/how-to-avoid-poisonous-plants-on-a-hike)
 - [Red Cross hypothermia first aid](https://www.redcross.org/take-a-class/resources/learn-first-aid/hypothermia)
+- [Red Cross life-threatening external bleeding](https://www.redcross.org/take-a-class/resources/learn-first-aid/bleeding-life-threatening-external)
+- [NOLS wilderness-medicine initial assessment](https://www.nols.edu/blog/abcs-of-wilderness-medicine-the-initial-assessment/)
 - [Wilderness Medical Society accidental-hypothermia guideline (PubMed)](https://pubmed.ncbi.nlm.nih.gov/31740369/)
 - [CDC/NIOSH first aid for heat illness](https://www.cdc.gov/niosh/docs/mining/UserFiles/works/pdfs/2024-100.pdf)
 - [NIAID food-allergy and anaphylaxis guideline summary](https://www.niaid.nih.gov/sites/default/files/faguidelinesexecsummary.pdf)

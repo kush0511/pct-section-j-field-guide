@@ -9,7 +9,8 @@ The site uses a small browser-side Markdown renderer:
 - `content.md` is the guide.
 - `app.js` loads Markdown, parses front matter, renders Markdown-it, adds heading anchors, guide navigation, callouts, responsive tables, and Mermaid diagrams.
 - `styles.css` defines the alpine visual system.
-- `quiz.html`, `quiz-data.js`, `quiz.js`, and `quiz.css` provide a standalone randomized trail-knowledge assessment with section mastery saved locally in the browser.
+- `quiz.html`, `quiz-data.js`, `quiz.js`, and `quiz.css` provide a standalone randomized trail-knowledge practice deck. It includes a two-hiker field drill, criterion-by-criterion scenario checks, non-compensatory must-pass gaps, and local full-deck section results.
+- `QUIZ_AUDIT.md` records the false-confidence findings, question replacements, outside course/quiz patterns, and residual limitations.
 - `.github/workflows/pages.yml` deploys the repository root to GitHub Pages.
 
 ## Local preview

@@ -3,7 +3,7 @@
 
   const app = document.querySelector("#quiz-app");
   const data = window.PCT_QUIZ_DATA;
-  const STORAGE_KEY = "pct-section-j-trail-quiz-v1";
+  const STORAGE_KEY = "pct-section-j-trail-quiz-v2";
   const QUICK_PER_SECTION = 4;
   const TYPE_LABELS = {
     single: "Choose one",
@@ -22,8 +22,8 @@
     boolean: "Decide whether the statement is true or false.",
     order: "Use the arrow buttons to build the correct sequence.",
     match: "Choose one field meaning for every row.",
-    short: "Use your own words. The grader looks for the safety-critical idea.",
-    scenario: "Write your call before revealing the debrief, then grade yourself honestly."
+    short: "Commit your answer before revealing the criteria. Check only ideas you actually included.",
+    scenario: "Make the call before revealing the debrief. Every required criterion must be present."
   };
 
   let profile = loadProfile();
@@ -53,6 +53,8 @@
       startAttempt({ mode: "quick" });
     } else if (action === "start-comprehensive") {
       startAttempt({ mode: "comprehensive" });
+    } else if (action === "start-duo") {
+      startAttempt({ mode: "duo" });
     } else if (action === "start-section") {
       startAttempt({ mode: "section", sectionId: actionTarget.dataset.section });
     } else if (action === "start-missed") {
@@ -66,8 +68,10 @@
       moveOrderItem(Number(actionTarget.dataset.index), Number(actionTarget.dataset.delta));
     } else if (action === "next-question") {
       moveToNextQuestion();
-    } else if (action === "self-grade") {
-      recordScenarioGrade(actionTarget.dataset.result === "pass");
+    } else if (action === "record-rubric") {
+      recordRubricGrade(false);
+    } else if (action === "record-review") {
+      recordRubricGrade(true);
     } else if (action === "restart-attempt") {
       startAttempt({ ...currentAttempt.config });
     } else if (action === "copy-results") {
@@ -76,9 +80,20 @@
   }
 
   function handleInput(event) {
-    if (event.target.id === "player-name") {
-      profile.playerName = event.target.value.slice(0, 60);
+    if (event.target.id === "hiker-one-name") {
+      profile.hikerOneName = event.target.value.slice(0, 60);
       saveProfile();
+      return;
+    }
+
+    if (event.target.id === "hiker-two-name") {
+      profile.hikerTwoName = event.target.value.slice(0, 60);
+      saveProfile();
+      return;
+    }
+
+    if (event.target.name === "rubric-point") {
+      updateRubricProgress();
       return;
     }
 
@@ -94,9 +109,9 @@
     const response = collectResponse(question);
     if (!isResponseReady(question, response)) return;
 
-    if (question.type === "scenario") {
+    if (usesRubricGrading(question)) {
       currentFeedback = {
-        pendingScenario: true,
+        pendingRubric: true,
         response,
         isCorrect: null
       };
@@ -117,17 +132,18 @@
 
     const totalQuestions = data.questions.length;
     const typeCount = new Set(data.questions.map((question) => question.type)).size;
+    const duoQuestionCount = data.questions.filter((question) => question.duo).length;
     const missedCount = profile.missedIds.length;
     const sectionCards = data.sections.map(renderSectionCard).join("");
 
     app.innerHTML = `
       <header class="quiz-hero">
         <div class="quiz-hero-copy">
-          <p class="quiz-kicker">PCT Section J · trail knowledge certification</p>
+          <p class="quiz-kicker">PCT Section J · pair field-readiness practice</p>
           <h1>Know the trail.<br>Make the call.</h1>
           <p class="quiz-hero-deck">
-            A randomized field assessment for two hikers who need to recognize terrain,
-            control a camp, navigate uncertainty, and act early when conditions turn.
+            A randomized, guide-backed practice deck for two first-time hikers who need to
+            recognize trouble, agree on stop conditions, and make conservative field calls.
           </p>
           <div class="quiz-hero-stats" aria-label="Quiz facts">
             <div class="quiz-hero-stat"><strong>${data.sections.length}</strong><span>Field stations</span></div>
@@ -156,26 +172,43 @@
 
       <section class="quiz-dashboard" aria-labelledby="practice-heading">
         <div class="quiz-control-panel">
-          <label class="player-field">
-            <span class="field-label">Hiker name · optional</span>
-            <input
-              id="player-name"
-              type="text"
-              maxlength="60"
-              autocomplete="name"
-              placeholder="Your name or trail name"
-              value="${escapeAttribute(profile.playerName)}"
-            />
-          </label>
+          <div class="pair-fields" aria-label="Pair names">
+            <label class="player-field">
+              <span class="field-label">Hiker 1 · optional</span>
+              <input
+                id="hiker-one-name"
+                type="text"
+                maxlength="60"
+                autocomplete="off"
+                placeholder="Name or trail name"
+                value="${escapeAttribute(profile.hikerOneName)}"
+              />
+            </label>
+            <label class="player-field">
+              <span class="field-label">Hiker 2 · optional</span>
+              <input
+                id="hiker-two-name"
+                type="text"
+                maxlength="60"
+                autocomplete="off"
+                placeholder="Friend's name or trail name"
+                value="${escapeAttribute(profile.hikerTwoName)}"
+              />
+            </label>
+          </div>
 
           <div class="quiz-mode-actions" aria-label="Assessment modes">
             <button class="primary-button" type="button" data-action="start-quick">
               Trail check
-              <span class="button-note">${QUICK_PER_SECTION} random questions per section · ${QUICK_PER_SECTION * data.sections.length} total</span>
+              <span class="button-note">One guaranteed core call plus random coverage per section · ${QUICK_PER_SECTION * data.sections.length} total</span>
             </button>
             <button class="secondary-button" type="button" data-action="start-comprehensive">
               Comprehensive run
-              <span class="button-note">All ${totalQuestions} questions · shuffled by section</span>
+              <span class="button-note">All ${totalQuestions} questions · fully interleaved · updates full-deck scores</span>
+            </button>
+            <button class="secondary-button duo-button" type="button" data-action="start-duo">
+              Duo field drill
+              <span class="button-note">${duoQuestionCount} scenarios · alternate caller and assessor · every required point counts</span>
             </button>
             <button
               class="ghost-button"
@@ -193,7 +226,7 @@
           <div>
             <p class="section-eyebrow">Revisit one field station</p>
             <h2 id="practice-heading">Practice by section</h2>
-            <p>Each station reshuffles all eight questions and answer choices.</p>
+            <p>Each station reshuffles all eight questions and is the other mode that updates its full-deck score.</p>
           </div>
         </div>
 
@@ -203,8 +236,8 @@
       </section>
 
       <footer class="quiz-footer">
-        Question explanations link to the source guide. Saved mastery lives only in this browser;
-        you and your friend can take independent shuffled attempts on separate devices.
+        This is practice, not certification. Question explanations link to the source guide.
+        Only complete eight-question sections and comprehensive runs update the saved full-deck scores in this browser.
       </footer>
     `;
   }
@@ -212,9 +245,15 @@
   function renderSectionCard(section) {
     const sectionQuestions = data.questions.filter((question) => question.section === section.id);
     const types = new Set(sectionQuestions.map((question) => question.type)).size;
-    const best = profile.bestBySection[section.id];
-    const scoreValue = Number.isFinite(best) ? best : 0;
-    const scoreLabel = Number.isFinite(best) ? `${best}%` : "—";
+    const fullDeck = profile.fullDeckBySection[section.id];
+    const scoreValue = Number.isFinite(fullDeck?.percent) ? fullDeck.percent : 0;
+    const scoreLabel = Number.isFinite(fullDeck?.percent) ? `${fullDeck.percent}%` : "—";
+    const scoreDate = fullDeck?.completedAt
+      ? new Date(fullDeck.completedAt).toLocaleDateString(undefined, { month: "short", day: "numeric" })
+      : "Not completed";
+    const scoreSubLabel = fullDeck?.criticalMisses
+      ? `${fullDeck.criticalMisses} gap${fullDeck.criticalMisses === 1 ? "" : "s"}`
+      : "Full deck";
 
     return `
       <article class="section-card" style="--section-color: ${section.color}">
@@ -227,9 +266,14 @@
             <span>${types} formats</span>
           </div>
         </div>
-        <div class="mastery-ring" style="--score: ${scoreValue}" aria-label="Best score ${scoreLabel}">
+        <div
+          class="mastery-ring"
+          style="--score: ${scoreValue}"
+          aria-label="Latest full-deck score ${scoreLabel}; ${escapeAttribute(scoreSubLabel)}; ${escapeAttribute(scoreDate)}"
+          title="${escapeAttribute(`Latest full-deck score · ${scoreDate}`)}"
+        >
           <strong>${scoreLabel}</strong>
-          <span>Best</span>
+          <span>${escapeHtml(scoreSubLabel)}</span>
         </div>
         <button
           class="section-start"
@@ -272,17 +316,26 @@
       return shuffle(data.questions.filter((question) => question.section === config.sectionId));
     }
 
-    if (config.mode === "missed") {
-      const missed = new Set(profile.missedIds);
-      return data.sections.flatMap((section) =>
-        shuffle(data.questions.filter((question) => question.section === section.id && missed.has(question.id)))
-      );
+    if (config.mode === "duo") {
+      return shuffle(data.questions.filter((question) => question.duo));
     }
 
-    return data.sections.flatMap((section) => {
-      const sectionQuestions = shuffle(data.questions.filter((question) => question.section === section.id));
-      return config.mode === "quick" ? sectionQuestions.slice(0, QUICK_PER_SECTION) : sectionQuestions;
-    });
+    if (config.mode === "missed") {
+      const missed = new Set(profile.missedIds);
+      return shuffle(data.questions.filter((question) => missed.has(question.id)));
+    }
+
+    if (config.mode === "quick") {
+      const sampled = data.sections.flatMap((section) => {
+        const sectionQuestions = data.questions.filter((question) => question.section === section.id);
+        const coreQuestions = sectionQuestions.filter((question) => question.core);
+        const remaining = shuffle(sectionQuestions.filter((question) => !question.core));
+        return [...coreQuestions, ...remaining].slice(0, QUICK_PER_SECTION);
+      });
+      return shuffle(sampled);
+    }
+
+    return shuffle(data.questions);
   }
 
   function prepareQuestion(sourceQuestion) {
@@ -369,11 +422,13 @@
               <div class="question-meta">
                 <span class="question-section-tag">${section.number} · ${escapeHtml(section.shortTitle)}</span>
                 <span class="question-type-tag">${escapeHtml(TYPE_LABELS[question.type])}</span>
+                ${question.critical ? '<span class="critical-tag">Must pass</span>' : ""}
                 <span class="question-counter">${questionNumber} of ${total}</span>
               </div>
 
               <h1 class="question-prompt">${escapeHtml(question.prompt)}</h1>
-              <p class="question-instruction">${escapeHtml(TYPE_INSTRUCTIONS[question.type])}</p>
+              <p class="question-instruction">${escapeHtml(getQuestionInstruction(question))}</p>
+              ${renderDuoRoleCallout(question)}
 
               ${renderQuestionMedia(question)}
 
@@ -387,13 +442,13 @@
                 <div class="question-actions">
                   ${
                     currentFeedback
-                      ? currentFeedback.pendingScenario
+                      ? currentFeedback.pendingRubric
                         ? ""
                         : `<button class="primary-button" type="button" data-action="next-question">
                             ${currentAttempt.index === total - 1 ? "View results" : "Next question →"}
                           </button>`
                       : `<button class="primary-button" type="submit" id="submit-answer" disabled>
-                          ${question.type === "scenario" ? "Reveal debrief" : "Check answer"}
+                          ${usesRubricGrading(question) ? "Reveal criteria" : "Check answer"}
                         </button>`
                   }
                 </div>
@@ -423,6 +478,27 @@
     `;
   }
 
+  function getQuestionInstruction(question) {
+    if (currentAttempt?.config.mode === "duo" && usesRubricGrading(question)) {
+      const { responder, assessor } = getPairRoles();
+      return `${responder} answers aloud without help. ${assessor} records the call, then checks only criteria stated before reveal.`;
+    }
+    return TYPE_INSTRUCTIONS[question.type];
+  }
+
+  function renderDuoRoleCallout(question) {
+    if (currentAttempt?.config.mode !== "duo" || !usesRubricGrading(question)) return "";
+    const { responder, assessor } = getPairRoles();
+    return `
+      <aside class="role-callout" aria-label="Duo drill roles">
+        <span><strong>Caller</strong>${escapeHtml(responder)}</span>
+        <span aria-hidden="true">→</span>
+        <span><strong>Assessor</strong>${escapeHtml(assessor)}</span>
+        <small>Swap on the next scenario. Do not coach before the answer is committed.</small>
+      </aside>
+    `;
+  }
+
   function renderAnswerInput(question) {
     const locked = Boolean(currentFeedback);
 
@@ -448,7 +524,7 @@
             name="short-answer"
             type="text"
             autocomplete="off"
-            placeholder="State the safety-critical idea"
+            placeholder="Commit the safety-critical idea before reveal"
             value="${escapeAttribute(value)}"
             ${locked ? "disabled" : ""}
           />
@@ -468,7 +544,11 @@
             ${locked ? "disabled" : ""}
           >${escapeHtml(value)}</textarea>
         </label>
-        <p class="scenario-hint">Write at least one concrete action before revealing the model response.</p>
+        <p class="scenario-hint">
+          ${currentAttempt?.config.mode === "duo"
+            ? "The assessor records a few concrete actions after the caller finishes; no coaching before reveal."
+            : "Write the first action, stop condition, and communication threshold before reveal."}
+        </p>
       `;
     }
 
@@ -511,7 +591,7 @@
   }
 
   function getOptionStatusClass(question, choice, isSelected) {
-    if (!currentFeedback || currentFeedback.pendingScenario) return "";
+    if (!currentFeedback || currentFeedback.pendingRubric) return "";
 
     if (question.type === "boolean") {
       const choiceValue = choice === "True";
@@ -600,23 +680,39 @@
   function renderFeedback(question) {
     if (!currentFeedback) return "";
 
-    if (currentFeedback.pendingScenario) {
+    if (currentFeedback.pendingRubric) {
+      const modelAnswer = question.modelAnswer || question.acceptedAnswer;
+      const assessorLabel =
+        currentAttempt?.config.mode === "duo"
+          ? `${getPairRoles().assessor}: check only what ${getPairRoles().responder} said before reveal.`
+          : "Check only what your committed answer included before reveal.";
       return `
         <section class="answer-feedback" id="answer-feedback" tabindex="-1" aria-live="polite">
           <h2 class="feedback-title">
             <span class="feedback-icon" aria-hidden="true">↔</span>
-            Compare your field call
+            Compare the committed answer
           </h2>
-          <p>${escapeHtml(question.modelAnswer)}</p>
-          <ul class="rubric-list">
-            ${question.rubric.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
-          </ul>
+          <p class="answer-key"><strong>Model:</strong> ${escapeHtml(modelAnswer)}</p>
+          <p class="rubric-direction">${escapeHtml(assessorLabel)} Every listed point is required.</p>
+          <fieldset class="rubric-checklist">
+            <legend>Required criteria</legend>
+            ${question.rubric
+              .map(
+                (item, index) => `
+                  <label>
+                    <input type="checkbox" name="rubric-point" value="${index}" />
+                    <span>${escapeHtml(item)}</span>
+                  </label>
+                `
+              )
+              .join("")}
+          </fieldset>
           <div class="self-grade" aria-label="Self assessment">
-            <button class="self-grade-button is-pass" type="button" data-action="self-grade" data-result="pass">
-              I covered the critical points
+            <button class="self-grade-button is-pass" type="button" data-action="record-rubric">
+              Record rubric · <span id="rubric-progress">0 / ${question.rubric.length}</span>
             </button>
-            <button class="self-grade-button is-review" type="button" data-action="self-grade" data-result="review">
-              Needs review
+            <button class="self-grade-button is-review" type="button" data-action="record-review">
+              Record as needs review
             </button>
           </div>
           <a class="guide-deep-link" href="index.html#${escapeAttribute(question.anchor)}">Open this guide section ↗</a>
@@ -625,7 +721,11 @@
     }
 
     const statusClass = currentFeedback.isCorrect ? "is-correct" : "is-wrong";
-    const statusTitle = currentFeedback.isCorrect ? "Trail-ready answer" : "Review this before the trail";
+    const statusTitle = currentFeedback.isCorrect
+      ? "Correct"
+      : question.critical
+        ? "Critical gap — score cannot offset this"
+        : "Review this before the trail";
     const icon = currentFeedback.isCorrect ? "✓" : "!";
 
     return `
@@ -635,6 +735,11 @@
           ${statusTitle}
         </h2>
         <p>${escapeHtml(question.explanation)}</p>
+        ${
+          usesRubricGrading(question)
+            ? `<p class="answer-key"><strong>Rubric:</strong> ${currentFeedback.rubricChecked || 0} of ${question.rubric.length} required points were recorded.</p>`
+            : ""
+        }
         ${currentFeedback.isCorrect ? "" : renderAnswerKey(question)}
         <a class="guide-deep-link" href="index.html#${escapeAttribute(question.anchor)}">Open this guide section ↗</a>
       </section>
@@ -715,38 +820,48 @@
       return question.pairs.every((pair) => response[pair.term] === pair.answer);
     }
 
-    if (question.type === "short") {
-      const normalized = normalizeAnswer(response);
-      return question.keywords.every((group) => group.some((keyword) => containsKeyword(normalized, keyword)));
-    }
-
     return false;
   }
 
   function recordAnswer(question, response, isCorrect) {
+    const pairRoles = currentAttempt?.config.mode === "duo" ? getPairRoles() : null;
     currentAttempt.results.push({
       id: question.id,
       section: question.section,
       prompt: question.prompt,
       response,
-      isCorrect
+      isCorrect,
+      critical: Boolean(question.critical),
+      responder: pairRoles?.responder || ""
     });
   }
 
-  function recordScenarioGrade(isCorrect) {
-    if (!currentAttempt || !currentFeedback?.pendingScenario) return;
+  function recordRubricGrade(forceReview) {
+    if (!currentAttempt || !currentFeedback?.pendingRubric) return;
     const question = currentQuestion();
+    const checkedCount = document.querySelectorAll('input[name="rubric-point"]:checked').length;
+    const isCorrect = !forceReview && checkedCount === question.rubric.length;
     recordAnswer(question, currentFeedback.response, isCorrect);
+    const recordedResult = currentAttempt.results[currentAttempt.results.length - 1];
+    recordedResult.rubricChecked = checkedCount;
     currentFeedback = {
       response: currentFeedback.response,
-      isCorrect
+      isCorrect,
+      rubricChecked: checkedCount
     };
     renderQuestion();
     focusFeedback();
   }
 
+  function updateRubricProgress() {
+    const progress = document.querySelector("#rubric-progress");
+    if (!progress || !currentAttempt) return;
+    const checkedCount = document.querySelectorAll('input[name="rubric-point"]:checked').length;
+    progress.textContent = `${checkedCount} / ${currentQuestion().rubric.length}`;
+  }
+
   function moveToNextQuestion() {
-    if (!currentAttempt || !currentFeedback || currentFeedback.pendingScenario) return;
+    if (!currentAttempt || !currentFeedback || currentFeedback.pendingRubric) return;
 
     if (currentAttempt.index >= currentAttempt.questions.length - 1) {
       completeAttempt();
@@ -803,6 +918,9 @@
     const correct = attempt.results.filter((result) => result.isCorrect).length;
     const percent = total ? Math.round((correct / total) * 100) : 0;
     const bySection = {};
+    const criticalResults = attempt.results.filter((result) => result.critical);
+    const criticalMissed = criticalResults.filter((result) => !result.isCorrect);
+    const byResponder = {};
 
     attempt.sectionOrder.forEach((sectionId) => {
       const results = attempt.results.filter((result) => result.section === sectionId);
@@ -815,11 +933,27 @@
       };
     });
 
+    attempt.results
+      .filter((result) => result.responder)
+      .forEach((result) => {
+        byResponder[result.responder] ||= { correct: 0, total: 0, criticalMissed: 0 };
+        byResponder[result.responder].total += 1;
+        if (result.isCorrect) byResponder[result.responder].correct += 1;
+        if (result.critical && !result.isCorrect) byResponder[result.responder].criticalMissed += 1;
+      });
+
+    Object.values(byResponder).forEach((result) => {
+      result.percent = result.total ? Math.round((result.correct / result.total) * 100) : 0;
+    });
+
     return {
       total,
       correct,
       percent,
       bySection,
+      byResponder,
+      criticalTotal: criticalResults.length,
+      criticalMissed,
       missed: attempt.results.filter((result) => !result.isCorrect),
       completedAt: new Date().toISOString(),
       durationMinutes: Math.max(1, Math.round((Date.now() - attempt.startedAt) / 60000))
@@ -827,12 +961,21 @@
   }
 
   function updateProfile(summary) {
-    Object.entries(summary.bySection).forEach(([sectionId, sectionSummary]) => {
-      const prior = profile.bestBySection[sectionId];
-      profile.bestBySection[sectionId] = Number.isFinite(prior)
-        ? Math.max(prior, sectionSummary.percent)
-        : sectionSummary.percent;
-    });
+    const isFullDeckMode = ["section", "comprehensive"].includes(currentAttempt.config.mode);
+    if (isFullDeckMode) {
+      Object.entries(summary.bySection).forEach(([sectionId, sectionSummary]) => {
+        const fullSectionCount = data.questions.filter((question) => question.section === sectionId).length;
+        if (sectionSummary.total !== fullSectionCount) return;
+        profile.fullDeckBySection[sectionId] = {
+          percent: sectionSummary.percent,
+          completedAt: summary.completedAt,
+          criticalMisses: currentAttempt.results.filter(
+            (result) => result.section === sectionId && result.critical && !result.isCorrect
+          ).length,
+          version: data.version
+        };
+      });
+    }
 
     const missed = new Set(profile.missedIds);
     currentAttempt.results.forEach((result) => {
@@ -853,22 +996,55 @@
   }
 
   function renderResults(summary) {
-    const player = profile.playerName.trim();
-    const verdict = getScoreVerdict(summary.percent);
+    const pairNames = [profile.hikerOneName.trim(), profile.hikerTwoName.trim()].filter(Boolean);
+    const displayName = pairNames.length ? pairNames.join(" & ") : "";
+    const verdict = getScoreVerdict(summary);
     const sectionResults = Object.entries(summary.bySection)
       .map(([sectionId, result]) => {
         const section = getSection(sectionId);
+        const sectionCriticalMisses = currentAttempt.results.filter(
+          (item) => item.section === sectionId && item.critical && !item.isCorrect
+        ).length;
         return `
           <article class="result-section" style="--result-color: ${section.color}">
             <span class="result-section-number">${section.number}</span>
             <div>
               <h3>${escapeHtml(section.title)}</h3>
-              <p>${result.correct} of ${result.total} correct</p>
+              <p>
+                ${result.correct} of ${result.total} correct
+                ${sectionCriticalMisses ? ` · ${sectionCriticalMisses} must-pass gap${sectionCriticalMisses === 1 ? "" : "s"}` : ""}
+              </p>
             </div>
             <strong>${result.percent}%</strong>
           </article>
         `;
       })
+      .join("");
+
+    const pairResults = Object.entries(summary.byResponder)
+      .map(
+        ([name, result]) => `
+          <article class="result-section pair-result" style="--result-color: var(--sun)">
+            <span class="result-section-number">PAIR</span>
+            <div>
+              <h3>${escapeHtml(name)} · caller</h3>
+              <p>${result.correct} of ${result.total} scenarios · ${result.criticalMissed} must-pass gaps</p>
+            </div>
+            <strong>${result.percent}%</strong>
+          </article>
+        `
+      )
+      .join("");
+
+    const criticalReviewItems = summary.criticalMissed
+      .map(
+        (miss) => `
+          <li>
+            <span>!</span>
+            <p>${escapeHtml(miss.prompt)}</p>
+          </li>
+        `
+      )
       .join("");
 
     const reviewItems = summary.missed
@@ -891,15 +1067,15 @@
         <header class="results-heading">
           <div>
             <p class="section-eyebrow">${escapeHtml(currentAttempt.modeLabel)} complete</p>
-            <h1>${player ? `${escapeHtml(player)}, your` : "Your"} trail read is ${escapeHtml(verdict.title)}.</h1>
+            <h1>${displayName ? `${escapeHtml(displayName)}, your` : "Your"} result is ${escapeHtml(verdict.title)}.</h1>
             <p>
               ${escapeHtml(verdict.copy)}
-              You scored ${summary.correct} of ${summary.total} in ${summary.durationMinutes} minute${summary.durationMinutes === 1 ? "" : "s"}.
+              Knowledge score: ${summary.correct} of ${summary.total} in ${summary.durationMinutes} minute${summary.durationMinutes === 1 ? "" : "s"}.
             </p>
           </div>
           <div class="score-orbit" style="--score: ${summary.percent}" aria-label="Score ${summary.percent} percent">
             <strong>${summary.percent}%</strong>
-            <span>Overall</span>
+            <span>Knowledge</span>
           </div>
         </header>
 
@@ -910,8 +1086,31 @@
         </div>
 
         <div class="results-grid">
+          ${pairResults}
           ${sectionResults}
         </div>
+
+        ${
+          summary.criticalMissed.length
+            ? `
+              <section class="review-panel critical-review">
+                <h2>
+                  ${summary.criticalMissed.length} must-pass gap${summary.criticalMissed.length === 1 ? "" : "s"}
+                  ${summary.criticalMissed.length === 1 ? "blocks" : "block"} readiness
+                </h2>
+                <p>A high total cannot compensate for a missed no-go, rescue, medical, crossing, fire, or navigation decision.</p>
+                <ul class="review-list">${criticalReviewItems}</ul>
+              </section>
+            `
+            : summary.criticalTotal
+              ? `
+                <section class="review-panel clear-critical">
+                  <h2>Must-pass calls clear in this sample</h2>
+                  <p>You answered ${summary.criticalTotal} must-pass item${summary.criticalTotal === 1 ? "" : "s"} correctly. This still does not demonstrate physical field skill.</p>
+                </section>
+              `
+              : ""
+        }
 
         ${
           summary.missed.length
@@ -926,15 +1125,15 @@
             `
             : `
               <section class="review-panel">
-                <h2>Clean pass</h2>
-                <p>No questions from this attempt remain in review. Conditions still need a live pre-trip check.</p>
+                <h2>Clean recall</h2>
+                <p>No questions from this attempt remain in review. Conditions still need a live check and procedures still need physical rehearsal.</p>
               </section>
             `
         }
 
         <footer class="quiz-footer">
-          A quiz score is evidence of recall, not proof of field competence. Rehearse the scenarios with real maps,
-          shelters, water systems and communication devices.
+          This is not a certification. A quiz score is evidence of recall, not proof of field competence.
+          Rehearse with the actual map, shelter, sleep system, stove, water system, first-aid kit and messenger.
         </footer>
       </section>
     `;
@@ -943,7 +1142,8 @@
   async function copyResults(button) {
     if (!currentAttempt?.completed) return;
     const summary = summarizeAttempt(currentAttempt);
-    const player = profile.playerName.trim() || "Hiker";
+    const player =
+      [profile.hikerOneName.trim(), profile.hikerTwoName.trim()].filter(Boolean).join(" & ") || "Hikers";
     const sectionLines = Object.entries(summary.bySection).map(([sectionId, result]) => {
       const section = getSection(sectionId);
       return `${section.shortTitle}: ${result.percent}% (${result.correct}/${result.total})`;
@@ -951,6 +1151,7 @@
     const text = [
       `${player} — PCT Section J Trail Knowledge Check`,
       `${currentAttempt.modeLabel}: ${summary.percent}% (${summary.correct}/${summary.total})`,
+      `Must-pass gaps: ${summary.criticalMissed.length}`,
       ...sectionLines,
       "https://kush0511.github.io/pct-section-j-field-guide/quiz.html"
     ].join("\n");
@@ -988,6 +1189,18 @@
     return currentAttempt.questions[currentAttempt.index];
   }
 
+  function usesRubricGrading(question) {
+    return ["short", "scenario"].includes(question.type);
+  }
+
+  function getPairRoles(index = currentAttempt?.index || 0) {
+    const hikerOne = profile.hikerOneName.trim() || "Hiker 1";
+    const hikerTwo = profile.hikerTwoName.trim() || "Hiker 2";
+    return index % 2 === 0
+      ? { responder: hikerOne, assessor: hikerTwo }
+      : { responder: hikerTwo, assessor: hikerOne };
+  }
+
   function getSection(sectionId) {
     return data.sections.find((section) => section.id === sectionId);
   }
@@ -995,25 +1208,32 @@
   function getModeLabel(config) {
     if (config.mode === "quick") return "Trail check";
     if (config.mode === "comprehensive") return "Comprehensive run";
+    if (config.mode === "duo") return "Duo field drill";
     if (config.mode === "missed") return "Missed-question review";
     if (config.mode === "section") return getSection(config.sectionId)?.shortTitle || "Section practice";
     return "Practice";
   }
 
-  function getScoreVerdict(percent) {
-    if (percent >= 90) {
+  function getScoreVerdict(summary) {
+    if (summary.criticalMissed.length) {
       return {
-        title: "well rehearsed",
-        copy: "Strong recall. Use the missed-question list, then prove the procedures in physical drills."
+        title: "blocked by a must-pass gap",
+        copy: "Rehearse every flagged decision before relying on this knowledge. The percentage does not override a critical miss."
       };
     }
-    if (percent >= 75) {
+    if (summary.percent >= 90) {
+      return {
+        title: "strong recall, not certification",
+        copy: "The knowledge is promising. Now prove the procedures with the actual two-person systems and current trail evidence."
+      };
+    }
+    if (summary.percent >= 75) {
       return {
         title: "promising, not automatic",
         copy: "You have the shape of the route, but several decisions still need deliberate rehearsal."
       };
     }
-    if (percent >= 60) {
+    if (summary.percent >= 60) {
       return {
         title: "not yet dependable",
         copy: "Too many field calls still depend on luck or recognition after the fact. Revisit the weakest stations."
@@ -1032,6 +1252,7 @@
     if (question.type === "order") return question.answer.map((item, index) => `${index + 1}. ${item}`).join(" → ");
     if (question.type === "match") return question.pairs.map((pair) => `${pair.term}: ${pair.answer}`).join("; ");
     if (question.type === "short") return question.acceptedAnswer;
+    if (question.type === "scenario") return question.modelAnswer;
     return "";
   }
 
@@ -1042,8 +1263,9 @@
 
   function loadProfile() {
     const fallback = {
-      playerName: "",
-      bestBySection: {},
+      hikerOneName: "",
+      hikerTwoName: "",
+      fullDeckBySection: {},
       missedIds: [],
       history: []
     };
@@ -1052,8 +1274,12 @@
       const stored = JSON.parse(localStorage.getItem(STORAGE_KEY));
       if (!stored || typeof stored !== "object") return fallback;
       return {
-        playerName: typeof stored.playerName === "string" ? stored.playerName : "",
-        bestBySection: stored.bestBySection && typeof stored.bestBySection === "object" ? stored.bestBySection : {},
+        hikerOneName: typeof stored.hikerOneName === "string" ? stored.hikerOneName : "",
+        hikerTwoName: typeof stored.hikerTwoName === "string" ? stored.hikerTwoName : "",
+        fullDeckBySection:
+          stored.fullDeckBySection && typeof stored.fullDeckBySection === "object"
+            ? stored.fullDeckBySection
+            : {},
         missedIds: Array.isArray(stored.missedIds) ? stored.missedIds.filter((id) => typeof id === "string") : [],
         history: Array.isArray(stored.history) ? stored.history : []
       };
@@ -1085,14 +1311,24 @@
       if (!sectionIds.has(question.section)) errors.push(`Unknown section for ${question.id}`);
       if (!TYPE_LABELS[question.type]) errors.push(`Unknown question type for ${question.id}`);
       if (!question.prompt || !question.explanation || !question.anchor) errors.push(`Missing core content for ${question.id}`);
-      if (question.type === "scenario" && (!question.modelAnswer || !question.rubric?.length)) {
-        errors.push(`Scenario rubric missing for ${question.id}`);
+      if (usesRubricGrading(question) && !question.rubric?.length) {
+        errors.push(`Rubric missing for ${question.id}`);
+      }
+      if (question.type === "scenario" && !question.modelAnswer) {
+        errors.push(`Scenario model answer missing for ${question.id}`);
+      }
+      if (question.type === "short" && !question.acceptedAnswer) {
+        errors.push(`Short-answer model missing for ${question.id}`);
       }
     });
 
     quizData.sections.forEach((section) => {
-      if (!quizData.questions.some((question) => question.section === section.id)) {
+      const sectionQuestions = quizData.questions.filter((question) => question.section === section.id);
+      if (!sectionQuestions.length) {
         errors.push(`Section has no questions: ${section.id}`);
+      }
+      if (sectionQuestions.filter((question) => question.core).length !== 1) {
+        errors.push(`Section must have exactly one quick-mode core question: ${section.id}`);
       }
     });
 
@@ -1150,21 +1386,6 @@
     if (left.length !== right.length) return false;
     const rightSet = new Set(right);
     return left.every((value) => rightSet.has(value));
-  }
-
-  function normalizeAnswer(value) {
-    return String(value)
-      .toLowerCase()
-      .replace(/[’']/g, "")
-      .replace(/[^a-z0-9]+/g, " ")
-      .trim();
-  }
-
-  function containsKeyword(normalizedAnswer, rawKeyword) {
-    const keyword = normalizeAnswer(rawKeyword);
-    if (!keyword) return false;
-    const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    return new RegExp(`(?:^|\\s)${escaped}(?:$|\\s)`).test(normalizedAnswer);
   }
 
   function escapeHtml(value) {

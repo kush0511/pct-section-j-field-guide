@@ -45,6 +45,42 @@ a:hover {
   color: #c7ecf4;
 }
 
+.page-switcher {
+  align-items: center;
+  backdrop-filter: blur(14px);
+  background: rgba(8, 11, 9, 0.82);
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  color: var(--text);
+  display: inline-flex;
+  flex-direction: column;
+  font-size: 0.78rem;
+  font-weight: 850;
+  gap: 1px;
+  letter-spacing: 0.02em;
+  line-height: 1.1;
+  padding: 10px 15px;
+  position: fixed;
+  right: 22px;
+  text-align: right;
+  text-decoration: none;
+  top: 18px;
+  z-index: 50;
+}
+
+.page-switcher span {
+  color: var(--sun);
+  font-size: 0.62rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.page-switcher:hover {
+  background: rgba(20, 31, 25, 0.94);
+  border-color: rgba(143, 200, 218, 0.56);
+  color: var(--snow);
+}
+
 .markdown-body {
   margin: 0 auto;
   max-width: 1060px;
@@ -1431,6 +1467,11 @@ mark {
 
   .markdown-body {
     width: calc(100% - 28px);
+  }
+
+  .guide-page .page-switcher {
+    right: 12px;
+    top: 10px;
   }
 
   .guide-hero {
